@@ -1,0 +1,18 @@
+{
+    "affected": [
+        {
+            "package" : {
+                "ecosystem" :  "string"
+            },
+            "ranges" : [
+                {
+                    "events" : [
+                    {"introduced" : "string"},
+                    {"fixed" : "string"}
+                 ]
+                }   
+            ]
+        }
+    ],
+    "references": []
+}
