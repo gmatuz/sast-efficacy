@@ -25,10 +25,10 @@ cwd = os.getcwd()
 
 min_schema = json.load(open("min_schema.json"))
 
-num_samples_to_resolve = 20
+num_samples_to_resolve = 200000
 
 def read_advisories(dir, results):
-    if len(results) > 15:
+    if len(results) > num_samples_to_resolve:
         return
     for name in os.listdir(dir):
         path = f"{dir}/{name}"
@@ -52,7 +52,7 @@ def read_advisories(dir, results):
             read_advisories(path, results)
 
 def get_tag_for_version(repository, version):
-    if not repository.startswith("https://"):
+    if not repository.startswith("http"):
         repository = f"https://{repository}"
     #The last version that includes the version number to make sure it includes the fix already, compared to an RC
     cmd = f'timeout 10 git -c "versionsort.suffix=-" ls-remote --tags --sort="v:refname" {repository} | grep -F {version}  | tail -n 1 | tr -d "^{{}}" | sed "s/.*\t//g"'
@@ -62,7 +62,7 @@ def get_tag_for_version(repository, version):
     return out.strip().split('/')[-1]
 
 def get_tag_for_previous_version(repository, version):
-    if not repository.startswith("https://"):
+    if not repository.startswith("http"):
         repository = f"https://{repository}"
     #First version before the version is even included in anything like RC etc
     cmd = f'timeout 10 git -c "versionsort.suffix=-" ls-remote --tags --sort="v:refname" {repository} | grep -F {version} -B 1 -m 1 | grep -F -v {version} | tr -d "^{{}}" | sed "s/.*\t//g"'
@@ -82,23 +82,11 @@ def enrich_git_tag(vuln):
         return vuln
     return None
 
-#def enrich_git_tags(vulns):
-#    for vuln in vulns:
-        #TODO: sometime https:// is missing from the repo name
-#        if vuln["vulnerable_version"] == "0":
-#            vuln["vulnerable_tag"] = find_previous_verions_tag(vuln["repo"]["url"], vuln["fixed_version"])
-#            vuln["fixed_tag"] = get_tag_for_version(vuln["repo"]["url"], vuln["fixed_version"])
-#        else:
-#            vuln["fixed_tag"] = get_tag_for_version(vuln["repo"]["url"], vuln["fixed_version"])
-#            vuln["vulnerable_tag"] = get_tag_for_version(vuln["repo"]["url"], vuln["vulnerable_version"])
-#        if vuln["fixed_tag"] and vuln["vulnerable_tag"]:
-#            repoed.append(vuln)
-
 def create_repo_db():
     vulns = []
     #read_advisories(f"{cwd}/advisories/", vulns)
     #actually I don't think others will include any versions
-    read_advisories(f"{cwd}/advisories/advisories/github-reviewed", vulns)
+    read_advisories(f"{cwd}/advisory-database/advisories/github-reviewed", vulns)
     vulns = list(map(enrich_git_tag, vulns))
     with open("enriched_vuln_sources.json", "w") as f:
         json.dump(vulns,f)
