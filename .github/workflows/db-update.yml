@@ -14,7 +14,7 @@ jobs:
           path: sast-efficacy
       - uses: actions/checkout@v2
         with:
-          repository: advisory-database
+          repository: github/advisory-database
           path: sast-efficacy/advisory-database
       - name: update everything
         run: |
