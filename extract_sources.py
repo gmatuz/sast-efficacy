@@ -3,6 +3,7 @@ import json
 import jsonschema
 import subprocess
 import datetime
+import sys
 
 advisories = "https://github.com/github/advisory-database"
 
@@ -147,3 +148,11 @@ def update_repo_db():
             lambda update_vuln: update_vuln["id"], vulns), vulns_old))
         with open(out_file, "w") as f:
             json.dump(vulns, f, indent=4)
+
+
+if sys.argv[1] == "recreate":
+    create_repo_db()
+elif sys.argv[1] == "update":
+    update_repo_db()
+else:
+    print("You need to either recreate or update")
