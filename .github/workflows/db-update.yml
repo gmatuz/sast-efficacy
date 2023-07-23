@@ -20,6 +20,8 @@ jobs:
         run: |
           pip install -r requirements.txt
           python extract_sources.py update
+          git config user.name "GitHub DB UPDATER"
+          git config user.email "<>"
           git commit -m "updated db"
           git push origin master
         working-directory: sast-efficacy

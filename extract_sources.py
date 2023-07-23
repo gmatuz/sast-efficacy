@@ -143,7 +143,6 @@ def update_repo_db():
     if vulns:
         print(vulns)
         vulns_old = json.load(open(out_file))
-        print(map(lambda update_vuln: update_vuln["id"], vulns))
         vulns = vulns + list(filter(lambda vuln: vuln["id"] not in map(
             lambda update_vuln: update_vuln["id"], vulns), vulns_old))
         with open(out_file, "w") as f:
