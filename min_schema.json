@@ -1,4 +1,6 @@
 {
+    "id" : "string",
+    "modified" : "string", 
     "affected": [
         {
             "package" : {
