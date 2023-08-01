@@ -23,5 +23,5 @@ jobs:
           git config user.name "GitHub DB UPDATER"
           git config user.email "<>"
           git commit -am "updated db"
-          git push origin master
+          git push origin main
         working-directory: sast-efficacy
