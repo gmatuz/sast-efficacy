@@ -23,6 +23,6 @@ jobs:
           python extract_sources.py recreate
           git config user.name "GitHub DB UPDATER"
           git config user.email "<>"
-          git commit -m "updated db"
+          git commit -am "updated db"
           git push origin master
         working-directory: sast-efficacy
