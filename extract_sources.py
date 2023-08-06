@@ -77,7 +77,7 @@ def get_tag_for_version(repository, version):
     out = ""
     try:
         # In some cases user interaction is expected to input user/pwd; hence the timeout
-        (output, err) = p.communicate(timeout=10)
+        (output, err) = p.communicate(timeout=4)
         out = output.decode().strip().split('/')[-1]
     except:
         # TODO check if any of these advisories are salvageable
@@ -93,7 +93,7 @@ def get_tag_for_previous_version(repository, version):
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     out = ""
     try:
-        (output, err) = p.communicate(timeout=10)
+        (output, err) = p.communicate(timeout=4)
         out = output.decode().strip().split('/')[-1]
     except:
         # TODO check if any of these advisories are salvageable
