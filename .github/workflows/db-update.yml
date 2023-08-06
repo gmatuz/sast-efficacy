@@ -17,11 +17,15 @@ jobs:
           repository: github/advisory-database
           path: sast-efficacy/advisory-database
       - name: update everything
+        env:
+          ENCODED_KEY: ${{ secrets.encodedDeployerKey }}
         run: |
           pip install -r requirements.txt
           python extract_sources.py update
+          echo $ENCODED_KEY | base64 -d > ../id_deploy && chmod 600 ../id_deploy
+          git remote set-url origin git@github.com:gmatuz/sast-efficacy.git
           git config user.name "GitHub DB UPDATER"
           git config user.email "<>"
-          git commit -am "updated db"
-          git push origin main
+          git commit --allow-empty -am "update db $(date)"
+          GIT_SSH_COMMAND="ssh -i ../id_deploy -oStrictHostKeyChecking=no" git push
         working-directory: sast-efficacy

@@ -24,6 +24,7 @@ jobs:
           pip install -r requirements.txt
           python extract_sources.py recreate
           echo $ENCODED_KEY | base64 -d > ../id_deploy && chmod 600 ../id_deploy
+          git remote set-url origin git@github.com:gmatuz/sast-efficacy.git
           git config user.name "GitHub DB UPDATER"
           git config user.email "<>"
           git commit --allow-empty -am "reset db $(date)"
