@@ -1,5 +1,3453 @@
 [
     {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.8",
+        "repo": "https://github.com/hapijs/boom",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-2ggq-vfcp-gwhj",
+        "modified": "2023-10-02T18:43:16Z",
+        "fixed_tag": "v0.3.8",
+        "vulnerable_tag": "v0.3.7"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.11.7",
+        "repo": "https://github.com/encode/uvicorn",
+        "type": [
+            "CWE-116",
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2020-7694"
+        ],
+        "id": "GHSA-33c7-2mpw-hg34",
+        "modified": "2023-10-02T18:44:26Z",
+        "fixed_tag": "0.11.7",
+        "vulnerable_tag": "0.11.6"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.3.0",
+        "fixed_version": "1.3.6",
+        "repo": "https://github.com/hashicorp/vault",
+        "type": [
+            "CWE-200",
+            "CWE-532"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2020-13223"
+        ],
+        "id": "GHSA-25xj-89g5-fm6h",
+        "modified": "2023-10-02T15:05:17Z",
+        "fixed_tag": "v1.3.6",
+        "vulnerable_tag": "v1.3.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0.33.0",
+        "fixed_version": "0.33.3",
+        "repo": "https://github.com/tendermint/tendermint",
+        "type": [
+            "CWE-787",
+            "CWE-789"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2020-5303"
+        ],
+        "id": "GHSA-v24h-pjjv-mcp6",
+        "modified": "2023-10-02T12:27:32Z",
+        "fixed_tag": "v0.33.3",
+        "vulnerable_tag": "v0.33.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "3.3.2",
+        "repo": "https://github.com/helm/helm",
+        "type": [
+            "CWE-20",
+            "CWE-74"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2020-15186"
+        ],
+        "id": "GHSA-m54r-vrmv-hw33",
+        "modified": "2023-10-02T14:09:08Z",
+        "fixed_tag": "v3.3.2",
+        "vulnerable_tag": "v3.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "3.3.2",
+        "repo": "https://github.com/helm/helm",
+        "type": [
+            "CWE-20",
+            "CWE-74"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2020-15184"
+        ],
+        "id": "GHSA-9vp5-m38w-j776",
+        "modified": "2023-10-02T12:24:31Z",
+        "fixed_tag": "v3.3.2",
+        "vulnerable_tag": "v3.0.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.0",
+        "repo": "https://github.com/maptiler/tileserver-gl",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2020-15500"
+        ],
+        "id": "GHSA-3fr8-mwpp-8h9p",
+        "modified": "2023-10-02T20:24:14Z",
+        "fixed_tag": "v3.1.0",
+        "vulnerable_tag": "v3.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.0.1",
+        "repo": "https://github.com/unknwon/cae/",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2020-7664"
+        ],
+        "id": "GHSA-vpx7-vm66-qx8r",
+        "modified": "2023-10-02T12:21:10Z",
+        "fixed_tag": "v1.0.1",
+        "vulnerable_tag": "v1.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "3.14.4",
+        "repo": "https://github.com/sourcegraph/sourcegraph",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2020-12283"
+        ],
+        "id": "GHSA-mx43-r985-5h4m",
+        "modified": "2023-10-02T14:32:06Z",
+        "fixed_tag": "v3.14.4",
+        "vulnerable_tag": "v3.14.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.0",
+        "repo": "https://github.com/cloudflare/cfrpki",
+        "type": [
+            "CWE-400",
+            "CWE-835"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2021-3908"
+        ],
+        "id": "GHSA-g5gj-9ggf-9vmq",
+        "modified": "2023-10-02T15:58:02Z",
+        "fixed_tag": "v1.4.0",
+        "vulnerable_tag": "v1.3.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.0",
+        "repo": "https://github.com/cloudflare/cfrpki",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2021-3909"
+        ],
+        "id": "GHSA-8cvr-4rrf-f244",
+        "modified": "2023-10-02T15:56:11Z",
+        "fixed_tag": "v1.4.0",
+        "vulnerable_tag": "v1.3.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/visionmedia/debug",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2017-16137"
+        ],
+        "id": "GHSA-gxpj-cx7g-858c",
+        "modified": "2023-10-02T17:59:02Z",
+        "fixed_tag": "2.6.9",
+        "vulnerable_tag": "2.6.8"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0.0.15",
+        "fixed_version": "0.0.17",
+        "repo": "https://github.com/kubernetes-sigs/secrets-store-csi-driver",
+        "type": [
+            "CWE-20",
+            "CWE-22",
+            "CWE-24"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2020-8568"
+        ],
+        "id": "GHSA-5cgx-vhfp-6cf9",
+        "modified": "2023-10-02T11:38:19Z",
+        "fixed_tag": "v0.0.17",
+        "vulnerable_tag": "v0.0.15"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.8.1",
+        "repo": "https://github.com/containernetworking/cni",
+        "type": [
+            "CWE-20",
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2021-20206"
+        ],
+        "id": "GHSA-xjqr-g762-pxwp",
+        "modified": "2023-10-02T13:12:28Z",
+        "fixed_tag": "v0.8.1",
+        "vulnerable_tag": "v0.8.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "2.0.1",
+        "repo": "https://github.com/nats-io/jwt",
+        "type": [
+            "CWE-284",
+            "CWE-863"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2021-3127"
+        ],
+        "id": "GHSA-9r5x-fjv3-q6h4",
+        "modified": "2023-10-02T13:24:19Z",
+        "fixed_tag": "v2.0.1",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "8.0.0",
+        "fixed_version": "8.9.19",
+        "repo": "https://github.com/drupal/core",
+        "type": [
+            "CWE-284",
+            "CWE-863"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2020-13677"
+        ],
+        "id": "GHSA-3xr3-phjp-g6p2",
+        "modified": "2023-10-04T14:45:42Z",
+        "fixed_tag": "8.9.19",
+        "vulnerable_tag": "8.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.34.0",
+        "repo": "https://github.com/aws/aws-sdk-go",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-76wf-9vgp-pj7w",
+        "modified": "2023-10-02T16:21:14Z",
+        "fixed_tag": "v1.34.0",
+        "vulnerable_tag": "v1.33.21"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.31.1",
+        "repo": "https://github.com/matrix-org/synapse",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-12291"
+        ],
+        "id": "GHSA-v8wm-g9f2-xjv4",
+        "modified": "2023-10-06T17:13:10Z",
+        "fixed_tag": "v0.31.1",
+        "vulnerable_tag": "v0.31.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8541"
+        ],
+        "id": "GHSA-79xq-c7xr-29jh",
+        "modified": "2023-10-06T01:18:13Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.5.0",
+        "fixed_version": "1.5.3",
+        "repo": "https://github.com/rancher/rancher",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2017-7297"
+        ],
+        "id": "GHSA-w3x4-9854-95x8",
+        "modified": "2023-10-06T21:14:52Z",
+        "fixed_tag": "v1.5.3",
+        "vulnerable_tag": "v1.5.0"
+    },
+    {
+        "language": "flutter",
+        "vulnerable_version": "0",
+        "fixed_version": "5.0.0",
+        "repo": "https://github.com/cfug/dio",
+        "type": [
+            "CWE-74",
+            "CWE-88",
+            "CWE-93"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-jwpw-q68h-r678",
+        "modified": "2023-10-05T17:32:48Z",
+        "fixed_tag": "v5.0.0",
+        "vulnerable_tag": "native_dio_adapter_v1.0.0+2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.0.15",
+        "repo": "https://github.com/yiisoft/yii2",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8074"
+        ],
+        "id": "GHSA-m2p5-fwp2-qcw2",
+        "modified": "2023-10-05T18:47:11Z",
+        "fixed_tag": "2.0.15",
+        "vulnerable_tag": "2.0.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-843"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8384"
+        ],
+        "id": "GHSA-ggvv-6v25-r49r",
+        "modified": "2023-10-06T01:39:21Z",
+        "fixed_tag": "v1.10.2",
+        "vulnerable_tag": "v1.10.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-0939"
+        ],
+        "id": "GHSA-xgcc-r2f3-rq6p",
+        "modified": "2023-10-05T19:29:32Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.0",
+        "repo": "https://github.com/modxcms/revolution",
+        "type": [
+            "CWE-732"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-1000207"
+        ],
+        "id": "GHSA-m899-6mh4-mpc5",
+        "modified": "2023-10-06T01:42:01Z",
+        "fixed_tag": "v2.7.0-pl",
+        "vulnerable_tag": "v2.6.5-pl"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.5",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8227"
+        ],
+        "id": "GHSA-gqh4-4r89-pr95",
+        "modified": "2023-10-06T17:00:43Z",
+        "fixed_tag": "v1.8.5",
+        "vulnerable_tag": "v1.8.4"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8287"
+        ],
+        "id": "GHSA-p97q-j98q-f98w",
+        "modified": "2023-10-06T01:21:57Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8543"
+        ],
+        "id": "GHSA-h9cr-2hcf-cg8p",
+        "modified": "2023-10-06T01:14:51Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "4.2.1",
+        "repo": "https://github.com/intelliants/subrion",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-21037"
+        ],
+        "id": "GHSA-g8j7-w673-4mjp",
+        "modified": "2023-10-05T17:52:48Z",
+        "fixed_tag": "v4.2.1",
+        "vulnerable_tag": "v4.2.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "3.2-beta",
+        "repo": "https://github.com/OpenRefine/OpenRefine",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-19859"
+        ],
+        "id": "GHSA-f6fv-fjg8-4m6w",
+        "modified": "2023-10-06T15:30:54Z",
+        "fixed_tag": "3.2-beta",
+        "vulnerable_tag": "3.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-8276"
+        ],
+        "id": "GHSA-wg47-6cqc-q52j",
+        "modified": "2023-10-06T15:22:25Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8459"
+        ],
+        "id": "GHSA-pcgp-vfgq-mf5j",
+        "modified": "2023-10-06T01:33:51Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.33",
+        "repo": "https://github.com/smarty-php/smarty",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-13982"
+        ],
+        "id": "GHSA-7gfx-wxfh-7rvm",
+        "modified": "2023-10-05T19:28:48Z",
+        "fixed_tag": "v3.1.33",
+        "vulnerable_tag": "v3.1.32"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8510"
+        ],
+        "id": "GHSA-vjf9-8wqg-xc7r",
+        "modified": "2023-10-06T01:17:56Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8503"
+        ],
+        "id": "GHSA-2589-r26x-mh8p",
+        "modified": "2023-10-06T01:34:14Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0925"
+        ],
+        "id": "GHSA-5q2v-52gc-4w7p",
+        "modified": "2023-10-06T01:00:01Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8137"
+        ],
+        "id": "GHSA-frh8-wrx9-gc53",
+        "modified": "2023-10-06T01:02:25Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.5.0",
+        "fixed_version": "3.5.1",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-10891"
+        ],
+        "id": "GHSA-p7v9-gjrh-563x",
+        "modified": "2023-10-06T00:53:31Z",
+        "fixed_tag": "v3.5.18",
+        "vulnerable_tag": "v3.5.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8466"
+        ],
+        "id": "GHSA-4c93-q79v-mw45",
+        "modified": "2023-10-06T01:38:43Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "1.6.3",
+        "repo": "https://github.com/ether/etherpad-lite",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-6835"
+        ],
+        "id": "GHSA-mvmv-rq2j-97p2",
+        "modified": "2023-10-06T15:19:35Z",
+        "fixed_tag": "1.6.3",
+        "vulnerable_tag": "1.6.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0874"
+        ],
+        "id": "GHSA-67f9-qmg7-fmcq",
+        "modified": "2023-10-05T21:02:23Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8266"
+        ],
+        "id": "GHSA-5wrx-85mr-7hrg",
+        "modified": "2023-10-06T01:03:19Z",
+        "fixed_tag": "v1.10.2",
+        "vulnerable_tag": "v1.10.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8288"
+        ],
+        "id": "GHSA-4f79-fxh8-vgq2",
+        "modified": "2023-10-06T01:22:11Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0934"
+        ],
+        "id": "GHSA-phcc-frh9-q545",
+        "modified": "2023-10-05T19:29:16Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0990"
+        ],
+        "id": "GHSA-vh9x-fprq-2hhj",
+        "modified": "2023-10-06T01:09:44Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5",
+        "repo": "https://github.com/kubernetes/ingress-nginx",
+        "type": [
+            "CWE-20",
+            "CWE-215"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-1002104"
+        ],
+        "id": "GHSA-p3x5-5xpx-9phm",
+        "modified": "2023-10-05T18:45:30Z",
+        "fixed_tag": "controller-v1.5.2",
+        "vulnerable_tag": "controller-0.34.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.1",
+        "repo": "https://github.com/rainlab/blog-plugin",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-7198"
+        ],
+        "id": "GHSA-96mh-7xpr-qcgw",
+        "modified": "2023-10-03T21:23:19Z",
+        "fixed_tag": "v1.4.1",
+        "vulnerable_tag": "v1.4.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.2.7",
+        "repo": "https://github.com/GoGentoOSS/SAMLBase",
+        "type": [
+            "CWE-347"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-5387"
+        ],
+        "id": "GHSA-7gh2-8q93-87hp",
+        "modified": "2023-10-05T19:26:56Z",
+        "fixed_tag": "1.2.7",
+        "vulnerable_tag": "1.2.6"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "3.0.0",
+        "repo": "https://github.com/cobbler/cobbler",
+        "type": [
+            "CWE-732"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-1000226"
+        ],
+        "id": "GHSA-f88q-22g8-frcg",
+        "modified": "2023-10-06T01:48:06Z",
+        "fixed_tag": "v3.0.0",
+        "vulnerable_tag": "v2.8.5"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-843"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8133"
+        ],
+        "id": "GHSA-8rqh-8726-83h7",
+        "modified": "2023-10-06T01:02:03Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0954"
+        ],
+        "id": "GHSA-h5hw-qrrw-vfxg",
+        "modified": "2023-10-06T16:59:39Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0995"
+        ],
+        "id": "GHSA-c6mx-gwgr-mfm2",
+        "modified": "2023-10-06T01:11:07Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.12.0",
+        "repo": "https://github.com/pippo-java/pippo",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-18240"
+        ],
+        "id": "GHSA-h892-x453-86wc",
+        "modified": "2023-10-06T01:08:08Z",
+        "fixed_tag": "release-1.12.0",
+        "vulnerable_tag": "release-1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.5",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-843"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8229"
+        ],
+        "id": "GHSA-jv5x-p843-g4qr",
+        "modified": "2023-10-06T01:03:38Z",
+        "fixed_tag": "v1.8.5",
+        "vulnerable_tag": "v1.8.4"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "3.8.8",
+        "repo": "https://github.com/joomla/joomla-cms",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-11326"
+        ],
+        "id": "GHSA-g3m5-vvj7-xrwv",
+        "modified": "2023-10-06T16:56:17Z",
+        "fixed_tag": "3.8.8",
+        "vulnerable_tag": "3.0.0_beta1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0834"
+        ],
+        "id": "GHSA-5j48-826p-2w9r",
+        "modified": "2023-10-06T00:57:46Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8145"
+        ],
+        "id": "GHSA-xphq-3x6q-q2qq",
+        "modified": "2023-10-06T15:22:03Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-8500"
+        ],
+        "id": "GHSA-fw42-4mq4-4qpq",
+        "modified": "2023-10-06T01:14:30Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "5.3.2",
+        "repo": "https://github.com/grafana/grafana",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-1000816"
+        ],
+        "id": "GHSA-x5fh-fvvr-892f",
+        "modified": "2023-10-06T15:53:46Z",
+        "fixed_tag": "v5.3.2",
+        "vulnerable_tag": "v5.3.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.48",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-384"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-11385"
+        ],
+        "id": "GHSA-g4rg-rw65-8hfg",
+        "modified": "2023-10-06T18:00:13Z",
+        "fixed_tag": "v2.7.48",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8372"
+        ],
+        "id": "GHSA-p349-q795-qj4q",
+        "modified": "2023-10-06T01:39:40Z",
+        "fixed_tag": "v1.10.2",
+        "vulnerable_tag": "v1.10.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0836"
+        ],
+        "id": "GHSA-m8x8-5ch7-c5w9",
+        "modified": "2023-10-06T00:57:25Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.48",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-11408"
+        ],
+        "id": "GHSA-7hwc-2cq4-6x2w",
+        "modified": "2023-10-06T17:58:33Z",
+        "fixed_tag": "v2.7.48",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "0.11.0",
+        "repo": "https://github.com/cisco/node-jose",
+        "type": [
+            "CWE-347"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0114"
+        ],
+        "id": "GHSA-jfxm-w8g2-4rcv",
+        "modified": "2023-10-06T00:56:10Z",
+        "fixed_tag": "0.11.0",
+        "vulnerable_tag": "0.10.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "4.7.3",
+        "repo": "https://github.com/apache/flex-blazeds",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2017-5641"
+        ],
+        "id": "GHSA-w8v7-prhw-xjpw",
+        "modified": "2023-10-06T21:06:16Z",
+        "fixed_tag": "blazeds-4.7.3",
+        "vulnerable_tag": "blazeds-4.7.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "4.6.0.Final",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-307"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-14657"
+        ],
+        "id": "GHSA-85v8-vx4w-q684",
+        "modified": "2023-10-05T21:50:38Z",
+        "fixed_tag": "4.6.0.Final",
+        "vulnerable_tag": "4.5.0.Final"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0930"
+        ],
+        "id": "GHSA-wc4x-9h9p-9494",
+        "modified": "2023-10-05T21:02:05Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8177"
+        ],
+        "id": "GHSA-7cc5-cqmx-9v7g",
+        "modified": "2023-10-06T01:03:59Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.50",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-434"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-19789"
+        ],
+        "id": "GHSA-x3cf-w64x-4cp2",
+        "modified": "2023-10-06T17:56:17Z",
+        "fixed_tag": "v2.7.50",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8513"
+        ],
+        "id": "GHSA-3hqw-mg9x-r2vr",
+        "modified": "2023-10-06T01:18:35Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "4.1.4",
+        "repo": "https://github.com/intelliants/subrion",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-11317"
+        ],
+        "id": "GHSA-2cmg-vxvh-8h7h",
+        "modified": "2023-10-05T18:48:27Z",
+        "fixed_tag": "v4.1.4",
+        "vulnerable_tag": "v4.1.3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "4.4.0.Final",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-295"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-10894"
+        ],
+        "id": "GHSA-xvv8-8wh9-9fh2",
+        "modified": "2023-10-06T17:25:01Z",
+        "fixed_tag": "4.4.0.Final",
+        "vulnerable_tag": "4.3.0.Final"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0860"
+        ],
+        "id": "GHSA-v3xp-3wpq-rvhp",
+        "modified": "2023-10-06T00:58:57Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-8315"
+        ],
+        "id": "GHSA-93c7-2942-3h47",
+        "modified": "2023-10-06T17:01:27Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-125"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8139"
+        ],
+        "id": "GHSA-5hxp-3237-j2hp",
+        "modified": "2023-10-06T01:04:27Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.12.0",
+        "repo": "https://github.com/gogs/gogs",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-17031"
+        ],
+        "id": "GHSA-px5r-fqj6-r2f8",
+        "modified": "2023-10-06T16:24:06Z",
+        "fixed_tag": "v0.12.0",
+        "vulnerable_tag": "v0.11rc"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8130"
+        ],
+        "id": "GHSA-3fvw-g6mr-w247",
+        "modified": "2023-10-06T01:08:51Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.7.2.5",
+        "repo": "https://github.com/PrestaShop/PrestaShop",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-20717"
+        ],
+        "id": "GHSA-xx67-2j3v-h76p",
+        "modified": "2023-10-06T15:40:15Z",
+        "fixed_tag": "1.7.2.5",
+        "vulnerable_tag": "1.7.2.4"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "0.12.7",
+        "repo": "https://github.com/anchorcms/anchor-cms",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-7251"
+        ],
+        "id": "GHSA-hxcw-pqqc-rv85",
+        "modified": "2023-10-06T17:53:47Z",
+        "fixed_tag": "0.12.7",
+        "vulnerable_tag": "0.12.6"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0.33.3",
+        "fixed_version": "0.33.3.1",
+        "repo": "https://github.com/matrix-org/synapse",
+        "type": [
+            "CWE-347"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-16515"
+        ],
+        "id": "GHSA-fmvh-rvq5-hhjx",
+        "modified": "2023-10-06T17:19:32Z",
+        "fixed_tag": "v0.33.3.1",
+        "vulnerable_tag": "v0.33.3rc2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0856"
+        ],
+        "id": "GHSA-399v-jg88-3gx6",
+        "modified": "2023-10-06T01:00:21Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8551"
+        ],
+        "id": "GHSA-mjg2-326q-49f9",
+        "modified": "2023-10-06T01:19:17Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0945"
+        ],
+        "id": "GHSA-5439-x5v5-2vhj",
+        "modified": "2023-10-06T01:13:25Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0979"
+        ],
+        "id": "GHSA-25vh-gq6v-hrx5",
+        "modified": "2023-10-06T01:10:28Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8505"
+        ],
+        "id": "GHSA-p37h-rg3w-23wx",
+        "modified": "2023-10-06T01:17:32Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8467"
+        ],
+        "id": "GHSA-xxp7-423f-hcp4",
+        "modified": "2023-10-06T01:21:07Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0943"
+        ],
+        "id": "GHSA-7724-427r-8rvm",
+        "modified": "2023-10-05T19:29:56Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8456"
+        ],
+        "id": "GHSA-6xmv-mx7q-789r",
+        "modified": "2023-10-06T01:39:03Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.6.0",
+        "fixed_version": "1.6.6",
+        "repo": "https://github.com/containous/traefik",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-15598"
+        ],
+        "id": "GHSA-2cjc-rgmp-x649",
+        "modified": "2023-10-05T18:53:17Z",
+        "fixed_tag": "v1.6.6",
+        "vulnerable_tag": "v1.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.9.11",
+        "repo": "https://github.com/thorsten/phpMyFAQ",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-16650"
+        ],
+        "id": "GHSA-p57w-9q28-j6v7",
+        "modified": "2023-10-06T16:26:01Z",
+        "fixed_tag": "2.9.11",
+        "vulnerable_tag": "2.9.10"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0872"
+        ],
+        "id": "GHSA-h9h7-4jfm-3fxr",
+        "modified": "2023-10-06T00:59:21Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-843"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8298"
+        ],
+        "id": "GHSA-wgw2-wwq8-c7wf",
+        "modified": "2023-10-06T01:30:47Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-1019"
+        ],
+        "id": "GHSA-prhh-h793-h32r",
+        "modified": "2023-10-06T01:11:29Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8555"
+        ],
+        "id": "GHSA-f3qw-7p9p-j87f",
+        "modified": "2023-10-06T01:13:43Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8355"
+        ],
+        "id": "GHSA-h8jq-5737-hpcf",
+        "modified": "2023-10-06T01:31:26Z",
+        "fixed_tag": "v1.10.2",
+        "vulnerable_tag": "v1.10.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8511"
+        ],
+        "id": "GHSA-3mv8-x3jj-3j7m",
+        "modified": "2023-10-06T01:17:09Z",
+        "fixed_tag": "v1.11.24",
+        "vulnerable_tag": "v1.11.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0937"
+        ],
+        "id": "GHSA-6c2v-xc8f-fvf7",
+        "modified": "2023-10-05T21:00:08Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.3.3",
+        "repo": "https://github.com/conversejs/converse.js",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-6591"
+        ],
+        "id": "GHSA-mv4h-qm24-x4gh",
+        "modified": "2023-10-06T17:38:05Z",
+        "fixed_tag": "v3.3.3",
+        "vulnerable_tag": "v3.3.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8556"
+        ],
+        "id": "GHSA-fmv2-jv3p-6w47",
+        "modified": "2023-10-06T01:18:55Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.28.1",
+        "repo": "https://github.com/matrix-org/synapse",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-10657"
+        ],
+        "id": "GHSA-vmcc-4p4x-x7wg",
+        "modified": "2023-10-06T17:20:39Z",
+        "fixed_tag": "v0.28.1",
+        "vulnerable_tag": "v0.28.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.48",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-11406"
+        ],
+        "id": "GHSA-g4g7-q726-v5hg",
+        "modified": "2023-10-06T17:57:22Z",
+        "fixed_tag": "v2.7.48",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8286"
+        ],
+        "id": "GHSA-vwqh-cmvp-6694",
+        "modified": "2023-10-06T01:21:29Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8465"
+        ],
+        "id": "GHSA-mm5q-x9qg-x4vp",
+        "modified": "2023-10-06T01:38:24Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0838"
+        ],
+        "id": "GHSA-j762-mr2c-fmp9",
+        "modified": "2023-10-06T01:00:44Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.31.2",
+        "repo": "https://github.com/matrix-org/synapse",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-12423"
+        ],
+        "id": "GHSA-ch5v-fhg8-7gv9",
+        "modified": "2023-10-06T17:13:54Z",
+        "fixed_tag": "v0.31.2",
+        "vulnerable_tag": "v0.31.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.49",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-14774"
+        ],
+        "id": "GHSA-66p6-7p29-55p9",
+        "modified": "2023-10-06T17:52:44Z",
+        "fixed_tag": "v2.7.49",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0835"
+        ],
+        "id": "GHSA-3cwf-pwcg-57xr",
+        "modified": "2023-10-06T00:56:50Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-8452"
+        ],
+        "id": "GHSA-w3qr-8v4r-592m",
+        "modified": "2023-10-06T15:22:42Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0936"
+        ],
+        "id": "GHSA-6v8r-83v3-rmrf",
+        "modified": "2023-10-05T21:00:32Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8280"
+        ],
+        "id": "GHSA-wwm6-r38h-ppg7",
+        "modified": "2023-10-06T01:02:51Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.0",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0818"
+        ],
+        "id": "GHSA-fv8m-p45w-gf38",
+        "modified": "2023-10-06T01:41:21Z",
+        "fixed_tag": "v1.8.0",
+        "vulnerable_tag": "v1.7.6"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-1022"
+        ],
+        "id": "GHSA-wjmf-6x7g-xq67",
+        "modified": "2023-10-06T01:11:47Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.4.9",
+        "repo": "https://github.com/Laravel-Backpack/CRUD",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-20962"
+        ],
+        "id": "GHSA-6gfm-gpr3-8wh9",
+        "modified": "2023-10-05T18:48:00Z",
+        "fixed_tag": "3.4.9",
+        "vulnerable_tag": "3.4.8"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.0-rc.0",
+        "repo": "https://github.com/distribution/distribution",
+        "type": [
+            "CWE-770"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2017-11468"
+        ],
+        "id": "GHSA-h62f-wm92-2cmw",
+        "modified": "2023-10-02T16:14:52Z",
+        "fixed_tag": "v2.7.0-rc.0",
+        "vulnerable_tag": "v2.6.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0931"
+        ],
+        "id": "GHSA-h575-j3ph-hjvc",
+        "modified": "2023-10-05T21:01:48Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.4",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0946"
+        ],
+        "id": "GHSA-wc67-4cg3-35wf",
+        "modified": "2023-10-06T01:41:01Z",
+        "fixed_tag": "v1.8.4",
+        "vulnerable_tag": "v1.8.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0994"
+        ],
+        "id": "GHSA-g549-jfg6-98ch",
+        "modified": "2023-10-06T01:10:48Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8359"
+        ],
+        "id": "GHSA-38r7-rv5p-ggwq",
+        "modified": "2023-10-06T01:33:31Z",
+        "fixed_tag": "v1.10.2",
+        "vulnerable_tag": "v1.10.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.1",
+        "repo": "https://github.com/microweber/microweber",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-1000826"
+        ],
+        "id": "GHSA-xmcr-x5x3-gjfx",
+        "modified": "2023-10-06T15:51:15Z",
+        "fixed_tag": "1.1",
+        "vulnerable_tag": "1.0.7"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.11",
+        "repo": "https://github.com/ethereum/go-ethereum",
+        "type": [
+            "CWE-129"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-12018"
+        ],
+        "id": "GHSA-p5gc-957x-gfw9",
+        "modified": "2023-10-02T10:57:31Z",
+        "fixed_tag": "v1.8.11",
+        "vulnerable_tag": "v1.8.10"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8367"
+        ],
+        "id": "GHSA-gxcf-6h72-8gxf",
+        "modified": "2023-10-06T01:38:08Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0873"
+        ],
+        "id": "GHSA-wc52-2xwv-h7xr",
+        "modified": "2023-10-06T00:59:45Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0837"
+        ],
+        "id": "GHSA-h9wf-mpvf-9jqg",
+        "modified": "2023-10-06T00:58:31Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.4",
+        "repo": "https://github.com/nystudio107/craft-seomatic",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-14716"
+        ],
+        "id": "GHSA-6j9m-rp7m-3gfg",
+        "modified": "2023-10-06T01:13:01Z",
+        "fixed_tag": "3.1.49",
+        "vulnerable_tag": "3.1.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.48",
+        "repo": "https://github.com/symfony/symfony",
+        "type": [
+            "CWE-613"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-11386"
+        ],
+        "id": "GHSA-r2rq-3h56-fqm4",
+        "modified": "2023-10-06T17:48:16Z",
+        "fixed_tag": "v2.7.48",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0857"
+        ],
+        "id": "GHSA-q9x6-7hjh-q9fc",
+        "modified": "2023-10-06T01:01:02Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8354"
+        ],
+        "id": "GHSA-6g23-fww6-rfrj",
+        "modified": "2023-10-06T01:31:06Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5.0-rc1",
+        "repo": "https://github.com/argoproj/argo-cd",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-21034"
+        ],
+        "id": "GHSA-xj7v-c82w-92q2",
+        "modified": "2023-10-05T19:26:09Z",
+        "fixed_tag": "v1.5.0-rc1",
+        "vulnerable_tag": "v1.4.3"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8290"
+        ],
+        "id": "GHSA-vgxq-xv7f-jxjx",
+        "modified": "2023-10-06T01:22:38Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0858"
+        ],
+        "id": "GHSA-7gjv-9m33-chg8",
+        "modified": "2023-10-06T01:01:33Z",
+        "fixed_tag": "v1.8.1",
+        "vulnerable_tag": "v1.8.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.2",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0933"
+        ],
+        "id": "GHSA-3j65-2jcq-w9fr",
+        "modified": "2023-10-05T21:01:29Z",
+        "fixed_tag": "v1.8.2",
+        "vulnerable_tag": "v1.8.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8391"
+        ],
+        "id": "GHSA-788w-269g-j92q",
+        "modified": "2023-10-06T01:40:40Z",
+        "fixed_tag": "v1.11.19",
+        "vulnerable_tag": "v1.11.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8294"
+        ],
+        "id": "GHSA-gxxx-j8m7-hh7m",
+        "modified": "2023-10-06T01:30:24Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8542"
+        ],
+        "id": "GHSA-hfhr-xxxq-vg7g",
+        "modified": "2023-10-06T01:16:46Z",
+        "fixed_tag": "v1.11.3",
+        "vulnerable_tag": "v1.11.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8371"
+        ],
+        "id": "GHSA-85j8-g29g-m326",
+        "modified": "2023-10-06T17:01:07Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0993"
+        ],
+        "id": "GHSA-7c7v-g484-j4cf",
+        "modified": "2023-10-06T01:09:19Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-843"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-8291"
+        ],
+        "id": "GHSA-j67m-wpv6-pv44",
+        "modified": "2023-10-06T01:22:58Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.10.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.3",
+        "repo": "https://github.com/chakra-core/ChakraCore",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-0980"
+        ],
+        "id": "GHSA-xmvg-c4x3-9qwp",
+        "modified": "2023-10-06T01:10:03Z",
+        "fixed_tag": "v1.8.3",
+        "vulnerable_tag": "v1.8.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "2.4.0",
+        "fixed_version": "2.4.2",
+        "repo": "https://github.com/apache/incubator-shenyu/",
+        "type": [
+            "CWE-319",
+            "CWE-522"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2022-23223"
+        ],
+        "id": "GHSA-7wq4-89xx-g62j",
+        "modified": "2023-10-04T17:29:12Z",
+        "fixed_tag": "v2.4.2",
+        "vulnerable_tag": "v2.4.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.26.0-alpha.3",
+        "repo": "https://github.com/kubernetes/kubernetes",
+        "type": [
+            "CWE-150"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2021-25743"
+        ],
+        "id": "GHSA-f9jg-8p32-2f55",
+        "modified": "2023-10-02T15:53:13Z",
+        "fixed_tag": "v1.26.0-alpha.3",
+        "vulnerable_tag": "v1.26.0-alpha.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5.0",
+        "repo": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-28138"
+        ],
+        "id": "GHSA-x25h-f84x-wh4m",
+        "modified": "2023-10-02T16:32:31Z",
+        "fixed_tag": "v1.5.0",
+        "vulnerable_tag": "v1.4.10"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5.0",
+        "repo": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
+        "type": [
+            "CWE-862"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-28139"
+        ],
+        "id": "GHSA-4p8f-2fwv-6xcw",
+        "modified": "2023-10-02T16:31:38Z",
+        "fixed_tag": "v1.5.0",
+        "vulnerable_tag": "v1.4.10"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "3.4.4",
+        "repo": "https://github.com/cloudflare/goflow",
+        "type": [
+            "CWE-20",
+            "CWE-400"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2022-2529"
+        ],
+        "id": "GHSA-9rpw-2h95-666c",
+        "modified": "2023-10-02T11:20:15Z",
+        "fixed_tag": "v3.4.4",
+        "vulnerable_tag": "v3.4.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.8",
+        "repo": "https://github.com/golang/text",
+        "type": [
+            "CWE-772"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2022-32149"
+        ],
+        "id": "GHSA-69ch-w2m2-3vjp",
+        "modified": "2023-10-02T11:18:20Z",
+        "fixed_tag": "v0.3.8",
+        "vulnerable_tag": "v0.3.7"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.0.33",
+        "repo": "https://github.com/jenkinsci/katalon-plugin",
+        "type": [
+            "CWE-256",
+            "CWE-522"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-43419"
+        ],
+        "id": "GHSA-35rx-7pc8-6963",
+        "modified": "2023-10-02T19:41:02Z",
+        "fixed_tag": "1.0.33",
+        "vulnerable_tag": "1.0.32"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.4",
+        "repo": "https://github.com/cloudflare/cfrpki",
+        "type": [
+            "CWE-754",
+            "CWE-834"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-3616"
+        ],
+        "id": "GHSA-pmw9-567p-68pc",
+        "modified": "2023-10-02T11:15:21Z",
+        "fixed_tag": "v1.4.4",
+        "vulnerable_tag": "v1.4.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.14.0",
+        "fixed_version": "1.14.1",
+        "repo": "https://github.com/cortexproject/cortex",
+        "type": [
+            "CWE-184",
+            "CWE-641",
+            "CWE-73"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-23536"
+        ],
+        "id": "GHSA-cq2g-pw6q-hf7j",
+        "modified": "2023-10-02T11:04:41Z",
+        "fixed_tag": "v1.14.1",
+        "vulnerable_tag": "v1.14.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "2.2.7",
+        "repo": "https://github.com/hyperledger/fabric",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2022-31121"
+        ],
+        "id": "GHSA-72x4-cq6r-jp4p",
+        "modified": "2023-10-02T11:31:35Z",
+        "fixed_tag": "v2.2.7",
+        "vulnerable_tag": "v2.2.6"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.3",
+        "repo": "https://github.com/cloudflare/cfrpki",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-3jhm-87m6-x959",
+        "modified": "2023-10-02T11:02:19Z",
+        "fixed_tag": "v1.4.3",
+        "vulnerable_tag": "v1.4.2"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.23.2",
+        "repo": "https://github.com/btcsuite/btcd",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2022-44797"
+        ],
+        "id": "GHSA-2chg-86hq-7w38",
+        "modified": "2023-10-02T11:07:25Z",
+        "fixed_tag": "v0.23.2",
+        "vulnerable_tag": "v0.23.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.25.6",
+        "repo": "https://github.com/mantisbt/mantisbt",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-22476"
+        ],
+        "id": "GHSA-hf4x-6h87-hm79",
+        "modified": "2023-10-03T21:26:04Z",
+        "fixed_tag": "release-2.25.6",
+        "vulnerable_tag": "release-2.25.5"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.8",
+        "repo": "https://github.com/vyperlang/vyper",
+        "type": [
+            "CWE-670"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-32675"
+        ],
+        "id": "GHSA-vxmm-cwh2-q762",
+        "modified": "2023-10-04T17:28:17Z",
+        "fixed_tag": "v0.3.8",
+        "vulnerable_tag": "v0.3.7"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.0.34",
+        "repo": "https://github.com/dablelv/go-huge-util",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-28105"
+        ],
+        "id": "GHSA-5g39-ppwg-6xx8",
+        "modified": "2023-10-02T10:43:35Z",
+        "fixed_tag": "v0.0.34",
+        "vulnerable_tag": "v0.0.33"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "18.0.0",
+        "repo": "https://github.com/dolibarr/dolibarr",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-5323"
+        ],
+        "id": "GHSA-39m3-cj8c-886r",
+        "modified": "2023-10-02T23:26:38Z",
+        "fixed_tag": "18.0.0",
+        "vulnerable_tag": "17.0.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.12.1",
+        "repo": "https://github.com/Consensys/gnark-crypto",
+        "type": [],
+        "severity": "LOW",
+        "CVE_ID": [],
+        "id": "GHSA-pffg-92cg-xf5c",
+        "modified": "2023-10-05T20:57:20Z",
+        "fixed_tag": "v0.12.1",
+        "vulnerable_tag": "v0.12.0"
+    },
+    {
+        "language": "purl-type:swift",
+        "vulnerable_version": "4.83.2",
+        "fixed_version": "4.84.2",
+        "repo": "https://github.com/vapor/vapor",
+        "type": [
+            "CWE-231"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-44386"
+        ],
+        "id": "GHSA-3mwq-h3g6-ffhm",
+        "modified": "2023-10-05T20:55:58Z",
+        "fixed_tag": "4.84.2",
+        "vulnerable_tag": "4.83.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.9.96",
+        "repo": "https://github.com/FreeOpcUa/opcua-asyncio",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-26150"
+        ],
+        "id": "GHSA-2894-qcqf-g23g",
+        "modified": "2023-10-04T19:34:34Z",
+        "fixed_tag": "v0.9.96",
+        "vulnerable_tag": "v0.9.95"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.9.96",
+        "repo": "https://github.com/FreeOpcUa/opcua-asyncio",
+        "type": [
+            "CWE-835"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-26151"
+        ],
+        "id": "GHSA-gfvq-mxw3-mfq3",
+        "modified": "2023-10-04T19:34:19Z",
+        "fixed_tag": "v0.9.96",
+        "vulnerable_tag": "v0.9.95"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2023.9.18",
+        "repo": "https://github.com/cgohlke/imagecodecs",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-94vc-p8w7-5p49",
+        "modified": "2023-10-05T00:07:46Z",
+        "fixed_tag": "v2023.9.18",
+        "vulnerable_tag": "v2023.9.4"
+    },
+    {
+        "language": "ruby",
+        "vulnerable_version": "0.23.2",
+        "fixed_version": "0.26.8",
+        "repo": "https://github.com/decidim/decidim",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-36465"
+        ],
+        "id": "GHSA-639h-86hw-qcjq",
+        "modified": "2023-10-05T20:52:46Z",
+        "fixed_tag": "v0.26.8",
+        "vulnerable_tag": "v0.23.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.0",
+        "repo": "https://github.com/anibali/pywebp",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-f9pm-4g9p-6vm3",
+        "modified": "2023-10-06T16:59:22Z",
+        "fixed_tag": "v0.3.0",
+        "vulnerable_tag": "v0.2.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "10.0.1",
+        "repo": "https://github.com/python-pillow/Pillow",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-56pw-mpj4-fxww",
+        "modified": "2023-10-05T00:06:58Z",
+        "fixed_tag": "10.0.1",
+        "vulnerable_tag": "10.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0.1.0",
+        "fixed_version": "0.8.2",
+        "repo": "https://github.com/pytorch/serve",
+        "type": [
+            "CWE-918"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-43654"
+        ],
+        "id": "GHSA-8fxr-qfr9-p34w",
+        "modified": "2023-10-02T22:00:54Z",
+        "fixed_tag": "v0.8.2",
+        "vulnerable_tag": "v0.1.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "117.2.20",
+        "repo": "https://github.com/cefsharp/CefSharp",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-4c29-gfrp-g6x9",
+        "modified": "2023-10-05T13:22:50Z",
+        "fixed_tag": "v117.2.20",
+        "vulnerable_tag": "v116.0.230"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2023.7.1",
+        "repo": "https://github.com/pretix/pretix/",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-44463"
+        ],
+        "id": "GHSA-j9gq-w73w-9h6c",
+        "modified": "2023-10-04T19:34:37Z",
+        "fixed_tag": "v2023.7.1",
+        "vulnerable_tag": "v2023.7.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "2.13.0.Final",
+        "repo": "https://github.com/quarkusio/quarkus",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-1584"
+        ],
+        "id": "GHSA-6hc9-cf8x-hf83",
+        "modified": "2023-10-04T18:49:34Z",
+        "fixed_tag": "2.13.0.Final",
+        "vulnerable_tag": "2.13.0.CR1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.9.0",
+        "repo": "https://github.com/Consensys/gnark",
+        "type": [
+            "CWE-697"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-44378"
+        ],
+        "id": "GHSA-498w-5j49-vqjg",
+        "modified": "2023-10-04T22:12:47Z",
+        "fixed_tag": "v0.9.0",
+        "vulnerable_tag": "v0.8.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.6.2",
+        "repo": "https://github.com/charmbracelet/soft-serve",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-43809"
+        ],
+        "id": "GHSA-mc97-99j4-vm2v",
+        "modified": "2023-10-04T22:13:08Z",
+        "fixed_tag": "v0.6.2",
+        "vulnerable_tag": "v0.6.1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "7.0.0",
+        "fixed_version": "7.2.2",
+        "repo": "https://github.com/in2code-de/femanager",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-45023"
+        ],
+        "id": "GHSA-93j4-v838-8767",
+        "modified": "2023-10-04T17:57:18Z",
+        "fixed_tag": "7.2.2",
+        "vulnerable_tag": "7.0.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "10.0.0-beta1",
+        "repo": "https://github.com/RobinTail/express-zod-api",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-mvrp-3cvx-c325",
+        "modified": "2023-10-04T14:46:06Z",
+        "fixed_tag": "v10.0.0-beta1",
+        "vulnerable_tag": "v9.4.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0-alpha.1",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/wallabag/wallabag",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-56fm-hfp3-x3w3",
+        "modified": "2023-10-02T21:39:57Z",
+        "fixed_tag": "2.6.7",
+        "vulnerable_tag": "2.0.0-alpha.1"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "4.8.11",
+        "repo": "https://github.com/zopefoundation/Zope",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-44389"
+        ],
+        "id": "GHSA-m755-gxxg-r5qh",
+        "modified": "2023-10-04T19:54:03Z",
+        "fixed_tag": "4.8.11",
+        "vulnerable_tag": "4.8.10"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "8.0.723",
+        "repo": "https://github.com/mganss/HtmlSanitizer",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-44390"
+        ],
+        "id": "GHSA-43cp-6p3q-2pc4",
+        "modified": "2023-10-05T19:39:51Z",
+        "fixed_tag": "v8.0.723",
+        "vulnerable_tag": "v8.0.718"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "5.2.2",
+        "repo": "https://github.com/neuvector/neuvector",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-32188"
+        ],
+        "id": "GHSA-622h-h2p8-743x",
+        "modified": "2023-10-06T20:43:52Z",
+        "fixed_tag": "v5.2.2",
+        "vulnerable_tag": "v5.2.1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "3.11.0",
+        "fixed_version": "3.11.1",
+        "repo": "https://github.com/micronaut-projects/micronaut-security",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-36820"
+        ],
+        "id": "GHSA-qw22-8w9r-864h",
+        "modified": "2023-10-05T20:55:14Z",
+        "fixed_tag": "v3.11.1",
+        "vulnerable_tag": "v3.11.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0.3.0",
+        "fixed_version": "0.8.2",
+        "repo": "https://github.com/pytorch/serve",
+        "type": [
+            "CWE-913"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-4mqg-h5jf-j9m7",
+        "modified": "2023-10-02T20:38:07Z",
+        "fixed_tag": "v0.8.2",
+        "vulnerable_tag": "v0.3.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.0.6",
+        "repo": "https://github.com/urllib3/urllib3",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-43804"
+        ],
+        "id": "GHSA-v845-jxx5-vc9f",
+        "modified": "2023-10-02T23:27:05Z",
+        "fixed_tag": "2.0.6",
+        "vulnerable_tag": "2.0.0a4"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.41b0",
+        "repo": "https://github.com/open-telemetry/opentelemetry-python-contrib",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-43810"
+        ],
+        "id": "GHSA-5rv5-6h4r-h22v",
+        "modified": "2023-10-03T18:15:32Z",
+        "fixed_tag": "v0.41b0",
+        "vulnerable_tag": "v0.40b0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.1.1",
+        "repo": "https://github.com/ni/measurementlink-python",
+        "type": [
+            "CWE-420"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-4570"
+        ],
+        "id": "GHSA-3f48-9j7q-q2gv",
+        "modified": "2023-10-05T20:56:37Z",
+        "fixed_tag": "1.1.1",
+        "vulnerable_tag": "1.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "8.1.2",
+        "repo": "https://github.com/PrestaShop/PrestaShop",
+        "type": [
+            "CWE-269"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-43663"
+        ],
+        "id": "GHSA-6jmf-2pfc-q9m7",
+        "modified": "2023-10-03T21:27:11Z",
+        "fixed_tag": "8.1.2",
+        "vulnerable_tag": "8.1.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "8.1.0",
+        "fixed_version": "8.1.1",
+        "repo": "https://github.com/mattermost/mattermost",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-5194"
+        ],
+        "id": "GHSA-h69v-mvh9-hfrq",
+        "modified": "2023-10-03T21:16:24Z",
+        "fixed_tag": "v8.1.1",
+        "vulnerable_tag": "v8.1.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "116.0.230",
+        "repo": "https://github.com/cefsharp/CefSharp",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-j646-gj5p-p45g",
+        "modified": "2023-10-02T20:17:01Z",
+        "fixed_tag": "v116.0.230",
+        "vulnerable_tag": "v116.0.190"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.14.0",
+        "fixed_version": "1.14.2",
+        "repo": "https://github.com/cilium/cilium",
+        "type": [
+            "CWE-306"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-41333"
+        ],
+        "id": "GHSA-4xp2-w642-7mcx",
+        "modified": "2023-10-02T20:13:42Z",
+        "fixed_tag": "v1.14.2",
+        "vulnerable_tag": "v1.14.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.18",
+        "repo": "https://github.com/thorsten/phpmyfaq",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-5319"
+        ],
+        "id": "GHSA-j5ww-5xf4-hqm2",
+        "modified": "2023-10-02T20:21:45Z",
+        "fixed_tag": "3.1.18",
+        "vulnerable_tag": "3.1.17"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "0.12.0",
+        "repo": "https://github.com/Consensys/gnark-crypto",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-44273"
+        ],
+        "id": "GHSA-9xfq-8j3r-xp5g",
+        "modified": "2023-10-02T21:34:35Z",
+        "fixed_tag": "v0.12.0",
+        "vulnerable_tag": "v0.11.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "1.66.0",
+        "fixed_version": "1.93.0",
+        "repo": "https://github.com/matrix-org/synapse",
+        "type": [
+            "CWE-312"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-41335"
+        ],
+        "id": "GHSA-4f74-84v3-j9q5",
+        "modified": "2023-10-06T17:03:29Z",
+        "fixed_tag": "v1.93.0rc1",
+        "vulnerable_tag": "v1.66.0rc2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.18",
+        "repo": "https://github.com/thorsten/phpMyFAQ",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-5316"
+        ],
+        "id": "GHSA-58v7-58c2-qwm9",
+        "modified": "2023-10-02T20:20:24Z",
+        "fixed_tag": "3.1.18",
+        "vulnerable_tag": "3.1.17"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.8.4",
+        "repo": "https://github.com/ikus060/rdiffweb",
+        "type": [
+            "CWE-770"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-5289"
+        ],
+        "id": "GHSA-c4rv-2j6x-pq7x",
+        "modified": "2023-10-02T21:05:15Z",
+        "fixed_tag": "2.8.4",
+        "vulnerable_tag": "2.8.3"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "22.3.25",
+        "repo": "https://github.com/electron/electron",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-5217"
+        ],
+        "id": "GHSA-qqvq-6xgj-jw8g",
+        "modified": "2023-10-05T17:31:47Z",
+        "fixed_tag": "v22.3.25",
+        "vulnerable_tag": "v22.3.24"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "8.4.31",
+        "repo": "https://github.com/postcss/postcss",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-44270"
+        ],
+        "id": "GHSA-7fh5-64p2-3v2j",
+        "modified": "2023-10-03T15:04:58Z",
+        "fixed_tag": "8.4.31",
+        "vulnerable_tag": "8.4.30"
+    },
+    {
+        "language": "ruby",
+        "vulnerable_version": "7.0.0",
+        "fixed_version": "7.1.3",
+        "repo": "https://github.com/sidekiq/sidekiq",
+        "type": [
+            "CWE-345",
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-26141"
+        ],
+        "id": "GHSA-3qc2-v3hp-6cv8",
+        "modified": "2023-10-05T13:29:47Z",
+        "fixed_tag": "v7.1.3",
+        "vulnerable_tag": "v7.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.18",
+        "repo": "https://github.com/thorsten/phpmyfaq",
+        "type": [
+            "CWE-434"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-5227"
+        ],
+        "id": "GHSA-qcjg-hvg6-hxcp",
+        "modified": "2023-10-02T20:20:57Z",
+        "fixed_tag": "3.1.18",
+        "vulnerable_tag": "3.1.17"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.18",
+        "repo": "https://github.com/thorsten/phpmyfaq",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-5317"
+        ],
+        "id": "GHSA-5jwv-m8h3-69cg",
+        "modified": "2023-10-02T20:15:40Z",
+        "fixed_tag": "3.1.18",
+        "vulnerable_tag": "3.1.17"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2023.7.2",
+        "repo": "https://github.com/pretix/pretix",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-44464"
+        ],
+        "id": "GHSA-9jvx-p6mq-fw4v",
+        "modified": "2023-10-02T20:51:43Z",
+        "fixed_tag": "v2023.7.2",
+        "vulnerable_tag": "v2023.7.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "8.1.0",
+        "fixed_version": "8.1.1",
+        "repo": "https://github.com/mattermost/mattermost",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-5193"
+        ],
+        "id": "GHSA-h8wh-f7gw-fwpr",
+        "modified": "2023-10-03T21:25:26Z",
+        "fixed_tag": "v8.1.1",
+        "vulnerable_tag": "v8.1.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "9.0.0",
+        "fixed_version": "9.4.52",
+        "repo": "https://github.com/eclipse/jetty.project",
+        "type": [
+            "CWE-149"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-36479"
+        ],
+        "id": "GHSA-3gh6-v5v9-6v9j",
+        "modified": "2023-10-02T21:03:25Z",
+        "fixed_tag": "jetty-9.4.52.v20230823",
+        "vulnerable_tag": "jetty-9.0.0.v20130308"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.0.308",
+        "repo": "https://github.com/langchain-ai/langchain",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-39631"
+        ],
+        "id": "GHSA-f73w-4m7g-ch9x",
+        "modified": "2023-10-05T13:26:22Z",
+        "fixed_tag": "v0.0.308",
+        "vulnerable_tag": "v0.0.307"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0",
+        "fixed_version": "0.2.5",
+        "repo": "https://github.com/whisperfish/rust-phonenumber",
+        "type": [
+            "CWE-1284",
+            "CWE-248",
+            "CWE-392"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-42444"
+        ],
+        "id": "GHSA-whhr-7f2w-qqj2",
+        "modified": "2023-10-06T20:00:20Z",
+        "fixed_tag": "v0.2.5+8.11.3",
+        "vulnerable_tag": "v0.1.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.3",
+        "repo": "https://github.com/apache/avro",
+        "type": [
+            "CWE-20",
+            "CWE-502"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-39410"
+        ],
+        "id": "GHSA-rhrv-645h-fjfh",
+        "modified": "2023-10-03T21:51:29Z",
+        "fixed_tag": "release-1.11.3",
+        "vulnerable_tag": "release-1.11.2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.27",
+        "repo": "https://github.com/composer/composer",
+        "type": [
+            "CWE-74"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-43655"
+        ],
+        "id": "GHSA-jm6m-4632-36hf",
+        "modified": "2023-10-04T16:55:05Z",
+        "fixed_tag": "1.10.27",
+        "vulnerable_tag": "1.10.26"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "9.0.0",
+        "fixed_version": "9.4.52",
+        "repo": "https://github.com/eclipse/jetty.project",
+        "type": [
+            "CWE-130"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-40167"
+        ],
+        "id": "GHSA-hmr7-m48g-48f6",
+        "modified": "2023-10-02T21:03:21Z",
+        "fixed_tag": "jetty-9.4.52.v20230823",
+        "vulnerable_tag": "jetty-9.0.0.v20130308"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "3.22.3",
+        "repo": "https://github.com/colinhacks/zod",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-4316"
+        ],
+        "id": "GHSA-m95q-7qp3-xv42",
+        "modified": "2023-10-02T16:26:26Z",
+        "fixed_tag": "v3.22.3",
+        "vulnerable_tag": "v3.22.2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.18",
+        "repo": "https://github.com/thorsten/phpmyfaq",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-5320"
+        ],
+        "id": "GHSA-pp4w-g5p4-85p2",
+        "modified": "2023-10-02T20:22:13Z",
+        "fixed_tag": "3.1.18",
+        "vulnerable_tag": "3.1.17"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "8.1.0",
+        "fixed_version": "8.1.1",
+        "repo": "https://github.com/mattermost/mattermost",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-5159"
+        ],
+        "id": "GHSA-rp65-jpc7-8h8p",
+        "modified": "2023-10-03T21:17:01Z",
+        "fixed_tag": "v8.1.1",
+        "vulnerable_tag": "v8.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "4.13.14",
+        "repo": "https://github.com/silverstripe/silverstripe-framework",
+        "type": [
+            "CWE-20",
+            "CWE-862"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-32302"
+        ],
+        "id": "GHSA-36xx-7vf6-7mv3",
+        "modified": "2023-10-04T17:11:40Z",
+        "fixed_tag": "4.13.14",
+        "vulnerable_tag": "3.0.0"
+    },
+    {
         "language": "ruby",
         "vulnerable_version": "5.0.0",
         "fixed_version": "5.2.4.3",
@@ -2275,40 +5723,6 @@
         "vulnerable_tag": "v2.4.1"
     },
     {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "8.1.2",
-        "repo": "https://github.com/PrestaShop/PrestaShop",
-        "type": [
-            "CWE-269"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-43663"
-        ],
-        "id": "GHSA-6jmf-2pfc-q9m7",
-        "modified": "2023-09-28T19:43:45Z",
-        "fixed_tag": "8.1.2",
-        "vulnerable_tag": "8.1.1"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "8.1.0",
-        "fixed_version": "8.1.1",
-        "repo": "https://github.com/mattermost/mattermost",
-        "type": [
-            "CWE-863"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-5194"
-        ],
-        "id": "GHSA-h69v-mvh9-hfrq",
-        "modified": "2023-09-29T22:05:48Z",
-        "fixed_tag": "v8.1.1",
-        "vulnerable_tag": "v8.1.0"
-    },
-    {
         "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "1.3.2",
@@ -2409,23 +5823,6 @@
         "vulnerable_tag": "v8.1.0"
     },
     {
-        "language": "go",
-        "vulnerable_version": "1.14.0",
-        "fixed_version": "1.14.2",
-        "repo": "https://github.com/cilium/cilium",
-        "type": [
-            "CWE-306"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-41333"
-        ],
-        "id": "GHSA-4xp2-w642-7mcx",
-        "modified": "2023-09-27T00:35:26Z",
-        "fixed_tag": "v1.14.2",
-        "vulnerable_tag": "v1.14.0"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "1.1.2",
@@ -2460,21 +5857,6 @@
         "vulnerable_tag": "v0.20.0"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "0.12.0",
-        "repo": "https://github.com/Consensys/gnark-crypto",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-44273"
-        ],
-        "id": "GHSA-9xfq-8j3r-xp5g",
-        "modified": "2023-09-28T16:42:58Z",
-        "fixed_tag": "v0.12.0",
-        "vulnerable_tag": "v0.11.2"
-    },
-    {
         "language": "python",
         "vulnerable_version": "1.5.0",
         "fixed_version": "2.1.1",
@@ -2492,40 +5874,6 @@
         "vulnerable_tag": "v2021.5.0"
     },
     {
-        "language": "python",
-        "vulnerable_version": "1.66.0",
-        "fixed_version": "1.93.0",
-        "repo": "https://github.com/matrix-org/synapse",
-        "type": [
-            "CWE-312"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-41335"
-        ],
-        "id": "GHSA-4f74-84v3-j9q5",
-        "modified": "2023-09-27T15:42:30Z",
-        "fixed_tag": "v1.93.0rc1",
-        "vulnerable_tag": "v1.66.0rc2"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "2.8.4",
-        "repo": "https://github.com/ikus060/rdiffweb",
-        "type": [
-            "CWE-770"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-5289"
-        ],
-        "id": "GHSA-c4rv-2j6x-pq7x",
-        "modified": "2023-09-29T22:06:22Z",
-        "fixed_tag": "2.8.4",
-        "vulnerable_tag": "2.8.3"
-    },
-    {
         "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "1.13.0",
@@ -2541,24 +5889,6 @@
         "modified": "2023-09-29T20:38:23Z",
         "fixed_tag": "v1.13.0",
         "vulnerable_tag": "v1.12.11"
-    },
-    {
-        "language": "ruby",
-        "vulnerable_version": "0",
-        "fixed_version": "7.1.3",
-        "repo": "https://github.com/sidekiq/sidekiq",
-        "type": [
-            "CWE-345",
-            "CWE-400"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-26141"
-        ],
-        "id": "GHSA-3qc2-v3hp-6cv8",
-        "modified": "2023-09-26T18:09:12Z",
-        "fixed_tag": "v7.1.3",
-        "vulnerable_tag": "v7.1.2"
     },
     {
         "language": "php",
@@ -2579,21 +5909,6 @@
         "vulnerable_tag": "2.0.0"
     },
     {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "2023.7.2",
-        "repo": "https://github.com/pretix/pretix",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-44464"
-        ],
-        "id": "GHSA-9jvx-p6mq-fw4v",
-        "modified": "2023-09-29T20:38:11Z",
-        "fixed_tag": "v2023.7.2",
-        "vulnerable_tag": "v2023.7.1"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "3.0.24",
@@ -2609,40 +5924,6 @@
         "modified": "2023-09-26T19:38:53Z",
         "fixed_tag": "plexus-utils-3.0.24",
         "vulnerable_tag": "plexus-utils-3.0.23"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "8.1.0",
-        "fixed_version": "8.1.1",
-        "repo": "https://github.com/mattermost/mattermost",
-        "type": [
-            "CWE-863"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-5193"
-        ],
-        "id": "GHSA-h8wh-f7gw-fwpr",
-        "modified": "2023-09-29T20:37:29Z",
-        "fixed_tag": "v8.1.1",
-        "vulnerable_tag": "v8.1.0"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "9.0.0",
-        "fixed_version": "9.4.52",
-        "repo": "https://github.com/eclipse/jetty.project",
-        "type": [
-            "CWE-149"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-36479"
-        ],
-        "id": "GHSA-3gh6-v5v9-6v9j",
-        "modified": "2023-09-29T20:12:01Z",
-        "fixed_tag": "jetty-9.4.52.v20230823",
-        "vulnerable_tag": "jetty-9.0.0.v20130308"
     },
     {
         "language": "python",
@@ -2763,40 +6044,6 @@
         "vulnerable_tag": "v8.1.0"
     },
     {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "1.11.3",
-        "repo": "https://github.com/apache/avro",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-39410"
-        ],
-        "id": "GHSA-rhrv-645h-fjfh",
-        "modified": "2023-09-29T22:06:14Z",
-        "fixed_tag": "release-1.11.3",
-        "vulnerable_tag": "release-1.11.2"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "1.10.27",
-        "repo": "https://github.com/composer/composer",
-        "type": [
-            "CWE-74"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-43655"
-        ],
-        "id": "GHSA-jm6m-4632-36hf",
-        "modified": "2023-09-29T21:34:00Z",
-        "fixed_tag": "1.10.27",
-        "vulnerable_tag": "1.10.26"
-    },
-    {
         "language": "go",
         "vulnerable_version": "1.13.0",
         "fixed_version": "1.13.7",
@@ -2847,23 +6094,6 @@
         "vulnerable_tag": "2.2.23.Final"
     },
     {
-        "language": "java",
-        "vulnerable_version": "9.0.0",
-        "fixed_version": "9.4.52",
-        "repo": "https://github.com/eclipse/jetty.project",
-        "type": [
-            "CWE-130"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-40167"
-        ],
-        "id": "GHSA-hmr7-m48g-48f6",
-        "modified": "2023-09-29T20:12:09Z",
-        "fixed_tag": "jetty-9.4.52.v20230823",
-        "vulnerable_tag": "jetty-9.0.0.v20130308"
-    },
-    {
         "language": "javascript",
         "vulnerable_version": "0",
         "fixed_version": "1.7.0",
@@ -2905,23 +6135,6 @@
         "modified": "2023-09-25T20:21:16Z",
         "fixed_tag": "gix-v0.36.1",
         "vulnerable_tag": "gix-protocol-v0.36.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "8.1.0",
-        "fixed_version": "8.1.1",
-        "repo": "https://github.com/mattermost/mattermost",
-        "type": [
-            "CWE-863"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-5159"
-        ],
-        "id": "GHSA-rp65-jpc7-8h8p",
-        "modified": "2023-09-29T20:41:31Z",
-        "fixed_tag": "v8.1.1",
-        "vulnerable_tag": "v8.1.0"
     },
     {
         "language": "java",
@@ -3554,19 +6767,6 @@
         "vulnerable_tag": "v0.11.0"
     },
     {
-        "language": "csharp",
-        "vulnerable_version": "0",
-        "fixed_version": "116.0.230",
-        "repo": "https://github.com/cefsharp/CefSharp",
-        "type": [],
-        "severity": "CRITICAL",
-        "CVE_ID": [],
-        "id": "GHSA-j646-gj5p-p45g",
-        "modified": "2023-09-21T17:11:42Z",
-        "fixed_tag": "v116.0.230",
-        "vulnerable_tag": "v116.0.190"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "2.16.11.Final",
@@ -3892,25 +7092,6 @@
         "modified": "2023-09-22T19:46:51Z",
         "fixed_tag": "17.0.1",
         "vulnerable_tag": "17.0.0"
-    },
-    {
-        "language": "rust",
-        "vulnerable_version": "0",
-        "fixed_version": "0.2.5",
-        "repo": "https://github.com/whisperfish/rust-phonenumber",
-        "type": [
-            "CWE-1284",
-            "CWE-248",
-            "CWE-392"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-42444"
-        ],
-        "id": "GHSA-whhr-7f2w-qqj2",
-        "modified": "2023-09-22T23:36:31Z",
-        "fixed_tag": "v0.2.5+8.11.3",
-        "vulnerable_tag": "v0.1.0"
     },
     {
         "language": "python",
@@ -11795,25 +14976,6 @@
     },
     {
         "language": "go",
-        "vulnerable_version": "0.0.15",
-        "fixed_version": "0.0.17",
-        "repo": "https://github.com/kubernetes-sigs/secrets-store-csi-driver",
-        "type": [
-            "CWE-20",
-            "CWE-22",
-            "CWE-24"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2020-8568"
-        ],
-        "id": "GHSA-5cgx-vhfp-6cf9",
-        "modified": "2023-08-30T11:47:19Z",
-        "fixed_tag": "v0.0.17",
-        "vulnerable_tag": "v0.0.15"
-    },
-    {
-        "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "2.0.1",
         "repo": "https://github.com/nats-io/jwt",
@@ -12803,24 +15965,6 @@
         "modified": "2023-08-21T17:22:48Z",
         "fixed_tag": "jenkins-2.414.1",
         "vulnerable_tag": "jenkins-2.402"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "3.0.0",
-        "fixed_version": "4.13.14",
-        "repo": "https://github.com/silverstripe/silverstripe-framework",
-        "type": [
-            "CWE-20",
-            "CWE-862"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-32302"
-        ],
-        "id": "GHSA-36xx-7vf6-7mv3",
-        "modified": "2023-08-23T19:40:25Z",
-        "fixed_tag": "4.13.14",
-        "vulnerable_tag": "3.0.0"
     },
     {
         "language": "ruby",
@@ -25958,23 +29102,6 @@
         "vulnerable_tag": "release-3.2.0"
     },
     {
-        "language": "flutter",
-        "vulnerable_version": "0",
-        "fixed_version": "5.0.0",
-        "repo": "https://github.com/cfug/dio",
-        "type": [
-            "CWE-74",
-            "CWE-88",
-            "CWE-93"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-jwpw-q68h-r678",
-        "modified": "2023-03-22T21:26:32Z",
-        "fixed_tag": "v5.0.0",
-        "vulnerable_tag": "native_dio_adapter_v1.0.0+2"
-    },
-    {
         "language": "python",
         "vulnerable_version": "0",
         "fixed_version": "1.3.2",
@@ -31757,23 +34884,6 @@
         "vulnerable_tag": "configuration-as-code-1.24"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.8.11",
-        "repo": "https://github.com/ethereum/go-ethereum",
-        "type": [
-            "CWE-129"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2018-12018"
-        ],
-        "id": "GHSA-p5gc-957x-gfw9",
-        "modified": "2023-02-08T00:28:02Z",
-        "fixed_tag": "v1.8.11",
-        "vulnerable_tag": "v1.8.10"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "4.7.0-4",
@@ -32604,23 +35714,6 @@
         "modified": "2022-12-02T21:04:38Z",
         "fixed_tag": "repo-1.14.1",
         "vulnerable_tag": "repo-1.14.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "2.7.0-rc.0",
-        "repo": "https://github.com/distribution/distribution",
-        "type": [
-            "CWE-770"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2017-11468"
-        ],
-        "id": "GHSA-h62f-wm92-2cmw",
-        "modified": "2023-02-07T00:04:08Z",
-        "fixed_tag": "v2.7.0-rc.0",
-        "vulnerable_tag": "v2.6.2"
     },
     {
         "language": "java",
@@ -38257,25 +41350,6 @@
     },
     {
         "language": "go",
-        "vulnerable_version": "1.14.0",
-        "fixed_version": "1.14.1",
-        "repo": "https://github.com/cortexproject/cortex",
-        "type": [
-            "CWE-184",
-            "CWE-641",
-            "CWE-73"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2022-23536"
-        ],
-        "id": "GHSA-cq2g-pw6q-hf7j",
-        "modified": "2022-12-27T22:04:00Z",
-        "fixed_tag": "v1.14.1",
-        "vulnerable_tag": "v1.14.0"
-    },
-    {
-        "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "0.9.1",
         "repo": "https://github.com/usememos/memos",
@@ -41729,21 +44803,6 @@
         "vulnerable_tag": "v2.1.0b0"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.4.3",
-        "repo": "https://github.com/cloudflare/cfrpki",
-        "type": [
-            "CWE-22"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-3jhm-87m6-x959",
-        "modified": "2022-06-25T07:12:08Z",
-        "fixed_tag": "v1.4.3",
-        "vulnerable_tag": "v1.4.2"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "2.2.2",
@@ -44704,23 +47763,6 @@
     {
         "language": "java",
         "vulnerable_version": "0",
-        "fixed_version": "1.5.0",
-        "repo": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
-        "type": [
-            "CWE-862"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2022-28139"
-        ],
-        "id": "GHSA-4p8f-2fwv-6xcw",
-        "modified": "2022-11-29T22:23:53Z",
-        "fixed_tag": "v1.5.0",
-        "vulnerable_tag": "v1.4.10"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
         "fixed_version": "5.2.20.RELEASE",
         "repo": "https://github.com/spring-projects/spring-framework",
         "type": [
@@ -45298,23 +48340,6 @@
         "modified": "2022-03-29T15:42:17Z",
         "fixed_tag": "v1.2.12",
         "vulnerable_tag": "v1.2.11"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "1.5.0",
-        "repo": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
-        "type": [
-            "CWE-352"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2022-28138"
-        ],
-        "id": "GHSA-x25h-f84x-wh4m",
-        "modified": "2022-11-29T22:03:56Z",
-        "fixed_tag": "v1.5.0",
-        "vulnerable_tag": "v1.4.10"
     },
     {
         "language": "php",
@@ -49733,23 +52758,6 @@
         "vulnerable_tag": "v3.3.10"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "2.2.7",
-        "repo": "https://github.com/hyperledger/fabric",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-31121"
-        ],
-        "id": "GHSA-72x4-cq6r-jp4p",
-        "modified": "2022-07-19T19:45:15Z",
-        "fixed_tag": "v2.2.7",
-        "vulnerable_tag": "v2.2.6"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "2.1.11",
@@ -53473,24 +56481,6 @@
     },
     {
         "language": "java",
-        "vulnerable_version": "2.4.0",
-        "fixed_version": "2.4.2",
-        "repo": "https://github.com/apache/incubator-shenyu/",
-        "type": [
-            "CWE-319",
-            "CWE-522"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-23223"
-        ],
-        "id": "GHSA-7wq4-89xx-g62j",
-        "modified": "2022-02-02T16:15:02Z",
-        "fixed_tag": "v2.4.2",
-        "vulnerable_tag": "v2.4.0"
-    },
-    {
-        "language": "java",
         "vulnerable_version": "9.8.0",
         "fixed_version": "9.10.3",
         "repo": "https://github.com/jenkinsci/warnings-ng-plugin",
@@ -54234,24 +57224,6 @@
         "modified": "2022-10-14T19:48:04Z",
         "fixed_tag": "v4.0.0-beta.5",
         "vulnerable_tag": "v4.0.0-beta.4"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.4.4",
-        "repo": "https://github.com/cloudflare/cfrpki",
-        "type": [
-            "CWE-754",
-            "CWE-834"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-3616"
-        ],
-        "id": "GHSA-pmw9-567p-68pc",
-        "modified": "2022-10-31T19:23:29Z",
-        "fixed_tag": "v1.4.4",
-        "vulnerable_tag": "v1.4.3"
     },
     {
         "language": "go",
@@ -55122,24 +58094,6 @@
         "vulnerable_tag": "2.4.11a1"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "3.4.4",
-        "repo": "https://github.com/cloudflare/goflow",
-        "type": [
-            "CWE-20",
-            "CWE-400"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-2529"
-        ],
-        "id": "GHSA-9rpw-2h95-666c",
-        "modified": "2022-10-01T15:52:23Z",
-        "fixed_tag": "v3.4.4",
-        "vulnerable_tag": "v3.4.3"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "5.0.1",
@@ -55540,23 +58494,6 @@
         "modified": "2022-10-07T21:19:01Z",
         "fixed_tag": "v0.20.1",
         "vulnerable_tag": "v0.20.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "0.3.8",
-        "repo": "https://github.com/golang/text",
-        "type": [
-            "CWE-772"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-32149"
-        ],
-        "id": "GHSA-69ch-w2m2-3vjp",
-        "modified": "2022-10-28T20:11:26Z",
-        "fixed_tag": "v0.3.8",
-        "vulnerable_tag": "v0.3.7"
     },
     {
         "language": "go",
@@ -56316,24 +59253,6 @@
         "modified": "2022-12-27T22:03:26Z",
         "fixed_tag": "v6.7.9",
         "vulnerable_tag": "v6.7.8"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "1.0.33",
-        "repo": "https://github.com/jenkinsci/katalon-plugin",
-        "type": [
-            "CWE-256",
-            "CWE-522"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2022-43419"
-        ],
-        "id": "GHSA-35rx-7pc8-6963",
-        "modified": "2022-12-16T19:45:04Z",
-        "fixed_tag": "1.0.33",
-        "vulnerable_tag": "1.0.32"
     },
     {
         "language": "python",
@@ -59755,21 +62674,6 @@
         "modified": "2022-11-21T20:42:10Z",
         "fixed_tag": "v2.8.4",
         "vulnerable_tag": "v2.8.3"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "0.23.2",
-        "repo": "https://github.com/btcsuite/btcd",
-        "type": [],
-        "severity": "CRITICAL",
-        "CVE_ID": [
-            "CVE-2022-44797"
-        ],
-        "id": "GHSA-2chg-86hq-7w38",
-        "modified": "2022-11-15T01:41:05Z",
-        "fixed_tag": "v0.23.2",
-        "vulnerable_tag": "v0.23.1"
     },
     {
         "language": "java",
@@ -63516,24 +66420,6 @@
         "vulnerable_tag": "v2.5.2"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "0.8.1",
-        "repo": "https://github.com/containernetworking/cni",
-        "type": [
-            "CWE-20",
-            "CWE-22"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2021-20206"
-        ],
-        "id": "GHSA-xjqr-g762-pxwp",
-        "modified": "2022-08-11T16:50:15Z",
-        "fixed_tag": "v0.8.1",
-        "vulnerable_tag": "v0.8.0"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "0.19.0",
@@ -64650,24 +67536,6 @@
         "modified": "2022-11-08T20:21:38Z",
         "fixed_tag": "1.11.4.Final",
         "vulnerable_tag": "1.11.3.Final"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "2.0.0",
-        "fixed_version": "2.0.1",
-        "repo": "https://github.com/nats-io/jwt",
-        "type": [
-            "CWE-284",
-            "CWE-863"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2021-3127"
-        ],
-        "id": "GHSA-9r5x-fjv3-q6h4",
-        "modified": "2022-07-13T18:57:29Z",
-        "fixed_tag": "v2.0.1",
-        "vulnerable_tag": "v2.0.0"
     },
     {
         "language": "python",
@@ -66335,19 +69203,6 @@
         "modified": "2022-02-28T22:18:00Z",
         "fixed_tag": "v1.2.11",
         "vulnerable_tag": "v1.2.10"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.34.0",
-        "repo": "https://github.com/aws/aws-sdk-go",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [],
-        "id": "GHSA-76wf-9vgp-pj7w",
-        "modified": "2023-02-07T21:24:00Z",
-        "fixed_tag": "v1.34.0",
-        "vulnerable_tag": "v1.33.21"
     },
     {
         "language": "php",
@@ -68573,21 +71428,6 @@
         "modified": "2021-09-23T21:32:17Z",
         "fixed_tag": "v2.2.10",
         "vulnerable_tag": "v2.2.0"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "0.3.8",
-        "repo": "https://github.com/hapijs/boom",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [],
-        "id": "GHSA-2ggq-vfcp-gwhj",
-        "modified": "2021-10-04T20:48:50Z",
-        "fixed_tag": "v0.3.8",
-        "vulnerable_tag": "v0.3.7"
     },
     {
         "language": "javascript",
@@ -74465,23 +77305,6 @@
         "vulnerable_tag": "3.0.6"
     },
     {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "0.3.8",
-        "repo": "https://github.com/vyperlang/vyper",
-        "type": [
-            "CWE-670"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2023-32675"
-        ],
-        "id": "GHSA-vxmm-cwh2-q762",
-        "modified": "2023-05-22T20:35:46Z",
-        "fixed_tag": "v0.3.8",
-        "vulnerable_tag": "v0.3.7"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "3.0.9",
@@ -79998,23 +82821,6 @@
         "modified": "2023-03-24T17:12:43Z",
         "fixed_tag": "v1.0.6",
         "vulnerable_tag": "v1.0.5"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "0.0.34",
-        "repo": "https://github.com/dablelv/go-huge-util",
-        "type": [
-            "CWE-22"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-28105"
-        ],
-        "id": "GHSA-5g39-ppwg-6xx8",
-        "modified": "2023-03-16T18:32:38Z",
-        "fixed_tag": "v0.0.34",
-        "vulnerable_tag": "v0.0.33"
     },
     {
         "language": "purl-type:swift",
@@ -93714,23 +96520,6 @@
         "vulnerable_tag": "1.8"
     },
     {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "2.25.6",
-        "repo": "https://github.com/mantisbt/mantisbt",
-        "type": [
-            "CWE-200"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-22476"
-        ],
-        "id": "GHSA-hf4x-6h87-hm79",
-        "modified": "2023-02-23T19:39:54Z",
-        "fixed_tag": "release-2.25.6",
-        "vulnerable_tag": "release-2.25.5"
-    },
-    {
         "language": "javascript",
         "vulnerable_version": "0",
         "fixed_version": "6.28.1",
@@ -98739,24 +101528,6 @@
         "vulnerable_tag": "v4.4.17"
     },
     {
-        "language": "go",
-        "vulnerable_version": "1.3.0",
-        "fixed_version": "1.3.6",
-        "repo": "https://github.com/hashicorp/vault",
-        "type": [
-            "CWE-200",
-            "CWE-532"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2020-13223"
-        ],
-        "id": "GHSA-25xj-89g5-fm6h",
-        "modified": "2022-02-24T13:07:50Z",
-        "fixed_tag": "v1.3.6",
-        "vulnerable_tag": "v1.3.0"
-    },
-    {
         "language": "javascript",
         "vulnerable_version": "0",
         "fixed_version": "4.17.21",
@@ -99078,23 +101849,6 @@
         "modified": "2022-06-06T18:17:02Z",
         "fixed_tag": "v9.0.0",
         "vulnerable_tag": "v8.2.2"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.0.1",
-        "repo": "https://github.com/unknwon/cae/",
-        "type": [
-            "CWE-22"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2020-7664"
-        ],
-        "id": "GHSA-vpx7-vm66-qx8r",
-        "modified": "2022-01-04T19:33:01Z",
-        "fixed_tag": "v1.0.1",
-        "vulnerable_tag": "v1.0.0"
     },
     {
         "language": "go",
@@ -99450,24 +102204,6 @@
         "fixed_version": "3.3.2",
         "repo": "https://github.com/helm/helm",
         "type": [
-            "CWE-20",
-            "CWE-74"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2020-15186"
-        ],
-        "id": "GHSA-m54r-vrmv-hw33",
-        "modified": "2021-11-19T15:28:38Z",
-        "fixed_tag": "v3.3.2",
-        "vulnerable_tag": "v3.0.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "3.0.0",
-        "fixed_version": "3.3.2",
-        "repo": "https://github.com/helm/helm",
-        "type": [
             "CWE-694",
             "CWE-74"
         ],
@@ -99510,24 +102246,6 @@
         "modified": "2022-10-25T20:37:42Z",
         "fixed_tag": "v3.4.48",
         "vulnerable_tag": "v2.8.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0.33.0",
-        "fixed_version": "0.33.3",
-        "repo": "https://github.com/tendermint/tendermint",
-        "type": [
-            "CWE-787",
-            "CWE-789"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2020-5303"
-        ],
-        "id": "GHSA-v24h-pjjv-mcp6",
-        "modified": "2022-10-06T21:49:52Z",
-        "fixed_tag": "v0.33.3",
-        "vulnerable_tag": "v0.33.0"
     },
     {
         "language": "java",
@@ -99785,24 +102503,6 @@
         "modified": "2021-10-05T16:31:48Z",
         "fixed_tag": "v3.21.0",
         "vulnerable_tag": "v3.20.0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "3.0.0",
-        "fixed_version": "3.3.2",
-        "repo": "https://github.com/helm/helm",
-        "type": [
-            "CWE-20",
-            "CWE-74"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2020-15184"
-        ],
-        "id": "GHSA-9vp5-m38w-j776",
-        "modified": "2021-11-19T15:29:12Z",
-        "fixed_tag": "v3.3.2",
-        "vulnerable_tag": "v3.0.0"
     },
     {
         "language": "javascript",
@@ -103503,23 +106203,6 @@
         "modified": "2022-08-11T18:45:55Z",
         "fixed_tag": "v21.11.3",
         "vulnerable_tag": "v21.11.2"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "3.14.4",
-        "repo": "https://github.com/sourcegraph/sourcegraph",
-        "type": [
-            "CWE-601"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2020-12283"
-        ],
-        "id": "GHSA-mx43-r985-5h4m",
-        "modified": "2021-12-09T19:40:01Z",
-        "fixed_tag": "v3.14.4",
-        "vulnerable_tag": "v3.14.3"
     },
     {
         "language": "ruby",
@@ -108319,23 +111002,6 @@
         "vulnerable_tag": "3.5.0"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.4.0",
-        "repo": "https://github.com/cloudflare/cfrpki",
-        "type": [
-            "CWE-400"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2021-3909"
-        ],
-        "id": "GHSA-8cvr-4rrf-f244",
-        "modified": "2021-11-10T18:18:28Z",
-        "fixed_tag": "v1.4.0",
-        "vulnerable_tag": "v1.3.0"
-    },
-    {
         "language": "ruby",
         "vulnerable_version": "4.2.0",
         "fixed_version": "4.2.1",
@@ -108609,24 +111275,6 @@
         "modified": "2021-11-24T19:01:48Z",
         "fixed_tag": "v2.1.0",
         "vulnerable_tag": "v2.0.1"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "1.4.0",
-        "repo": "https://github.com/cloudflare/cfrpki",
-        "type": [
-            "CWE-400",
-            "CWE-835"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2021-3908"
-        ],
-        "id": "GHSA-g5gj-9ggf-9vmq",
-        "modified": "2021-11-10T18:18:55Z",
-        "fixed_tag": "v1.4.0",
-        "vulnerable_tag": "v1.3.0"
     },
     {
         "language": "javascript",
