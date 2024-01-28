@@ -1,5 +1,2671 @@
 [
     {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.0",
+        "repo": "https://github.com/ls1intum/Ares",
+        "type": [
+            "CWE-501"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23682"
+        ],
+        "id": "GHSA-hj55-9jmv-9jrj",
+        "modified": "2024-01-26T20:28:16Z",
+        "fixed_tag": "1.8.0",
+        "vulnerable_tag": "1.7.6"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "14.0.0",
+        "fixed_version": "14.2.4",
+        "repo": "https://github.com/gravitational/teleport",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-c9v7-wmwj-vf6x",
+        "modified": "2024-01-23T12:50:08Z",
+        "fixed_tag": "v14.2.4-dev.atburke.1",
+        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.5.1",
+        "repo": "https://github.com/peteroupc/CBOR-Java",
+        "type": [
+            "CWE-407"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23684"
+        ],
+        "id": "GHSA-hfj8-63c8-rmfw",
+        "modified": "2024-01-26T19:58:40Z",
+        "fixed_tag": "v4.5.1",
+        "vulnerable_tag": "v4.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.0.11",
+        "repo": "https://github.com/jupyterlab/jupyterlab",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-22421"
+        ],
+        "id": "GHSA-44cc-43rp-5947",
+        "modified": "2024-01-22T20:57:53Z",
+        "fixed_tag": "v4.0.11",
+        "vulnerable_tag": "v4.0.0rc1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "1.0.0",
+        "fixed_version": "1.13.19",
+        "repo": "https://github.com/silverstripe/silverstripe-admin",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-49783"
+        ],
+        "id": "GHSA-j3m6-gvm8-mhvw",
+        "modified": "2024-01-23T20:09:52Z",
+        "fixed_tag": "1.13.19",
+        "vulnerable_tag": "1.0.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "0.4.6",
+        "repo": "https://github.com/ClickHouse/clickhouse-java",
+        "type": [
+            "CWE-209"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23689"
+        ],
+        "id": "GHSA-3p77-wg4c-qm24",
+        "modified": "2024-01-26T20:28:30Z",
+        "fixed_tag": "v0.4.6",
+        "vulnerable_tag": "v0.4.5"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.4.3",
+        "repo": "https://github.com/sveltejs/kit",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23641"
+        ],
+        "id": "GHSA-g5m6-hxpp-fc49",
+        "modified": "2024-01-24T19:13:36Z",
+        "fixed_tag": "kit@2.4.3",
+        "vulnerable_tag": "create-svelte@2.0.0-next.204"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "688.v5fa",
+        "repo": "https://github.com/jenkinsci/gitlab-branch-source-plugin",
+        "type": [],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-23903"
+        ],
+        "id": "GHSA-f67f-2j6r-m4c9",
+        "modified": "2024-01-24T21:50:51Z",
+        "fixed_tag": "688.v5fa_356ee8520",
+        "vulnerable_tag": "684.vea_fa_7c1e2fe3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5.4",
+        "repo": "https://github.com/folio-org/mod-data-export-spring",
+        "type": [
+            "CWE-798"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-23687"
+        ],
+        "id": "GHSA-9rhq-86fm-qxqc",
+        "modified": "2024-01-26T19:55:58Z",
+        "fixed_tag": "v1.5.4",
+        "vulnerable_tag": "v1.5.3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "1.0.0",
+        "fixed_version": "1.3.0",
+        "repo": "https://github.com/apache/iotdb",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-46226"
+        ],
+        "id": "GHSA-rxgg-273w-rfw7",
+        "modified": "2024-01-22T21:32:51Z",
+        "fixed_tag": "v1.3.0",
+        "vulnerable_tag": "v1.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/HumanSignal/label-studio",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23633"
+        ],
+        "id": "GHSA-fq23-g58m-799r",
+        "modified": "2024-01-24T14:21:47Z",
+        "fixed_tag": "1.10.1",
+        "vulnerable_tag": "1.10.0.post0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "6.0.7",
+        "repo": "https://github.com/plone/Plone",
+        "type": [
+            "CWE-1021"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-0669"
+        ],
+        "id": "GHSA-5xfx-55x4-j223",
+        "modified": "2024-01-26T21:34:11Z",
+        "fixed_tag": "6.0.7",
+        "vulnerable_tag": "6.0.6"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.3.2",
+        "repo": "https://github.com/i3thuan5/TuiTse-TsuSin",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23341"
+        ],
+        "id": "GHSA-m4m5-j36m-8x72",
+        "modified": "2024-01-23T18:42:37Z",
+        "fixed_tag": "1.3.2",
+        "vulnerable_tag": "1.3.1"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.0.11",
+        "repo": "https://github.com/jupyterlab/jupyterlab",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-22420"
+        ],
+        "id": "GHSA-4m77-cmpx-vjc4",
+        "modified": "2024-01-26T21:34:15Z",
+        "fixed_tag": "v4.0.11",
+        "vulnerable_tag": "v4.0.0rc1"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "1.3.0",
+        "fixed_version": "1.4.1",
+        "repo": "https://github.com/honojs/node-server",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23340"
+        ],
+        "id": "GHSA-rjq5-w47x-x359",
+        "modified": "2024-01-23T14:42:51Z",
+        "fixed_tag": "v1.4.1",
+        "vulnerable_tag": "v1.3.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.1.57",
+        "repo": "https://github.com/embedchain/embedchain",
+        "type": [
+            "CWE-88",
+            "CWE-94"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-23731"
+        ],
+        "id": "GHSA-rhhj-5436-95vf",
+        "modified": "2024-01-26T21:34:39Z",
+        "fixed_tag": "0.1.57",
+        "vulnerable_tag": "0.1.56"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "23.0.4",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-9vm7-v8wj-3fqw",
+        "modified": "2024-01-23T14:43:50Z",
+        "fixed_tag": "23.0.4",
+        "vulnerable_tag": "23.0.3"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.8.1",
+        "repo": "https://github.com/apache/airflow",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-50943"
+        ],
+        "id": "GHSA-c3c6-f2ww-xfr2",
+        "modified": "2024-01-24T20:55:31Z",
+        "fixed_tag": "constraints-2.8.1rc1",
+        "vulnerable_tag": "2.8.0rc4"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "3.0.3",
+        "repo": "https://github.com/apache/superset",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-49657"
+        ],
+        "id": "GHSA-rwhh-6x83-84v6",
+        "modified": "2024-01-23T21:35:07Z",
+        "fixed_tag": "airbnb_prod.0.13.0.3",
+        "vulnerable_tag": "3.0.2rc2"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0.17.0",
+        "fixed_version": "0.19.1",
+        "repo": "https://github.com/LemmyNet/lemmy",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23649"
+        ],
+        "id": "GHSA-r64r-5h43-26qv",
+        "modified": "2024-01-24T21:13:39Z",
+        "fixed_tag": "0.19.1",
+        "vulnerable_tag": "0.17.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.9.0",
+        "repo": "https://github.com/clojure/clojure",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2017-20189"
+        ],
+        "id": "GHSA-jgxc-8mwq-9xqw",
+        "modified": "2024-01-22T21:25:52Z",
+        "fixed_tag": "clojure-1.9.0",
+        "vulnerable_tag": "clojure-1.8.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "2.37.0",
+        "fixed_version": "2.38.0",
+        "repo": "https://github.com/dexidp/dex",
+        "type": [
+            "CWE-326"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23656"
+        ],
+        "id": "GHSA-gr79-9v6v-gc9r",
+        "modified": "2024-01-26T01:57:31Z",
+        "fixed_tag": "v2.38.0",
+        "vulnerable_tag": "v2.37.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "688.v5fa",
+        "repo": "https://github.com/jenkinsci/gitlab-branch-source-plugin",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23902"
+        ],
+        "id": "GHSA-8r93-59cf-358f",
+        "modified": "2024-01-24T21:50:26Z",
+        "fixed_tag": "688.v5fa_356ee8520",
+        "vulnerable_tag": "684.vea_fa_7c1e2fe3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "0.9.0",
+        "repo": "https://github.com/jenkinsci/redhat-dependency-analytics-plugin",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23905"
+        ],
+        "id": "GHSA-x22x-5pp9-8v7f",
+        "modified": "2024-01-24T21:51:55Z",
+        "fixed_tag": "redhat-dependency-analytics-0.9.0",
+        "vulnerable_tag": "redhat-dependency-analytics-0.7.1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.0.6",
+        "repo": "https://github.com/jenkinsci/qualys-pc-plugin",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-6148"
+        ],
+        "id": "GHSA-rwf9-8fqr-p44m",
+        "modified": "2024-01-24T19:14:18Z",
+        "fixed_tag": "qualys-pc-1.0.6",
+        "vulnerable_tag": "qualys-pc-1.0.5"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.11.2",
+        "repo": "https://github.com/ls1intum/Ares",
+        "type": [
+            "CWE-284",
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23681"
+        ],
+        "id": "GHSA-c4pg-5ggh-vcpp",
+        "modified": "2024-01-26T20:28:48Z",
+        "fixed_tag": "1.11.2",
+        "vulnerable_tag": "1.11.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "14.0.0",
+        "fixed_version": "14.2.4",
+        "repo": "https://github.com/gravitational/teleport",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-vfxf-76hv-v4w4",
+        "modified": "2024-01-23T12:49:53Z",
+        "fixed_tag": "v14.2.4-dev.atburke.1",
+        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0.39.14",
+        "fixed_version": "0.45.13",
+        "repo": "https://github.com/dgtlmoon/changedetection.io",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-23329"
+        ],
+        "id": "GHSA-hcvp-2cc7-jrwr",
+        "modified": "2024-01-23T12:50:59Z",
+        "fixed_tag": "0.45.13",
+        "vulnerable_tag": "0.39.14.1"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0",
+        "fixed_version": "0.9.5",
+        "repo": "https://github.com/mcginty/snow",
+        "type": [
+            "CWE-440"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-7g9j-g5jg-3vv3",
+        "modified": "2024-01-24T20:53:48Z",
+        "fixed_tag": "v0.9.5",
+        "vulnerable_tag": "v0.9.4"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.1.2",
+        "repo": "https://github.com/nautobot/nautobot",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23345"
+        ],
+        "id": "GHSA-v4xv-795h-rv4h",
+        "modified": "2024-01-23T14:44:22Z",
+        "fixed_tag": "v2.1.2",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "14.0.0",
+        "fixed_version": "14.2.4",
+        "repo": "https://github.com/gravitational/teleport",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-hw4x-mcx5-9q36",
+        "modified": "2024-01-23T12:50:39Z",
+        "fixed_tag": "v14.2.4-dev.atburke.1",
+        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "688.v5fa",
+        "repo": "https://github.com/jenkinsci/gitlab-branch-source-plugin",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23901"
+        ],
+        "id": "GHSA-fw9h-cxx9-gfq3",
+        "modified": "2024-01-24T21:49:51Z",
+        "fixed_tag": "688.v5fa_356ee8520",
+        "vulnerable_tag": "684.vea_fa_7c1e2fe3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "1.0.0",
+        "fixed_version": "1.3.2",
+        "repo": "https://github.com/pimcore/admin-ui-classic-bundle",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23646"
+        ],
+        "id": "GHSA-cwx6-4wmf-c6xv",
+        "modified": "2024-01-24T21:34:22Z",
+        "fixed_tag": "v1.3.2",
+        "vulnerable_tag": "v1.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "1.2.3",
+        "repo": "https://github.com/pimcore/admin-ui-classic-bundle",
+        "type": [
+            "CWE-74"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23648"
+        ],
+        "id": "GHSA-mrqg-mwh7-q94j",
+        "modified": "2024-01-24T20:54:49Z",
+        "fixed_tag": "v1.2.3",
+        "vulnerable_tag": "v1.2.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "10.2.0",
+        "repo": "https://github.com/python-pillow/Pillow",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-50447"
+        ],
+        "id": "GHSA-3f63-hfp8-52jq",
+        "modified": "2024-01-26T20:28:55Z",
+        "fixed_tag": "10.2.0",
+        "vulnerable_tag": "10.1.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.0",
+        "repo": "https://github.com/ipb-halle/MolecularFaces",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-0758"
+        ],
+        "id": "GHSA-wc6f-qjxc-622v",
+        "modified": "2024-01-26T19:58:37Z",
+        "fixed_tag": "v0.3.0",
+        "vulnerable_tag": "v0.2.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.8.1",
+        "repo": "https://github.com/apache/airflow",
+        "type": [
+            "CWE-862"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-50944"
+        ],
+        "id": "GHSA-vm5m-qmrx-fw8w",
+        "modified": "2024-01-24T21:01:04Z",
+        "fixed_tag": "constraints-2.8.1rc1",
+        "vulnerable_tag": "2.8.0rc4"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.3.7",
+        "repo": "https://github.com/silverstripe/silverstripe-graphql",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-44401"
+        ],
+        "id": "GHSA-jgph-w8rh-xf5p",
+        "modified": "2024-01-25T22:19:28Z",
+        "fixed_tag": "4.3.7",
+        "vulnerable_tag": "4.0.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "5.12.0",
+        "repo": "https://github.com/sofastack/sofa-rpc",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-23636"
+        ],
+        "id": "GHSA-7q8p-9953-pxvr",
+        "modified": "2024-01-23T20:10:20Z",
+        "fixed_tag": "v5.12.0",
+        "vulnerable_tag": "v5.11.1"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "3.0.1",
+        "repo": "https://github.com/longbridgeapp/rust-i18n",
+        "type": [
+            "CWE-416"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-c8v3-jhv9-4ppc",
+        "modified": "2024-01-23T20:10:48Z",
+        "fixed_tag": "v3.0.1",
+        "vulnerable_tag": "v3.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "4.13.39",
+        "repo": "https://github.com/silverstripe/silverstripe-framework",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-48714"
+        ],
+        "id": "GHSA-qm2j-qvq3-j29v",
+        "modified": "2024-01-23T19:00:41Z",
+        "fixed_tag": "4.13.39",
+        "vulnerable_tag": "4.13.38"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2.3.0",
+        "fixed_version": "2.6.1",
+        "repo": "https://github.com/apache/airflow",
+        "type": [
+            "CWE-312"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-51702"
+        ],
+        "id": "GHSA-mg2x-mggj-6955",
+        "modified": "2024-01-24T21:13:06Z",
+        "fixed_tag": "constraints-2.6.1rc3",
+        "vulnerable_tag": "2.3.0rc1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.0.3",
+        "repo": "https://github.com/folio-org/mod-remote-storage",
+        "type": [
+            "CWE-798"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23685"
+        ],
+        "id": "GHSA-hv5g-q4h3-64q4",
+        "modified": "2024-01-26T19:58:39Z",
+        "fixed_tag": "v2.0.3",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "11.0.0",
+        "repo": "https://github.com/kjur/jsrsasign",
+        "type": [
+            "CWE-203"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-21484"
+        ],
+        "id": "GHSA-rh63-9qcf-83gf",
+        "modified": "2024-01-22T20:29:14Z",
+        "fixed_tag": "11.0.0",
+        "vulnerable_tag": "10.9.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "5.76.0",
+        "repo": "https://github.com/TryGhost/Ghost",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23725"
+        ],
+        "id": "GHSA-fh38-9fgr-454w",
+        "modified": "2024-01-22T21:32:16Z",
+        "fixed_tag": "v5.76.0",
+        "vulnerable_tag": "v5.75.3"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.9.2",
+        "repo": "https://github.com/HumanSignal/label-studio",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-47115"
+        ],
+        "id": "GHSA-q68h-xwq5-mm7x",
+        "modified": "2024-01-24T14:21:29Z",
+        "fixed_tag": "1.9.2.post0",
+        "vulnerable_tag": "1.9.1.post0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.7.6",
+        "repo": "https://github.com/ls1intum/Ares",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-23683"
+        ],
+        "id": "GHSA-23rx-79r7-6cpx",
+        "modified": "2024-01-26T20:28:43Z",
+        "fixed_tag": "1.7.6",
+        "vulnerable_tag": "1.7.5"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0",
+        "fixed_version": "0.3.12",
+        "repo": "https://github.com/trillium-rs/trillium",
+        "type": [
+            "CWE-113"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23644"
+        ],
+        "id": "GHSA-9f9p-cp3c-72jf",
+        "modified": "2024-01-24T21:32:24Z",
+        "fixed_tag": "trillium-http-v0.3.12",
+        "vulnerable_tag": "trillium-http-v0.3.11"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "14.0.0",
+        "fixed_version": "14.2.4",
+        "repo": "https://github.com/gravitational/teleport",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-76cc-p55w-63g3",
+        "modified": "2024-01-23T12:50:23Z",
+        "fixed_tag": "v14.2.4-dev.atburke.1",
+        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.4.3",
+        "repo": "https://github.com/openfga/openfga",
+        "type": [
+            "CWE-770"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23820"
+        ],
+        "id": "GHSA-rxpw-85vw-fx87",
+        "modified": "2024-01-26T20:12:00Z",
+        "fixed_tag": "v1.4.3",
+        "vulnerable_tag": "v1.4.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "822.824.v14451b",
+        "repo": "https://github.com/jenkinsci/matrix-project-plugin",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-23900"
+        ],
+        "id": "GHSA-cjgm-9vc9-56mx",
+        "modified": "2024-01-24T21:48:53Z",
+        "fixed_tag": "822.824.v14451b_c0fd42",
+        "vulnerable_tag": "818.v7eb_e657db_924"
+    },
+    {
+        "language": "ruby",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/twbs/bootstrap",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-14042"
+        ],
+        "id": "GHSA-7mvr-5x2g-wfc8",
+        "modified": "2024-01-23T16:04:48Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.0.0",
+        "fixed_version": "4.4.46",
+        "repo": "https://github.com/contao/contao",
+        "type": [
+            "CWE-276"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-19712"
+        ],
+        "id": "GHSA-4mvc-qc5w-v5qr",
+        "modified": "2024-01-24T12:49:40Z",
+        "fixed_tag": "4.4.46",
+        "vulnerable_tag": "4.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.0.0",
+        "fixed_version": "3.5.18",
+        "repo": "https://github.com/cakephp/cakephp",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2019-11458"
+        ],
+        "id": "GHSA-qhrx-hcm6-pmrw",
+        "modified": "2024-01-24T10:42:16Z",
+        "fixed_tag": "3.5.18",
+        "vulnerable_tag": "3.0.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "4.1.3",
+        "fixed_version": "4.2.4",
+        "repo": "https://github.com/NaturalIntelligence/fast-xml-parser",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-34104"
+        ],
+        "id": "GHSA-6w63-h3fj-q4vw",
+        "modified": "2024-01-25T21:05:07Z",
+        "fixed_tag": "v4.2.4",
+        "vulnerable_tag": "v4.1.3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "23.0.3",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-6291"
+        ],
+        "id": "GHSA-mpwq-j3xf-7m5w",
+        "modified": "2024-01-26T20:28:52Z",
+        "fixed_tag": "23.0.3",
+        "vulnerable_tag": "23.0.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "2.9.0",
+        "repo": "https://github.com/json-path/JsonPath",
+        "type": [
+            "CWE-787"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-51074"
+        ],
+        "id": "GHSA-pfh2-hfmq-phg5",
+        "modified": "2024-01-22T17:12:12Z",
+        "fixed_tag": "json-path-2.9.0",
+        "vulnerable_tag": "json-path-2.8.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "6.5.1",
+        "repo": "https://github.com/jupyter/nbconvert",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2021-32862"
+        ],
+        "id": "GHSA-9jmq-rx5f-8jwq",
+        "modified": "2024-01-25T22:10:32Z",
+        "fixed_tag": "6.5.1",
+        "vulnerable_tag": "6.5.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2014-2571"
+        ],
+        "id": "GHSA-75c6-xqwr-v2r9",
+        "modified": "2024-01-24T21:14:09Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0124"
+        ],
+        "id": "GHSA-fc5p-vj3h-x7g4",
+        "modified": "2024-01-24T16:17:30Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3548"
+        ],
+        "id": "GHSA-f66h-6mj2-rwj2",
+        "modified": "2024-01-24T21:21:47Z",
+        "fixed_tag": "v2.4.11",
+        "vulnerable_tag": "v2.4.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-3275"
+        ],
+        "id": "GHSA-6922-5v25-p8jg",
+        "modified": "2024-01-26T01:18:53Z",
+        "fixed_tag": "v2.7.9",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0218"
+        ],
+        "id": "GHSA-ch68-5r37-p7c3",
+        "modified": "2024-01-24T16:22:56Z",
+        "fixed_tag": "v2.4.10",
+        "vulnerable_tag": "v2.4.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "1.9.0",
+        "fixed_version": "2.2.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2013-1834"
+        ],
+        "id": "GHSA-prrh-679x-79qh",
+        "modified": "2024-01-22T17:08:52Z",
+        "fixed_tag": "v2.2.8",
+        "vulnerable_tag": "v1.9.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2272"
+        ],
+        "id": "GHSA-5659-g9p4-354f",
+        "modified": "2024-01-25T20:57:47Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-0212"
+        ],
+        "id": "GHSA-jj3j-mhgc-g4m4",
+        "modified": "2024-01-25T20:33:54Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5264"
+        ],
+        "id": "GHSA-mm9q-3847-m48x",
+        "modified": "2024-01-26T01:54:17Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.8.0",
+        "fixed_version": "2.8.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2155"
+        ],
+        "id": "GHSA-32hg-73hp-vwc8",
+        "modified": "2024-01-26T20:14:34Z",
+        "fixed_tag": "v2.8.11",
+        "vulnerable_tag": "v2.8.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2158"
+        ],
+        "id": "GHSA-m882-j7gq-v9p7",
+        "modified": "2024-01-26T20:14:55Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v2.7.12"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2159"
+        ],
+        "id": "GHSA-cw72-69wq-f9f2",
+        "modified": "2024-01-26T20:48:53Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v3.2.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-3181"
+        ],
+        "id": "GHSA-622h-cjgg-5mx6",
+        "modified": "2024-01-26T01:13:10Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "3.6.4",
+        "repo": "https://github.com/igniterealtime/Openfire",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2009-1595"
+        ],
+        "id": "GHSA-r62w-x9pp-jrqp",
+        "modified": "2024-01-23T18:30:44Z",
+        "fixed_tag": "v3.6.4",
+        "vulnerable_tag": "v3.6.3"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.6.0",
+        "fixed_version": "2.6.6",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2014-7835"
+        ],
+        "id": "GHSA-vrf6-q7qj-69v5",
+        "modified": "2024-01-24T21:30:19Z",
+        "fixed_tag": "v2.6.6",
+        "vulnerable_tag": "v2.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2153"
+        ],
+        "id": "GHSA-mj85-3hqq-r6r9",
+        "modified": "2024-01-26T17:11:30Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v3.2.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-0213"
+        ],
+        "id": "GHSA-hhq7-jf2p-hw9c",
+        "modified": "2024-01-25T20:34:14Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2271"
+        ],
+        "id": "GHSA-v3wp-35g3-m9mm",
+        "modified": "2024-01-25T20:57:19Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-3180"
+        ],
+        "id": "GHSA-688p-pgj4-77hh",
+        "modified": "2024-01-26T01:11:25Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3617"
+        ],
+        "id": "GHSA-p5j7-26wj-423j",
+        "modified": "2024-01-24T21:25:00Z",
+        "fixed_tag": "v2.5.8",
+        "vulnerable_tag": "v2.5.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5341"
+        ],
+        "id": "GHSA-c2r4-f8qv-2v7v",
+        "modified": "2024-01-26T20:12:19Z",
+        "fixed_tag": "v2.7.11",
+        "vulnerable_tag": "v2.7.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7838"
+        ],
+        "id": "GHSA-43r4-vm25-qm78",
+        "modified": "2024-01-24T21:41:50Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.1.0",
+        "fixed_version": "2.1.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2012-6112"
+        ],
+        "id": "GHSA-fx5h-3786-h2w6",
+        "modified": "2024-01-25T20:27:58Z",
+        "fixed_tag": "v2.1.10",
+        "vulnerable_tag": "v2.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2014-3544"
+        ],
+        "id": "GHSA-c9jp-244j-vh78",
+        "modified": "2024-01-24T21:17:34Z",
+        "fixed_tag": "v2.4.11",
+        "vulnerable_tag": "v2.4.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5336"
+        ],
+        "id": "GHSA-grvw-qq2j-r898",
+        "modified": "2024-01-26T20:10:58Z",
+        "fixed_tag": "v2.7.11",
+        "vulnerable_tag": "v2.7.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-9059"
+        ],
+        "id": "GHSA-crcq-pw8h-9xwf",
+        "modified": "2024-01-25T20:28:13Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7836"
+        ],
+        "id": "GHSA-wpq5-q3mj-8f3r",
+        "modified": "2024-01-24T21:30:55Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2270"
+        ],
+        "id": "GHSA-fp4h-j22r-vwcv",
+        "modified": "2024-01-25T20:56:28Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2014-7830"
+        ],
+        "id": "GHSA-j4mr-vc54-h5pc",
+        "modified": "2024-01-24T21:27:09Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-0215"
+        ],
+        "id": "GHSA-fr9m-pjmm-qx9f",
+        "modified": "2024-01-25T20:43:35Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7837"
+        ],
+        "id": "GHSA-p3hj-cfhm-7g6v",
+        "modified": "2024-01-24T21:38:31Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.6.0",
+        "fixed_version": "2.6.6",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7834"
+        ],
+        "id": "GHSA-557f-2hv4-7jjm",
+        "modified": "2024-01-24T21:29:45Z",
+        "fixed_tag": "v2.6.6",
+        "vulnerable_tag": "v2.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0214"
+        ],
+        "id": "GHSA-48rq-vj58-2mh6",
+        "modified": "2024-01-24T16:20:36Z",
+        "fixed_tag": "v2.4.10",
+        "vulnerable_tag": "v2.4.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0126"
+        ],
+        "id": "GHSA-4wvg-7886-83gv",
+        "modified": "2024-01-24T16:18:04Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2266"
+        ],
+        "id": "GHSA-35pr-gqm6-r366",
+        "modified": "2024-01-25T20:52:25Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3546"
+        ],
+        "id": "GHSA-4c5g-w3gf-rf4f",
+        "modified": "2024-01-24T21:20:16Z",
+        "fixed_tag": "v2.4.11",
+        "vulnerable_tag": "v2.4.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.1.17",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-3850"
+        ],
+        "id": "GHSA-3fj7-9j8m-7r8g",
+        "modified": "2024-01-26T18:27:22Z",
+        "fixed_tag": "v3.1.17",
+        "vulnerable_tag": "v3.1.16"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0213"
+        ],
+        "id": "GHSA-h75f-hjcr-cvh8",
+        "modified": "2024-01-24T16:20:12Z",
+        "fixed_tag": "v2.4.10",
+        "vulnerable_tag": "v2.4.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2014-3541"
+        ],
+        "id": "GHSA-fccf-p8fx-vjj4",
+        "modified": "2024-01-24T21:17:06Z",
+        "fixed_tag": "v2.4.11",
+        "vulnerable_tag": "v2.4.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.3",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7831"
+        ],
+        "id": "GHSA-59j6-8g7w-prf7",
+        "modified": "2024-01-24T21:27:59Z",
+        "fixed_tag": "v2.7.3",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.8.0",
+        "fixed_version": "2.8.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-0216"
+        ],
+        "id": "GHSA-2jcw-r79x-4r5v",
+        "modified": "2024-01-25T20:43:53Z",
+        "fixed_tag": "v2.8.2",
+        "vulnerable_tag": "v2.8.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0127"
+        ],
+        "id": "GHSA-6p3g-hw27-qh44",
+        "modified": "2024-01-24T16:18:19Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.2.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2013-1835"
+        ],
+        "id": "GHSA-cc94-hwj3-rf65",
+        "modified": "2024-01-23T14:37:24Z",
+        "fixed_tag": "v2.2.8",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3553"
+        ],
+        "id": "GHSA-mg69-5q59-8jcg",
+        "modified": "2024-01-24T21:24:25Z",
+        "fixed_tag": "v2.5.7",
+        "vulnerable_tag": "v2.5.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.6.0",
+        "fixed_version": "2.6.3",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0217"
+        ],
+        "id": "GHSA-c3vx-v4x8-x894",
+        "modified": "2024-01-24T16:22:35Z",
+        "fixed_tag": "v2.6.3",
+        "vulnerable_tag": "v2.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-1493"
+        ],
+        "id": "GHSA-gphj-63h8-r9vq",
+        "modified": "2024-01-25T20:51:28Z",
+        "fixed_tag": "v2.6.8",
+        "vulnerable_tag": "v2.6.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-3274"
+        ],
+        "id": "GHSA-f7qm-q26p-6rr2",
+        "modified": "2024-01-26T01:18:29Z",
+        "fixed_tag": "v2.7.9",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5342"
+        ],
+        "id": "GHSA-6xpm-q8x9-j3rw",
+        "modified": "2024-01-26T20:12:44Z",
+        "fixed_tag": "v2.7.11",
+        "vulnerable_tag": "v2.7.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-0217"
+        ],
+        "id": "GHSA-p497-37fc-xvvc",
+        "modified": "2024-01-25T20:44:40Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.6.0",
+        "fixed_version": "2.6.6",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7848"
+        ],
+        "id": "GHSA-47cw-whh9-j2fq",
+        "modified": "2024-01-24T21:42:54Z",
+        "fixed_tag": "v2.6.6",
+        "vulnerable_tag": "v2.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.6",
+        "fixed_version": "3.6.4",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-285"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2019-10154"
+        ],
+        "id": "GHSA-ww45-x87c-wgff",
+        "modified": "2024-01-26T20:46:23Z",
+        "fixed_tag": "v3.6.4",
+        "vulnerable_tag": "v3.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-3174"
+        ],
+        "id": "GHSA-6r7x-6q98-qcqp",
+        "modified": "2024-01-26T01:04:46Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2013-7341"
+        ],
+        "id": "GHSA-j6c3-3c4w-qv8p",
+        "modified": "2024-01-23T17:51:27Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7833"
+        ],
+        "id": "GHSA-jq7x-gm9r-v8m7",
+        "modified": "2024-01-24T21:29:14Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-3176"
+        ],
+        "id": "GHSA-fqrg-vmvj-jv3x",
+        "modified": "2024-01-26T01:05:06Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-0211"
+        ],
+        "id": "GHSA-frhc-9hwc-x7j3",
+        "modified": "2024-01-25T20:33:31Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2268"
+        ],
+        "id": "GHSA-36cm-vrqh-8p98",
+        "modified": "2024-01-25T20:55:36Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-3179"
+        ],
+        "id": "GHSA-4ppg-2mx6-fqx9",
+        "modified": "2024-01-26T01:10:53Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5335"
+        ],
+        "id": "GHSA-hpmv-wvq3-gj27",
+        "modified": "2024-01-26T20:10:42Z",
+        "fixed_tag": "v2.7.11",
+        "vulnerable_tag": "v2.7.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.3",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-1391"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2014-7845"
+        ],
+        "id": "GHSA-9v64-447r-wch6",
+        "modified": "2024-01-24T21:21:56Z",
+        "fixed_tag": "v2.7.3",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.2.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2013-1836"
+        ],
+        "id": "GHSA-664q-mrxx-2x2v",
+        "modified": "2024-01-22T21:22:23Z",
+        "fixed_tag": "v2.2.8",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-3178"
+        ],
+        "id": "GHSA-9fmw-m4qx-6cq8",
+        "modified": "2024-01-26T01:05:29Z",
+        "fixed_tag": "v2.6.11",
+        "vulnerable_tag": "v2.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5269"
+        ],
+        "id": "GHSA-5729-822w-j342",
+        "modified": "2024-01-26T20:10:13Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.2.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2013-2082"
+        ],
+        "id": "GHSA-wp3g-pr4h-q6vv",
+        "modified": "2024-01-23T17:51:12Z",
+        "fixed_tag": "v2.2.10",
+        "vulnerable_tag": "v2.2.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5268"
+        ],
+        "id": "GHSA-h34c-px28-rjgw",
+        "modified": "2024-01-26T20:09:53Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2151"
+        ],
+        "id": "GHSA-r3fc-hx6q-g6cq",
+        "modified": "2024-01-26T20:14:11Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v2.7.12"
+    },
+    {
+        "language": "GitHub Actions",
+        "vulnerable_version": "0",
+        "fixed_version": "2.2.0",
+        "repo": "https://github.com/hashicorp/vault-action",
+        "type": [
+            "CWE-532"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2021-32074"
+        ],
+        "id": "GHSA-4mgv-m5cm-f9h7",
+        "modified": "2024-01-25T19:58:46Z",
+        "fixed_tag": "v2.2.0",
+        "vulnerable_tag": "v2.1.2"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.6.0",
+        "fixed_version": "2.6.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-2572"
+        ],
+        "id": "GHSA-267j-cwvg-j28c",
+        "modified": "2024-01-24T21:16:30Z",
+        "fixed_tag": "v2.6.2",
+        "vulnerable_tag": "v2.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.2.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2013-2081"
+        ],
+        "id": "GHSA-x3x8-fjw6-hccx",
+        "modified": "2024-01-23T17:50:52Z",
+        "fixed_tag": "v2.2.10",
+        "vulnerable_tag": "v2.2.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5266"
+        ],
+        "id": "GHSA-454r-4cjv-vc9h",
+        "modified": "2024-01-26T01:55:04Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-0214"
+        ],
+        "id": "GHSA-4jm2-c9jr-6prf",
+        "modified": "2024-01-25T20:34:40Z",
+        "fixed_tag": "v2.6.7",
+        "vulnerable_tag": "v2.6.6"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.8.0",
+        "fixed_version": "2.8.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2154"
+        ],
+        "id": "GHSA-fmq9-58q4-xjw5",
+        "modified": "2024-01-26T20:15:09Z",
+        "fixed_tag": "v2.8.11",
+        "vulnerable_tag": "v2.8.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.6.17",
+        "repo": "https://github.com/apache/ws-wss4j",
+        "type": [
+            "CWE-327"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2015-0226"
+        ],
+        "id": "GHSA-vjwc-5hfh-2vv5",
+        "modified": "2024-01-25T21:24:04Z",
+        "fixed_tag": "wss4j-1.6.17",
+        "vulnerable_tag": "wss4j-1.6.16"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2015-5267"
+        ],
+        "id": "GHSA-382v-gxj9-ffhc",
+        "modified": "2024-01-26T18:11:42Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.5.0",
+        "fixed_version": "2.5.7",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3547"
+        ],
+        "id": "GHSA-hwjv-mc78-cccj",
+        "modified": "2024-01-24T21:20:51Z",
+        "fixed_tag": "v2.5.7",
+        "vulnerable_tag": "v2.5.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-9060"
+        ],
+        "id": "GHSA-c87j-9rrq-h3j8",
+        "modified": "2024-01-25T20:29:27Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.6.0",
+        "fixed_version": "3.6.4",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-10133"
+        ],
+        "id": "GHSA-5xp2-rv4h-mm2q",
+        "modified": "2024-01-26T18:04:42Z",
+        "fixed_tag": "v3.6.4",
+        "vulnerable_tag": "v3.6.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.5.0",
+        "fixed_version": "2.5.5",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0129"
+        ],
+        "id": "GHSA-5rr5-fxhc-jv64",
+        "modified": "2024-01-24T16:19:45Z",
+        "fixed_tag": "v2.5.5",
+        "vulnerable_tag": "v2.5.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0122"
+        ],
+        "id": "GHSA-f9m9-494r-w36p",
+        "modified": "2024-01-23T17:51:44Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.5",
+        "fixed_version": "3.5.5",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-3851"
+        ],
+        "id": "GHSA-pj45-hp8h-289r",
+        "modified": "2024-01-26T19:27:03Z",
+        "fixed_tag": "v3.5.5",
+        "vulnerable_tag": "v3.5.18"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0125"
+        ],
+        "id": "GHSA-j465-7mp6-3xg3",
+        "modified": "2024-01-24T16:17:49Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7846"
+        ],
+        "id": "GHSA-468q-9cmp-76wc",
+        "modified": "2024-01-24T21:42:12Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2015-2273"
+        ],
+        "id": "GHSA-w77v-xpxr-c6pv",
+        "modified": "2024-01-26T01:04:24Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7847"
+        ],
+        "id": "GHSA-6vjg-2q57-rgfw",
+        "modified": "2024-01-24T21:42:34Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0216"
+        ],
+        "id": "GHSA-8rc7-4qfv-4484",
+        "modified": "2024-01-24T16:21:05Z",
+        "fixed_tag": "v2.4.10",
+        "vulnerable_tag": "v2.4.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2152"
+        ],
+        "id": "GHSA-6mxm-wpqv-675h",
+        "modified": "2024-01-26T20:47:42Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v3.2.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5339"
+        ],
+        "id": "GHSA-gmhr-6f43-7qpj",
+        "modified": "2024-01-26T20:11:33Z",
+        "fixed_tag": "v2.7.11",
+        "vulnerable_tag": "v2.7.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.6.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-2267"
+        ],
+        "id": "GHSA-cm4r-58pj-h2ph",
+        "modified": "2024-01-25T20:54:08Z",
+        "fixed_tag": "v2.6.9",
+        "vulnerable_tag": "v2.6.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.5.0",
+        "fixed_version": "3.5.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2018-14630"
+        ],
+        "id": "GHSA-c3pr-h96w-2jjg",
+        "modified": "2024-01-26T18:00:32Z",
+        "fixed_tag": "v3.5.2",
+        "vulnerable_tag": "v3.5.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "3.4.8",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-269"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2019-3849"
+        ],
+        "id": "GHSA-5wg9-5w3f-hxmh",
+        "modified": "2024-01-26T18:20:17Z",
+        "fixed_tag": "v3.4.8",
+        "vulnerable_tag": "v3.4.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.14",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2016-3734"
+        ],
+        "id": "GHSA-r867-v437-4rrm",
+        "modified": "2024-01-26T17:52:54Z",
+        "fixed_tag": "v2.7.14",
+        "vulnerable_tag": "v2.7.13"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.5.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-7832"
+        ],
+        "id": "GHSA-mphj-h2fc-62x3",
+        "modified": "2024-01-24T21:28:33Z",
+        "fixed_tag": "v2.5.9",
+        "vulnerable_tag": "v2.5.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2016-2156"
+        ],
+        "id": "GHSA-h8vc-v44p-5r2q",
+        "modified": "2024-01-26T20:13:14Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v2.7.12"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.7.13",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2016-2157"
+        ],
+        "id": "GHSA-f5pm-c4cw-563p",
+        "modified": "2024-01-26T20:13:43Z",
+        "fixed_tag": "v2.7.13",
+        "vulnerable_tag": "v2.7.12"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.11",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2014-3551"
+        ],
+        "id": "GHSA-m8f5-9wg8-2c3h",
+        "modified": "2024-01-24T21:23:37Z",
+        "fixed_tag": "v2.4.11",
+        "vulnerable_tag": "v2.4.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "3.6",
+        "fixed_version": "3.6.3",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-3852"
+        ],
+        "id": "GHSA-v2rh-5v88-rgvh",
+        "modified": "2024-01-26T19:28:27Z",
+        "fixed_tag": "v3.6.3",
+        "vulnerable_tag": "v3.6.10"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0123"
+        ],
+        "id": "GHSA-2vhr-4mhq-m35c",
+        "modified": "2024-01-23T17:51:55Z",
+        "fixed_tag": "v2.4.9",
+        "vulnerable_tag": "v2.4.8"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.10",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2015-5265"
+        ],
+        "id": "GHSA-44xp-wj24-9xxj",
+        "modified": "2024-01-26T01:54:41Z",
+        "fixed_tag": "v2.7.10",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.7.9",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2015-3272"
+        ],
+        "id": "GHSA-2hw2-h3mf-c2j9",
+        "modified": "2024-01-26T01:14:09Z",
+        "fixed_tag": "v2.7.9",
+        "vulnerable_tag": "v2.7.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0.1.0",
+        "fixed_version": "0.35.0",
+        "repo": "https://github.com/fluxcd/flux2",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-39272"
+        ],
+        "id": "GHSA-f4p5-x4vc-mh4v",
+        "modified": "2024-01-23T20:38:05Z",
+        "fixed_tag": "v0.35.0",
+        "vulnerable_tag": "v0.1.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0.40.0",
+        "fixed_version": "0.43.1",
+        "repo": "https://github.com/open-policy-agent/opa",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2022-36085"
+        ],
+        "id": "GHSA-f524-rf33-2jjr",
+        "modified": "2024-01-23T20:38:00Z",
+        "fixed_tag": "v0.43.1",
+        "vulnerable_tag": "v0.40.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "42.1.0",
+        "fixed_version": "42.3.3",
+        "repo": "https://github.com/pgjdbc/pgjdbc",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-673j-qm5f-xpv8",
+        "modified": "2024-01-22T19:35:00Z",
+        "fixed_tag": "REL42.3.3",
+        "vulnerable_tag": "REL42.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "10.3.1",
+        "repo": "https://github.com/pimcore/pimcore/",
+        "type": [
+            "CWE-200",
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2022-0565"
+        ],
+        "id": "GHSA-h9vc-2p9g-63gp",
+        "modified": "2024-01-26T00:35:40Z",
+        "fixed_tag": "v10.3.1",
+        "vulnerable_tag": "v10.3.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.7.0",
+        "fixed_version": "1.7.2",
+        "repo": "https://github.com/kubernetes/kube-state-metrics",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2019-17110"
+        ],
+        "id": "GHSA-2v6x-frw8-7r7f",
+        "modified": "2024-01-23T17:50:31Z",
+        "fixed_tag": "v1.7.2",
+        "vulnerable_tag": "v1.7.0"
+    },
+    {
+        "language": "ruby",
+        "vulnerable_version": "3.2.0",
+        "fixed_version": "3.2.1",
+        "repo": "https://github.com/ruby/date",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2021-41817"
+        ],
+        "id": "GHSA-qg54-694p-wgpp",
+        "modified": "2024-01-24T19:18:37Z",
+        "fixed_tag": "v3.2.1",
+        "vulnerable_tag": "v3.2.0"
+    },
+    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "7.3.19",
@@ -67,21 +2733,6 @@
         "vulnerable_tag": "0.3.0"
     },
     {
-        "language": "python",
-        "vulnerable_version": "4.0.0",
-        "fixed_version": "4.0.11",
-        "repo": "https://github.com/jupyterlab/jupyterlab",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-22420"
-        ],
-        "id": "GHSA-4m77-cmpx-vjc4",
-        "modified": "2024-01-19T20:24:09Z",
-        "fixed_tag": "v4.0.11",
-        "vulnerable_tag": "v4.0.0rc1"
-    },
-    {
         "language": "rust",
         "vulnerable_version": "0",
         "fixed_version": "1.1.1",
@@ -95,21 +2746,6 @@
         "modified": "2024-01-18T15:44:51Z",
         "fixed_tag": "v1.1.1",
         "vulnerable_tag": "v1.1.0"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "11.0.0",
-        "repo": "https://github.com/kjur/jsrsasign",
-        "type": [
-            "CWE-203"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-rh63-9qcf-83gf",
-        "modified": "2024-01-19T15:06:07Z",
-        "fixed_tag": "11.0.0",
-        "vulnerable_tag": "10.9.0"
     },
     {
         "language": "go",
@@ -144,38 +2780,6 @@
         "modified": "2024-01-17T20:28:50Z",
         "fixed_tag": "v6.5.7.4",
         "vulnerable_tag": "v6.5.7.3"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "6.0.7",
-        "repo": "https://github.com/plone/Plone",
-        "type": [
-            "CWE-1021"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-0669"
-        ],
-        "id": "GHSA-5xfx-55x4-j223",
-        "modified": "2024-01-19T16:02:32Z",
-        "fixed_tag": "6.0.7",
-        "vulnerable_tag": "6.0.6"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "4.0.0",
-        "fixed_version": "4.0.11",
-        "repo": "https://github.com/jupyterlab/jupyterlab",
-        "type": [],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-22421"
-        ],
-        "id": "GHSA-44cc-43rp-5947",
-        "modified": "2024-01-19T20:28:10Z",
-        "fixed_tag": "v4.0.11",
-        "vulnerable_tag": "v4.0.0rc1"
     },
     {
         "language": "rust",
@@ -290,21 +2894,6 @@
         "modified": "2024-01-17T20:32:35Z",
         "fixed_tag": "tracing-0.1.40",
         "vulnerable_tag": "tracing-0.1.38"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "1.0.0",
-        "fixed_version": "1.3.0",
-        "repo": "https://github.com/apache/iotdb",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-46226"
-        ],
-        "id": "GHSA-rxgg-273w-rfw7",
-        "modified": "2024-01-16T20:45:55Z",
-        "fixed_tag": "v1.3.0",
-        "vulnerable_tag": "v1.0.0"
     },
     {
         "language": "php",
@@ -1630,23 +4219,6 @@
         "modified": "2024-01-09T19:03:24Z",
         "fixed_tag": "v1.15.4",
         "vulnerable_tag": "v1.15.3"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "1.0.6",
-        "repo": "https://github.com/jenkinsci/qualys-pc-plugin",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-6148"
-        ],
-        "id": "GHSA-rwf9-8fqr-p44m",
-        "modified": "2024-01-12T23:22:11Z",
-        "fixed_tag": "qualys-pc-1.0.6",
-        "vulnerable_tag": "qualys-pc-1.0.5"
     },
     {
         "language": "php",
@@ -4566,19 +7138,6 @@
         "vulnerable_tag": "v2.5.2"
     },
     {
-        "language": "go",
-        "vulnerable_version": "14.0.0",
-        "fixed_version": "14.2.4",
-        "repo": "https://github.com/gravitational/teleport",
-        "type": [],
-        "severity": "CRITICAL",
-        "CVE_ID": [],
-        "id": "GHSA-76cc-p55w-63g3",
-        "modified": "2024-01-03T21:29:09Z",
-        "fixed_tag": "v14.2.4-dev.atburke.1",
-        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
-    },
-    {
         "language": "java",
         "vulnerable_version": "1.5.0",
         "fixed_version": "1.10.0",
@@ -4594,19 +7153,6 @@
         "modified": "2024-01-03T22:03:13Z",
         "fixed_tag": "1.10.0-RC0",
         "vulnerable_tag": "1.5.0-RC0"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "14.0.0",
-        "fixed_version": "14.2.4",
-        "repo": "https://github.com/gravitational/teleport",
-        "type": [],
-        "severity": "CRITICAL",
-        "CVE_ID": [],
-        "id": "GHSA-hw4x-mcx5-9q36",
-        "modified": "2024-01-03T21:28:37Z",
-        "fixed_tag": "v14.2.4-dev.atburke.1",
-        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
     },
     {
         "language": "csharp",
@@ -4832,19 +7378,6 @@
         "vulnerable_tag": "v2.5.2"
     },
     {
-        "language": "go",
-        "vulnerable_version": "14.0.0",
-        "fixed_version": "14.2.4",
-        "repo": "https://github.com/gravitational/teleport",
-        "type": [],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-c9v7-wmwj-vf6x",
-        "modified": "2024-01-03T21:29:33Z",
-        "fixed_tag": "v14.2.4-dev.atburke.1",
-        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
-    },
-    {
         "language": "python",
         "vulnerable_version": "0",
         "fixed_version": "2.6.0",
@@ -5046,19 +7579,6 @@
         "modified": "2024-01-03T19:38:54Z",
         "fixed_tag": "v2.25.2",
         "vulnerable_tag": "v2.25.1"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "14.0.0",
-        "fixed_version": "14.2.4",
-        "repo": "https://github.com/gravitational/teleport",
-        "type": [],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-vfxf-76hv-v4w4",
-        "modified": "2024-01-03T21:30:17Z",
-        "fixed_tag": "v14.2.4-dev.atburke.1",
-        "vulnerable_tag": "vv14.0.0-tcsc.test.02"
     },
     {
         "language": "csharp",
@@ -6083,23 +8603,6 @@
         "modified": "2023-12-19T17:22:31Z",
         "fixed_tag": "v2.14.2",
         "vulnerable_tag": "v2.14.1"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "23.0.3",
-        "repo": "https://github.com/keycloak/keycloak",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-6291"
-        ],
-        "id": "GHSA-mpwq-j3xf-7m5w",
-        "modified": "2023-12-21T18:25:30Z",
-        "fixed_tag": "23.0.3",
-        "vulnerable_tag": "23.0.2"
     },
     {
         "language": "java",
@@ -26534,23 +29037,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "4.0.0",
-        "fixed_version": "4.4.46",
-        "repo": "https://github.com/contao/contao",
-        "type": [
-            "CWE-276"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2019-19712"
-        ],
-        "id": "GHSA-4mvc-qc5w-v5qr",
-        "modified": "2023-09-20T19:22:55Z",
-        "fixed_tag": "4.4.46",
-        "vulnerable_tag": "4.0.0"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "2.7.0",
         "fixed_version": "2.7.51",
         "repo": "https://github.com/symfony/symfony",
@@ -39149,23 +41635,6 @@
         "vulnerable_tag": "15.0.2"
     },
     {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "6.5.1",
-        "repo": "https://github.com/jupyter/nbconvert",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2021-32862"
-        ],
-        "id": "GHSA-9jmq-rx5f-8jwq",
-        "modified": "2023-06-06T17:24:12Z",
-        "fixed_tag": "6.5.1",
-        "vulnerable_tag": "6.5.0"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "2.2.2",
@@ -46279,23 +48748,6 @@
         "modified": "2023-02-08T18:01:32Z",
         "fixed_tag": "2015.1.2",
         "vulnerable_tag": "2015.1.0rc2"
-    },
-    {
-        "language": "GitHub Actions",
-        "vulnerable_version": "0",
-        "fixed_version": "2.2.0",
-        "repo": "https://github.com/hashicorp/vault-action",
-        "type": [
-            "CWE-532"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2021-32074"
-        ],
-        "id": "GHSA-4mgv-m5cm-f9h7",
-        "modified": "2022-07-29T19:57:46Z",
-        "fixed_tag": "v2.2.0",
-        "vulnerable_tag": "v2.1.2"
     },
     {
         "language": "java",
@@ -57109,23 +59561,6 @@
         "modified": "2022-09-19T19:34:49Z",
         "fixed_tag": "v2.7.2",
         "vulnerable_tag": "v2.7.1"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0.40.0",
-        "fixed_version": "0.43.1",
-        "repo": "https://github.com/open-policy-agent/opa",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-36085"
-        ],
-        "id": "GHSA-f524-rf33-2jjr",
-        "modified": "2023-02-15T19:25:47Z",
-        "fixed_tag": "v0.43.1",
-        "vulnerable_tag": "v0.40.0"
     },
     {
         "language": "java",
@@ -76076,23 +78511,6 @@
         "vulnerable_tag": "v10.5.8"
     },
     {
-        "language": "go",
-        "vulnerable_version": "0.1.0",
-        "fixed_version": "0.35.0",
-        "repo": "https://github.com/fluxcd/flux2",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2022-39272"
-        ],
-        "id": "GHSA-f4p5-x4vc-mh4v",
-        "modified": "2023-02-14T21:24:24Z",
-        "fixed_tag": "v0.35.0",
-        "vulnerable_tag": "v0.1.0"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "3.1.8",
@@ -83750,24 +86168,6 @@
         "vulnerable_tag": "v1.5.1"
     },
     {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "10.3.1",
-        "repo": "https://github.com/pimcore/pimcore/",
-        "type": [
-            "CWE-200",
-            "CWE-79"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2022-0565"
-        ],
-        "id": "GHSA-h9vc-2p9g-63gp",
-        "modified": "2022-02-24T13:10:51Z",
-        "fixed_tag": "v10.3.1",
-        "vulnerable_tag": "v10.3.0"
-    },
-    {
         "language": "python",
         "vulnerable_version": "0",
         "fixed_version": "2.5.3",
@@ -83818,19 +86218,6 @@
         "modified": "2022-02-11T16:16:47Z",
         "fixed_tag": "1.0.2",
         "vulnerable_tag": "1.0.1"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "42.1.0",
-        "fixed_version": "42.3.3",
-        "repo": "https://github.com/pgjdbc/pgjdbc",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [],
-        "id": "GHSA-673j-qm5f-xpv8",
-        "modified": "2022-12-06T14:40:09Z",
-        "fixed_tag": "REL42.3.3",
-        "vulnerable_tag": "REL42.1.0"
     },
     {
         "language": "go",
@@ -95937,23 +98324,6 @@
         "modified": "2023-06-20T19:50:40Z",
         "fixed_tag": "server@4.7.4",
         "vulnerable_tag": "server@4.7.1"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "4.2.4",
-        "repo": "https://github.com/NaturalIntelligence/fast-xml-parser",
-        "type": [
-            "CWE-1333"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-34104"
-        ],
-        "id": "GHSA-6w63-h3fj-q4vw",
-        "modified": "2023-06-06T17:33:13Z",
-        "fixed_tag": "v4.2.4",
-        "vulnerable_tag": "v4.2.3"
     },
     {
         "language": "javascript",
@@ -127796,23 +130166,6 @@
         "vulnerable_tag": "v1.1.2"
     },
     {
-        "language": "ruby",
-        "vulnerable_version": "3.2.0",
-        "fixed_version": "3.2.1",
-        "repo": "https://github.com/ruby/date",
-        "type": [
-            "CWE-1333"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2021-41817"
-        ],
-        "id": "GHSA-qg54-694p-wgpp",
-        "modified": "2023-05-16T16:07:35Z",
-        "fixed_tag": "v3.2.1",
-        "vulnerable_tag": "v3.2.0"
-    },
-    {
         "language": "csharp",
         "vulnerable_version": "4.0.0-alpha1",
         "fixed_version": "10.0-alpha1",
@@ -131956,23 +134309,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "3.0.0",
-        "fixed_version": "3.5.18",
-        "repo": "https://github.com/cakephp/cakephp",
-        "type": [
-            "CWE-502"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2019-11458"
-        ],
-        "id": "GHSA-qhrx-hcm6-pmrw",
-        "modified": "2023-01-17T13:55:02Z",
-        "fixed_tag": "3.5.18",
-        "vulnerable_tag": "3.0.0"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "5.0.0",
         "fixed_version": "5.0.13",
         "repo": "https://github.com/PHPSocialNetwork/phpfastcache",
@@ -133411,23 +135747,6 @@
         "modified": "2021-09-01T22:13:13Z",
         "fixed_tag": "v3.0.3",
         "vulnerable_tag": "v3.0.2"
-    },
-    {
-        "language": "ruby",
-        "vulnerable_version": "0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/twbs/bootstrap",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2018-14042"
-        ],
-        "id": "GHSA-7mvr-5x2g-wfc8",
-        "modified": "2023-01-23T20:48:55Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.1"
     },
     {
         "language": "python",
