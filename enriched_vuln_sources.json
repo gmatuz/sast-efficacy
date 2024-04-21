@@ -1,16 +1,1705 @@
 [
     {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "4.2.0-rc2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-610",
+            "CWE-73"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-30943"
+        ],
+        "id": "GHSA-22gj-8qj2-fj46",
+        "modified": "2024-04-19T16:22:11Z",
+        "fixed_tag": "v4.2.0-rc2",
+        "vulnerable_tag": "v4.2.0-rc1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "4.2.0-rc2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-30944"
+        ],
+        "id": "GHSA-7mmc-22g7-3xq2",
+        "modified": "2024-04-19T16:22:14Z",
+        "fixed_tag": "v4.2.0-rc2",
+        "vulnerable_tag": "v4.2.0-rc1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5",
+        "repo": "https://github.com/apache/commons-fileupload",
+        "type": [
+            "CWE-770"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-24998"
+        ],
+        "id": "GHSA-hfrx-6qgj-fp6c",
+        "modified": "2024-04-18T17:14:07Z",
+        "fixed_tag": "commons-fileupload-1.5",
+        "vulnerable_tag": "commons-fileupload-1.4"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.2.0",
+        "fixed_version": "4.2.1",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-918"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-35133"
+        ],
+        "id": "GHSA-xxp4-mf4h-6cwm",
+        "modified": "2024-04-19T16:22:21Z",
+        "fixed_tag": "v4.2.1",
+        "vulnerable_tag": "v4.2.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.2.0",
+        "fixed_version": "4.2.1",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-35132"
+        ],
+        "id": "GHSA-49mv-vfcp-8gg9",
+        "modified": "2024-04-19T16:22:19Z",
+        "fixed_tag": "v4.2.1",
+        "vulnerable_tag": "v4.2.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.2.0",
+        "fixed_version": "4.2.1",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-35131"
+        ],
+        "id": "GHSA-fwfj-8p36-rc64",
+        "modified": "2024-04-19T16:22:16Z",
+        "fixed_tag": "v4.2.1",
+        "vulnerable_tag": "v4.2.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-28330"
+        ],
+        "id": "GHSA-56r9-72vx-q989",
+        "modified": "2024-04-19T16:22:09Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-352"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-28335"
+        ],
+        "id": "GHSA-wxmq-v9gx-75pg",
+        "modified": "2024-04-19T15:30:46Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200",
+            "CWE-639"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-28334"
+        ],
+        "id": "GHSA-hh52-g5c4-wprh",
+        "modified": "2024-04-19T15:30:46Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200",
+            "CWE-668"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-28336"
+        ],
+        "id": "GHSA-prjm-2fj2-787f",
+        "modified": "2024-04-19T16:21:33Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-28331"
+        ],
+        "id": "GHSA-77jm-f3vj-xvx2",
+        "modified": "2024-04-19T16:22:07Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-28332"
+        ],
+        "id": "GHSA-9f45-9qrw-pp4v",
+        "modified": "2024-04-19T16:22:05Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-200",
+            "CWE-668"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-1402"
+        ],
+        "id": "GHSA-vj5p-fp42-774p",
+        "modified": "2024-04-19T16:27:29Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-28329"
+        ],
+        "id": "GHSA-72w2-j52c-7682",
+        "modified": "2024-04-19T16:27:26Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.1.2",
+        "repo": "https://github.com/moodle/moodle",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2023-28333"
+        ],
+        "id": "GHSA-q2x3-2f9g-h559",
+        "modified": "2024-04-19T16:22:00Z",
+        "fixed_tag": "v4.1.2",
+        "vulnerable_tag": "v4.1.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.9.0",
+        "repo": "https://github.com/mlflow/mlflow",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-6568"
+        ],
+        "id": "GHSA-vwhf-3v6x-wff8",
+        "modified": "2024-04-16T18:49:18Z",
+        "fixed_tag": "v2.9.0",
+        "vulnerable_tag": "v2.8.1"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.5.1",
+        "repo": "https://github.com/latchset/jwcrypto",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-6681"
+        ],
+        "id": "GHSA-cw2r-4p82-qv79",
+        "modified": "2024-04-18T18:34:06Z",
+        "fixed_tag": "v1.5.1",
+        "vulnerable_tag": "v1.5.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0.7.1",
+        "fixed_version": "2.3.3",
+        "repo": "https://github.com/apache/hive",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-1282"
+        ],
+        "id": "GHSA-jf2m-435m-mxw8",
+        "modified": "2024-04-19T19:31:01Z",
+        "fixed_tag": "release-2.3.3",
+        "vulnerable_tag": "release-0.7.1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "2.3.0",
+        "fixed_version": "2.3.3",
+        "repo": "https://github.com/spring-attic/spring-security-oauth",
+        "type": [
+            "CWE-94"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-1260"
+        ],
+        "id": "GHSA-rrpm-pj7p-7j9q",
+        "modified": "2024-04-19T19:18:15Z",
+        "fixed_tag": "2.3.3.RELEASE",
+        "vulnerable_tag": "2.3.0.RELEASE"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "2.4",
+        "repo": "https://github.com/apache/ignite",
+        "type": [
+            "CWE-502"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2018-1295"
+        ],
+        "id": "GHSA-chp4-rv79-68j3",
+        "modified": "2024-04-19T19:24:01Z",
+        "fixed_tag": "2.4.0",
+        "vulnerable_tag": "2.3.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "4.17.21",
+        "repo": "https://github.com/lodash/lodash",
+        "type": [
+            "CWE-77",
+            "CWE-94"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2021-23337"
+        ],
+        "id": "GHSA-35jh-r3h4-6jhm",
+        "modified": "2024-04-17T18:39:17Z",
+        "fixed_tag": "4.17.21",
+        "vulnerable_tag": "4.17.20"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2",
+        "fixed_version": "2.11.1",
+        "repo": "https://github.com/scrapy/scrapy",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1892"
+        ],
+        "id": "GHSA-cc65-xxvf-f7r9",
+        "modified": "2024-04-16T16:10:57Z",
+        "fixed_tag": "2.11.1",
+        "vulnerable_tag": "scrapy-0.25.1-sc"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "4.6.0",
+        "fixed_version": "5.11.6",
+        "repo": "https://github.com/NuGet/NuGet.Client",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-0057"
+        ],
+        "id": "GHSA-68w7-72jg-6qpp",
+        "modified": "2024-04-16T15:37:56Z",
+        "fixed_tag": "5.11.6.4",
+        "vulnerable_tag": "4.6.0.4954"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.11.1",
+        "repo": "https://github.com/scrapy/scrapy",
+        "type": [
+            "CWE-409"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-3572"
+        ],
+        "id": "GHSA-7j7m-v7m3-jqm7",
+        "modified": "2024-04-16T14:05:17Z",
+        "fixed_tag": "2.11.1",
+        "vulnerable_tag": "2.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "3.2.24",
+        "repo": "https://github.com/django/django",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-24680"
+        ],
+        "id": "GHSA-xxj9-f6rv-m3x4",
+        "modified": "2024-04-20T03:30:33Z",
+        "fixed_tag": "3.2.24",
+        "vulnerable_tag": "3.2.23"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "6.0.0",
+        "fixed_version": "6.6.1",
+        "repo": "https://github.com/nodejs/undici",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-24750"
+        ],
+        "id": "GHSA-9f24-jqhm-jfcw",
+        "modified": "2024-04-19T09:30:47Z",
+        "fixed_tag": "v6.6.1",
+        "vulnerable_tag": "v6.0.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "5.28.3",
+        "repo": "https://github.com/nodejs/undici",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-24758"
+        ],
+        "id": "GHSA-3787-6prv-h9w3",
+        "modified": "2024-04-19T09:30:47Z",
+        "fixed_tag": "v5.28.3",
+        "vulnerable_tag": "v5.28.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "42.7.0",
+        "fixed_version": "42.7.2",
+        "repo": "https://github.com/pgjdbc/pgjdbc",
+        "type": [
+            "CWE-89"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-xfg6-62px-cxc2",
+        "modified": "2024-04-19T09:30:47Z",
+        "fixed_tag": "REL42.7.2",
+        "vulnerable_tag": "REL42.7.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2",
+        "fixed_version": "2.11.1",
+        "repo": "https://github.com/scrapy/scrapy",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-3574"
+        ],
+        "id": "GHSA-cw9j-q3vf-hrrv",
+        "modified": "2024-04-16T14:05:51Z",
+        "fixed_tag": "2.11.1",
+        "vulnerable_tag": "scrapy-0.25.1-sc"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "5.5.1",
+        "fixed_version": "5.6.2",
+        "repo": "https://github.com/agronholm/cbor2",
+        "type": [
+            "CWE-120"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-26134"
+        ],
+        "id": "GHSA-375g-39jq-vq7m",
+        "modified": "2024-04-20T00:31:52Z",
+        "fixed_tag": "5.6.2",
+        "vulnerable_tag": "5.5.1"
+    },
+    {
         "language": "csharp",
         "vulnerable_version": "0",
         "fixed_version": "5.7.0",
         "repo": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
-        "type": [],
+        "type": [
+            "CWE-20"
+        ],
         "severity": "MODERATE",
         "CVE_ID": [],
         "id": "GHSA-8g9c-28fc-mcx2",
-        "modified": "2024-04-11T20:42:09Z",
+        "modified": "2024-04-15T19:42:18Z",
         "fixed_tag": "5.7.0",
         "vulnerable_tag": "5.6.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "12.0.0",
+        "repo": "https://github.com/evmos/evmos",
+        "type": [],
+        "severity": "CRITICAL",
+        "CVE_ID": [],
+        "id": "GHSA-v6rw-hhgg-wc4x",
+        "modified": "2024-04-17T17:35:21Z",
+        "fixed_tag": "v12.0.0",
+        "vulnerable_tag": "v11.0.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-20",
+            "CWE-601",
+            "CWE-79"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2023-6717"
+        ],
+        "id": "GHSA-8rmm-gm28-pj8q",
+        "modified": "2024-04-17T17:33:04Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-284",
+            "CWE-287",
+            "CWE-290",
+            "CWE-347"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-0657"
+        ],
+        "id": "GHSA-7fpj-9hr8-28vh",
+        "modified": "2024-04-17T18:25:59Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "2.16.3",
+        "repo": "https://github.com/edgelesssys/constellation",
+        "type": [
+            "CWE-940"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-g8fc-vrcg-8vjg",
+        "modified": "2024-04-15T18:13:15Z",
+        "fixed_tag": "v2.16.3",
+        "vulnerable_tag": "v2.16.2"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "2.11.2",
+        "repo": "https://github.com/traefik/traefik",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-7f4j-64p6-5h5v",
+        "modified": "2024-04-15T18:14:51Z",
+        "fixed_tag": "v2.11.2",
+        "vulnerable_tag": "v2.11.1"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "1.91.0",
+        "fixed_version": "1.91.3",
+        "repo": "https://github.com/solana-labs/solana-web3.js",
+        "type": [
+            "CWE-119"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-30253"
+        ],
+        "id": "GHSA-8m45-2rjm-j347",
+        "modified": "2024-04-17T21:29:10Z",
+        "fixed_tag": "v1.91.3",
+        "vulnerable_tag": "v1.91.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.10.0",
+        "repo": "https://github.com/mlflow/mlflow",
+        "type": [
+            "CWE-29"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-3573"
+        ],
+        "id": "GHSA-hq88-wg7q-gp4g",
+        "modified": "2024-04-16T18:20:36Z",
+        "fixed_tag": "v2.10.0",
+        "vulnerable_tag": "v2.9.2"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-346"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1249"
+        ],
+        "id": "GHSA-m6q9-p373-g5q8",
+        "modified": "2024-04-17T18:31:32Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-6544"
+        ],
+        "id": "GHSA-46c8-635v-68r2",
+        "modified": "2024-04-17T17:33:29Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "1.10.3",
+        "repo": "https://github.com/1Panel-dev/1Panel",
+        "type": [
+            "CWE-203"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-30257"
+        ],
+        "id": "GHSA-6m9h-2pr2-9j8f",
+        "modified": "2024-04-18T16:44:16Z",
+        "fixed_tag": "v1.10.3-lts",
+        "vulnerable_tag": "v1.10.2-lts"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "6.7.4",
+        "repo": "https://github.com/tecnickcom/TCPDF",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32489"
+        ],
+        "id": "GHSA-g9wg-98c2-qv3v",
+        "modified": "2024-04-15T18:12:08Z",
+        "fixed_tag": "6.7.4",
+        "vulnerable_tag": "6.6.2"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "4.13.0",
+        "repo": "https://github.com/gradio-app/gradio",
+        "type": [
+            "CWE-29"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1561"
+        ],
+        "id": "GHSA-g9cj-cfpp-4g2x",
+        "modified": "2024-04-16T18:21:39Z",
+        "fixed_tag": "gradio@4.13.0",
+        "vulnerable_tag": "gradio@4.12.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "3.0.0-beta3",
+        "fixed_version": "3.0.0-rc5",
+        "repo": "https://github.com/traefik/traefik",
+        "type": [
+            "CWE-404",
+            "CWE-755"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-28869"
+        ],
+        "id": "GHSA-4vwx-54mw-vqfw",
+        "modified": "2024-04-15T19:41:13Z",
+        "fixed_tag": "v3.0.0-rc5",
+        "vulnerable_tag": "v3.0.0-beta3"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1132"
+        ],
+        "id": "GHSA-72vp-xfrc-42xm",
+        "modified": "2024-04-17T18:31:32Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "3.9.0.CR1",
+        "fixed_version": "3.9.2",
+        "repo": "https://github.com/quarkusio/quarkus",
+        "type": [
+            "CWE-526"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-2700"
+        ],
+        "id": "GHSA-f8h5-v2vg-46rr",
+        "modified": "2024-04-18T18:36:05Z",
+        "fixed_tag": "3.9.2",
+        "vulnerable_tag": "3.9.0.CR1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "2.4.0",
+        "fixed_version": "2.8.16",
+        "repo": "https://github.com/argoproj/argo-cd",
+        "type": [
+            "CWE-863"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-31990"
+        ],
+        "id": "GHSA-2gvw-w6fj-7m3c",
+        "modified": "2024-04-15T21:37:22Z",
+        "fixed_tag": "v2.8.16",
+        "vulnerable_tag": "v2.4.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-287",
+            "CWE-288"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-3597"
+        ],
+        "id": "GHSA-4f53-xh3v-g8x4",
+        "modified": "2024-04-17T17:31:50Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "1.3.0",
+        "fixed_version": "1.10.1",
+        "repo": "https://github.com/honojs/node-server",
+        "type": [
+            "CWE-755"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-32652"
+        ],
+        "id": "GHSA-hgxw-5xg3-69jx",
+        "modified": "2024-04-19T21:44:10Z",
+        "fixed_tag": "v1.10.1",
+        "vulnerable_tag": "v1.3.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "1.2.5",
+        "repo": "https://github.com/bentoml/BentoML",
+        "type": [
+            "CWE-1188"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-2912"
+        ],
+        "id": "GHSA-hvj5-mvw9-93j3",
+        "modified": "2024-04-16T18:24:33Z",
+        "fixed_tag": "v1.2.5",
+        "vulnerable_tag": "v1.2.4"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "2.1.8",
+        "repo": "https://github.com/SixLabors/ImageSharp",
+        "type": [
+            "CWE-226"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32036"
+        ],
+        "id": "GHSA-5x7m-6737-26cr",
+        "modified": "2024-04-16T22:58:51Z",
+        "fixed_tag": "v2.1.8",
+        "vulnerable_tag": "v2.1.7"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "24.3.0",
+        "fixed_version": "24.4.1",
+        "repo": "https://github.com/getsentry/sentry",
+        "type": [
+            "CWE-117",
+            "CWE-312"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-32474"
+        ],
+        "id": "GHSA-6cjm-4pxw-7xp9",
+        "modified": "2024-04-19T21:43:14Z",
+        "fixed_tag": "24.4.1",
+        "vulnerable_tag": "24.3.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "1.23.12",
+        "repo": "https://github.com/louislam/uptime-kuma",
+        "type": [
+            "CWE-384"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [],
+        "id": "GHSA-23q2-5gf8-gjpp",
+        "modified": "2024-04-19T17:26:32Z",
+        "fixed_tag": "1.23.12",
+        "vulnerable_tag": "1.23.11"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.5.0",
+        "repo": "https://github.com/andialbrecht/sqlparse",
+        "type": [
+            "CWE-674"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-2m57-hf25-phgg",
+        "modified": "2024-04-15T20:21:25Z",
+        "fixed_tag": "0.5.0",
+        "vulnerable_tag": "0.4.4"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "2.1.8",
+        "repo": "https://github.com/SixLabors/ImageSharp",
+        "type": [
+            "CWE-789"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32035"
+        ],
+        "id": "GHSA-g85r-6x2q-45w7",
+        "modified": "2024-04-15T21:37:24Z",
+        "fixed_tag": "v2.1.8",
+        "vulnerable_tag": "v2.1.7"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.1.1",
+        "repo": "https://github.com/amphp/http",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-2653"
+        ],
+        "id": "GHSA-qjfw-cvjf-f4fm",
+        "modified": "2024-04-17T17:05:41Z",
+        "fixed_tag": "v2.1.1",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "4.10.0",
+        "repo": "https://github.com/gradio-app/gradio",
+        "type": [
+            "CWE-601"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-1183"
+        ],
+        "id": "GHSA-qh6x-j82h-vpf9",
+        "modified": "2024-04-16T18:05:45Z",
+        "fixed_tag": "gradio@4.10.0",
+        "vulnerable_tag": "gradio@4.9.1"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "13.0.0",
+        "fixed_version": "13.1.1",
+        "repo": "https://github.com/umbraco/Umbraco-CMS",
+        "type": [
+            "CWE-918"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-29035"
+        ],
+        "id": "GHSA-74p6-39f2-23v3",
+        "modified": "2024-04-17T18:20:28Z",
+        "fixed_tag": "13.1.1",
+        "vulnerable_tag": "release-13.0.0"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0.23.0",
+        "fixed_version": "0.23.5",
+        "repo": "https://github.com/rustls/rustls",
+        "type": [
+            "CWE-835"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-32650"
+        ],
+        "id": "GHSA-6g7w-8wpp-frhj",
+        "modified": "2024-04-19T19:46:57Z",
+        "fixed_tag": "0.23.5",
+        "vulnerable_tag": "0.23.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "6.0.29",
+        "repo": "https://github.com/dotnet/wpf",
+        "type": [
+            "CWE-416"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-21409"
+        ],
+        "id": "GHSA-6qmx-42h2-j8h6",
+        "modified": "2024-04-17T18:21:57Z",
+        "fixed_tag": "v6.0.29",
+        "vulnerable_tag": "v6.0.28"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0.16.0",
+        "fixed_version": "0.16.4",
+        "repo": "https://github.com/excalidraw/excalidraw",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32472"
+        ],
+        "id": "GHSA-m64q-4jqh-f72f",
+        "modified": "2024-04-18T00:31:04Z",
+        "fixed_tag": "v0.16.4",
+        "vulnerable_tag": "v0.16.0"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "0",
+        "fixed_version": "1.8.1",
+        "repo": "https://github.com/open-telemetry/opentelemetry-dotnet",
+        "type": [
+            "CWE-201",
+            "CWE-212"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32028"
+        ],
+        "id": "GHSA-vh2m-22xx-q94f",
+        "modified": "2024-04-15T19:41:05Z",
+        "fixed_tag": "core-1.8.1",
+        "vulnerable_tag": "Instrumentation.AspNetCore-1.8.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "5.3.34",
+        "repo": "https://github.com/spring-projects/spring-framework",
+        "type": [],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-22262"
+        ],
+        "id": "GHSA-2wrp-6fg6-hmc5",
+        "modified": "2024-04-16T16:15:13Z",
+        "fixed_tag": "v5.3.34",
+        "vulnerable_tag": "v5.3.33"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.5.0",
+        "fixed_version": "1.5.3",
+        "repo": "https://github.com/openfga/openfga",
+        "type": [
+            "CWE-285",
+            "CWE-863"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-31452"
+        ],
+        "id": "GHSA-8cph-m685-6v6r",
+        "modified": "2024-04-17T17:05:28Z",
+        "fixed_tag": "v1.5.3",
+        "vulnerable_tag": "v1.5.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "12.10.1",
+        "repo": "https://github.com/aws-amplify/amplify-cli",
+        "type": [
+            "CWE-269"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-28056"
+        ],
+        "id": "GHSA-846g-p7hm-f54r",
+        "modified": "2024-04-15T20:25:04Z",
+        "fixed_tag": "v12.10.1",
+        "vulnerable_tag": "amplify-app@5.0.27-log-hooks-executor.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.56.2",
+        "repo": "https://github.com/zenml-io/zenml",
+        "type": [
+            "CWE-384"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-2260"
+        ],
+        "id": "GHSA-g3r5-72hf-p7p2",
+        "modified": "2024-04-16T18:23:34Z",
+        "fixed_tag": "0.56.2",
+        "vulnerable_tag": "0.56.1"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.0",
+        "repo": "https://github.com/benoitc/gunicorn",
+        "type": [
+            "CWE-444"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1135"
+        ],
+        "id": "GHSA-w3h3-4rj7-4ph4",
+        "modified": "2024-04-16T23:23:26Z",
+        "fixed_tag": "22.0.0",
+        "vulnerable_tag": "21.2.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "1.4.6",
+        "fixed_version": "1.4.21",
+        "repo": "https://github.com/zauberzeug/nicegui",
+        "type": [
+            "CWE-22",
+            "CWE-23"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-32005"
+        ],
+        "id": "GHSA-mwc7-64wg-pgvj",
+        "modified": "2024-04-15T19:41:53Z",
+        "fixed_tag": "v1.4.21",
+        "vulnerable_tag": "v1.4.6"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.55.5",
+        "repo": "https://github.com/zenml-io/zenml",
+        "type": [
+            "CWE-29"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-2083"
+        ],
+        "id": "GHSA-6h3f-43vq-53hj",
+        "modified": "2024-04-16T18:22:20Z",
+        "fixed_tag": "0.55.5",
+        "vulnerable_tag": "0.55.4"
+    },
+    {
+        "language": "csharp",
+        "vulnerable_version": "4.48.0",
+        "fixed_version": "4.59.1",
+        "repo": "https://github.com/AzureAD/microsoft-authentication-library-for-dotnet",
+        "type": [
+            "CWE-863",
+            "CWE-926"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-27086"
+        ],
+        "id": "GHSA-x674-v45j-fwxw",
+        "modified": "2024-04-17T17:05:22Z",
+        "fixed_tag": "4.59.1",
+        "vulnerable_tag": "4.48.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "3.9.4",
+        "repo": "https://github.com/aio-libs/aiohttp",
+        "type": [
+            "CWE-79"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-27306"
+        ],
+        "id": "GHSA-7gpw-8wmc-pm8g",
+        "modified": "2024-04-18T16:32:14Z",
+        "fixed_tag": "v3.9.4rc0",
+        "vulnerable_tag": "v3.9.3"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.0.353",
+        "repo": "https://github.com/langchain-ai/langchain",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-3571"
+        ],
+        "id": "GHSA-rgp8-pm28-3759",
+        "modified": "2024-04-16T18:26:53Z",
+        "fixed_tag": "v0.0.353",
+        "vulnerable_tag": "v0.0.352"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "2.0.0",
+        "repo": "https://github.com/matrix-org/matrix-appservice-irc",
+        "type": [
+            "CWE-280"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32000"
+        ],
+        "id": "GHSA-wm4w-7h2q-3pf7",
+        "modified": "2024-04-15T19:42:06Z",
+        "fixed_tag": "2.0.0",
+        "vulnerable_tag": "1.0.1"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "1.0.41",
+        "fixed_version": "1.12.3",
+        "repo": "https://github.com/andrei-tatar/nora-firebase-common",
+        "type": [
+            "CWE-1321"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-30564"
+        ],
+        "id": "GHSA-jjff-q3q4-5hh8",
+        "modified": "2024-04-18T16:58:17Z",
+        "fixed_tag": "v1.12.3",
+        "vulnerable_tag": "v1.0.41"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.11.1",
+        "repo": "https://github.com/scrapy/scrapy",
+        "type": [
+            "CWE-409"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-rmqv-7v3j-mr7p",
+        "modified": "2024-04-16T14:04:36Z",
+        "fixed_tag": "2.11.1",
+        "vulnerable_tag": "2.11.0"
+    },
+    {
+        "language": "rust",
+        "vulnerable_version": "0",
+        "fixed_version": "0.42.0",
+        "repo": "https://github.com/Byron/gitoxide",
+        "type": [
+            "CWE-77"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [],
+        "id": "GHSA-98p4-xjmm-8mfh",
+        "modified": "2024-04-15T19:33:03Z",
+        "fixed_tag": "gix-v0.42.0",
+        "vulnerable_tag": "gix-diff-v0.41.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "4.3.4",
+        "fixed_version": "4.4.8",
+        "repo": "https://github.com/eclipse-vertx/vert.x",
+        "type": [
+            "CWE-400"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-1300"
+        ],
+        "id": "GHSA-9ph3-v2vh-3qx7",
+        "modified": "2024-04-18T18:30:40Z",
+        "fixed_tag": "4.4.8",
+        "vulnerable_tag": "4.3.4"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-287",
+            "CWE-384",
+            "CWE-613"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2023-6787"
+        ],
+        "id": "GHSA-c9h6-v78w-52wj",
+        "modified": "2024-04-17T18:25:29Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.9",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-117"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2023-6484"
+        ],
+        "id": "GHSA-j628-q885-8gr5",
+        "modified": "2024-04-17T18:24:03Z",
+        "fixed_tag": "22.0.9",
+        "vulnerable_tag": "22.0.8"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "22.0.10",
+        "repo": "https://github.com/keycloak/keycloak",
+        "type": [
+            "CWE-346",
+            "CWE-601"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-2419"
+        ],
+        "id": "GHSA-mrv8-pqfj-7gp5",
+        "modified": "2024-04-17T18:31:32Z",
+        "fixed_tag": "22.0.10",
+        "vulnerable_tag": "22.0.9"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "0.10.24",
+        "repo": "https://github.com/run-llama/llama_index",
+        "type": [
+            "CWE-77"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-3271"
+        ],
+        "id": "GHSA-r6gp-rff2-p3hf",
+        "modified": "2024-04-16T18:26:15Z",
+        "fixed_tag": "v0.10.24",
+        "vulnerable_tag": "v0.10.23"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "2.7.0",
+        "fixed_version": "2.9.0",
+        "repo": "https://github.com/apache/airflow",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-31869"
+        ],
+        "id": "GHSA-2522-mrjc-m688",
+        "modified": "2024-04-18T16:57:45Z",
+        "fixed_tag": "constraints-2.9.0rc3",
+        "vulnerable_tag": "2.7.0rc1"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "2.0.0",
+        "fixed_version": "2.1.0",
+        "repo": "https://github.com/timber/timber",
+        "type": [
+            "CWE-502",
+            "CWE-73"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-29800"
+        ],
+        "id": "GHSA-6363-v5m4-fvq3",
+        "modified": "2024-04-18T16:32:20Z",
+        "fixed_tag": "v2.1.0",
+        "vulnerable_tag": "2.0.0"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "0",
+        "fixed_version": "17.0.0",
+        "repo": "https://github.com/evmos/evmos",
+        "type": [
+            "CWE-662"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-32644"
+        ],
+        "id": "GHSA-3fp5-2xwh-fxm6",
+        "modified": "2024-04-19T16:20:58Z",
+        "fixed_tag": "v17.0.0",
+        "vulnerable_tag": "v16.0.4"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "5.28.4",
+        "repo": "https://github.com/nodejs/undici",
+        "type": [
+            "CWE-200",
+            "CWE-285"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-30260"
+        ],
+        "id": "GHSA-m4v8-wqvr-p9f7",
+        "modified": "2024-04-20T00:31:52Z",
+        "fixed_tag": "v5.28.4",
+        "vulnerable_tag": "v5.28.3"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "5.28.4",
+        "repo": "https://github.com/nodejs/undici",
+        "type": [
+            "CWE-284"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-30261"
+        ],
+        "id": "GHSA-9qxr-qj54-h672",
+        "modified": "2024-04-20T00:31:52Z",
+        "fixed_tag": "v5.28.4",
+        "vulnerable_tag": "v5.28.3"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "26.0.0",
+        "fixed_version": "26.0.2",
+        "repo": "https://github.com/moby/moby",
+        "type": [
+            "CWE-668"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2024-32473"
+        ],
+        "id": "GHSA-x84c-p2g9-rqv9",
+        "modified": "2024-04-19T16:19:42Z",
+        "fixed_tag": "v26.0.2",
+        "vulnerable_tag": "v26.0.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "2.11.1",
+        "repo": "https://github.com/scrapy/scrapy",
+        "type": [
+            "CWE-200"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [],
+        "id": "GHSA-4q82-j5c2-g2c5",
+        "modified": "2024-04-16T14:05:36Z",
+        "fixed_tag": "2.11.1",
+        "vulnerable_tag": "2.11.0"
+    },
+    {
+        "language": "javascript",
+        "vulnerable_version": "0",
+        "fixed_version": "2.3.2",
+        "repo": "https://github.com/derbyjs/derby",
+        "type": [
+            "CWE-1321"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [],
+        "id": "GHSA-82jv-9wjw-pqh6",
+        "modified": "2024-04-17T22:26:37Z",
+        "fixed_tag": "v2.3.2",
+        "vulnerable_tag": "v2.3.1"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.5.9",
+        "fixed_version": "1.7.4",
+        "repo": "https://github.com/hashicorp/go-getter",
+        "type": [
+            "CWE-88"
+        ],
+        "severity": "CRITICAL",
+        "CVE_ID": [
+            "CVE-2024-3817"
+        ],
+        "id": "GHSA-q64h-39hv-4cf7",
+        "modified": "2024-04-18T13:45:52Z",
+        "fixed_tag": "v1.7.4",
+        "vulnerable_tag": "v1.5.9"
+    },
+    {
+        "language": "php",
+        "vulnerable_version": "0",
+        "fixed_version": "2.1.0",
+        "repo": "https://github.com/wintercms/wn-dusk-plugin",
+        "type": [
+            "CWE-269",
+            "CWE-863"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-32003"
+        ],
+        "id": "GHSA-chcp-g9j5-3xxx",
+        "modified": "2024-04-15T19:41:59Z",
+        "fixed_tag": "v2.1.0",
+        "vulnerable_tag": "v2.0.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "5.7.12",
+        "repo": "https://github.com/spring-projects/spring-security",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-22257"
+        ],
+        "id": "GHSA-f3jh-qvm4-mg39",
+        "modified": "2024-04-19T09:30:47Z",
+        "fixed_tag": "5.7.12",
+        "vulnerable_tag": "5.7.11"
+    },
+    {
+        "language": "go",
+        "vulnerable_version": "1.4.0",
+        "fixed_version": "1.13.14",
+        "repo": "https://github.com/cilium/cilium",
+        "type": [
+            "CWE-326"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-28860"
+        ],
+        "id": "GHSA-pwqm-x5x6-5586",
+        "modified": "2024-04-16T18:51:51Z",
+        "fixed_tag": "v1.13.14",
+        "vulnerable_tag": "v1.4.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "4.18.0",
+        "repo": "https://github.com/gradio-app/gradio",
+        "type": [
+            "CWE-918"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-2206"
+        ],
+        "id": "GHSA-r364-m2j9-mf4h",
+        "modified": "2024-04-16T15:51:15Z",
+        "fixed_tag": "gradio@4.18.0",
+        "vulnerable_tag": "gradio@4.17.0"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "3.2",
+        "fixed_version": "3.2.25",
+        "repo": "https://github.com/django/django",
+        "type": [
+            "CWE-1333"
+        ],
+        "severity": "LOW",
+        "CVE_ID": [
+            "CVE-2024-27351"
+        ],
+        "id": "GHSA-vm8q-m57g-pff3",
+        "modified": "2024-04-20T03:30:33Z",
+        "fixed_tag": "3.2.25",
+        "vulnerable_tag": "3.2rc1"
+    },
+    {
+        "language": "python",
+        "vulnerable_version": "0",
+        "fixed_version": "4.18.0",
+        "repo": "https://github.com/gradio-app/gradio",
+        "type": [
+            "CWE-77"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2024-1540"
+        ],
+        "id": "GHSA-xcgp-r7r8-2hc9",
+        "modified": "2024-04-16T15:50:40Z",
+        "fixed_tag": "gradio@4.18.0",
+        "vulnerable_tag": "gradio@4.17.0"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "2.138.2",
+        "repo": "https://github.com/jenkinsci/jenkins",
+        "type": [
+            "CWE-22"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2018-1000406"
+        ],
+        "id": "GHSA-3pr8-rf62-g893",
+        "modified": "2024-04-19T18:54:12Z",
+        "fixed_tag": "jenkins-2.138.2",
+        "vulnerable_tag": "jenkins-2.138.1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "4.1.0",
+        "fixed_version": "4.2.1",
+        "repo": "https://github.com/hibernate/hibernate-validator",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-3558"
+        ],
+        "id": "GHSA-845h-985r-jrqh",
+        "modified": "2024-04-16T16:31:47Z",
+        "fixed_tag": "4.2.1.Final",
+        "vulnerable_tag": "4.1.0.Final"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "3.6.0.Beta1",
+        "fixed_version": "3.6.9.Final",
+        "repo": "https://github.com/netty/netty",
+        "type": [],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2014-0193"
+        ],
+        "id": "GHSA-7vpq-g998-qpv7",
+        "modified": "2024-04-16T16:00:58Z",
+        "fixed_tag": "netty-3.6.9.Final",
+        "vulnerable_tag": "netty-3.6.0.Beta1"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "2.50",
+        "fixed_version": "2.57",
+        "repo": "https://github.com/jenkinsci/jenkins",
+        "type": [
+            "CWE-287"
+        ],
+        "severity": "HIGH",
+        "CVE_ID": [
+            "CVE-2017-1000354"
+        ],
+        "id": "GHSA-r57f-7xw3-q2r9",
+        "modified": "2024-04-19T18:59:31Z",
+        "fixed_tag": "jenkins-2.57",
+        "vulnerable_tag": "jenkins-2.50"
+    },
+    {
+        "language": "java",
+        "vulnerable_version": "0",
+        "fixed_version": "8.1.0.RC4",
+        "repo": "https://github.com/eclipse/jetty.project",
+        "type": [
+            "CWE-20"
+        ],
+        "severity": "MODERATE",
+        "CVE_ID": [
+            "CVE-2011-4461"
+        ],
+        "id": "GHSA-qxp4-27vx-xmm3",
+        "modified": "2024-04-19T19:00:13Z",
+        "fixed_tag": "jetty-8.1.0.RC4",
+        "vulnerable_tag": "jetty-8.1.0.RC2"
     },
     {
         "language": "java",
@@ -112,23 +1801,6 @@
         "modified": "2024-04-10T22:12:50Z",
         "fixed_tag": "gradio@4.19.2",
         "vulnerable_tag": "gradio@4.19.1"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "2.0.0",
-        "repo": "https://github.com/matrix-org/matrix-appservice-irc",
-        "type": [
-            "CWE-280"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-32000"
-        ],
-        "id": "GHSA-wm4w-7h2q-3pf7",
-        "modified": "2024-04-11T20:17:49Z",
-        "fixed_tag": "2.0.0",
-        "vulnerable_tag": "1.0.1"
     },
     {
         "language": "go",
@@ -284,24 +1956,6 @@
         "modified": "2024-04-11T14:31:30Z",
         "fixed_tag": "v9.0.1",
         "vulnerable_tag": "v9.0.0"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "2.1.0",
-        "repo": "https://github.com/timber/timber",
-        "type": [
-            "CWE-502",
-            "CWE-73"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-29800"
-        ],
-        "id": "GHSA-6363-v5m4-fvq3",
-        "modified": "2024-04-12T15:15:46Z",
-        "fixed_tag": "v2.1.0",
-        "vulnerable_tag": "v1.0-rc.1"
     },
     {
         "language": "java",
@@ -508,24 +2162,6 @@
         "vulnerable_tag": "4.0.0"
     },
     {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "5.28.4",
-        "repo": "https://github.com/nodejs/undici",
-        "type": [
-            "CWE-200",
-            "CWE-285"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2024-30260"
-        ],
-        "id": "GHSA-m4v8-wqvr-p9f7",
-        "modified": "2024-04-12T03:30:42Z",
-        "fixed_tag": "v5.28.4",
-        "vulnerable_tag": "v5.28.3"
-    },
-    {
         "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "4.13.40",
@@ -578,41 +2214,6 @@
         "vulnerable_tag": "v0.20.1"
     },
     {
-        "language": "go",
-        "vulnerable_version": "3.0.0-beta3",
-        "fixed_version": "3.0.0-rc5",
-        "repo": "https://github.com/traefik/traefik",
-        "type": [
-            "CWE-404"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-28869"
-        ],
-        "id": "GHSA-4vwx-54mw-vqfw",
-        "modified": "2024-04-12T17:05:13Z",
-        "fixed_tag": "v3.0.0-rc5",
-        "vulnerable_tag": "v3.0.0-beta3"
-    },
-    {
-        "language": "csharp",
-        "vulnerable_version": "0",
-        "fixed_version": "1.8.1",
-        "repo": "https://github.com/open-telemetry/opentelemetry-dotnet",
-        "type": [
-            "CWE-201",
-            "CWE-212"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-32028"
-        ],
-        "id": "GHSA-vh2m-22xx-q94f",
-        "modified": "2024-04-12T22:58:27Z",
-        "fixed_tag": "Instrumentation.Http-1.8.1",
-        "vulnerable_tag": "Instrumentation.AspNetCore-1.8.0"
-    },
-    {
         "language": "java",
         "vulnerable_version": "3.0.1",
         "fixed_version": "14.10.19",
@@ -628,40 +2229,6 @@
         "modified": "2024-04-10T22:01:56Z",
         "fixed_tag": "xwiki-commons-14.10.19",
         "vulnerable_tag": "xwiki-commons-3.0.1"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "2.1.0",
-        "repo": "https://github.com/wintercms/wn-dusk-plugin",
-        "type": [
-            "CWE-863"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-32003"
-        ],
-        "id": "GHSA-chcp-g9j5-3xxx",
-        "modified": "2024-04-12T21:26:01Z",
-        "fixed_tag": "v2.1.0",
-        "vulnerable_tag": "v2.0.0"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "4.3.4",
-        "fixed_version": "4.4.8",
-        "repo": "https://github.com/eclipse-vertx/vert.x",
-        "type": [
-            "CWE-400"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-1300"
-        ],
-        "id": "GHSA-9ph3-v2vh-3qx7",
-        "modified": "2024-04-09T12:30:46Z",
-        "fixed_tag": "4.4.8",
-        "vulnerable_tag": "4.3.4"
     },
     {
         "language": "java",
@@ -696,23 +2263,6 @@
         "modified": "2024-04-09T18:53:31Z",
         "fixed_tag": "v0.11.0",
         "vulnerable_tag": "v0.10.1"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "3.9.2",
-        "repo": "https://github.com/quarkusio/quarkus",
-        "type": [
-            "CWE-526"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-2700"
-        ],
-        "id": "GHSA-f8h5-v2vg-46rr",
-        "modified": "2024-04-09T21:33:27Z",
-        "fixed_tag": "3.9.2",
-        "vulnerable_tag": "3.9.1"
     },
     {
         "language": "java",
@@ -799,21 +2349,6 @@
         "modified": "2024-04-08T15:40:17Z",
         "fixed_tag": "4.6.3",
         "vulnerable_tag": "4.6.2"
-    },
-    {
-        "language": "go",
-        "vulnerable_version": "0",
-        "fixed_version": "17.0.0",
-        "repo": "https://github.com/evmos/evmos",
-        "type": [
-            "CWE-662"
-        ],
-        "severity": "CRITICAL",
-        "CVE_ID": [],
-        "id": "GHSA-3fp5-2xwh-fxm6",
-        "modified": "2024-04-10T22:04:30Z",
-        "fixed_tag": "v17.0.0",
-        "vulnerable_tag": "v16.0.4"
     },
     {
         "language": "java",
@@ -1006,23 +2541,6 @@
         "vulnerable_tag": "3.5.0"
     },
     {
-        "language": "python",
-        "vulnerable_version": "1.4.6",
-        "fixed_version": "1.4.21",
-        "repo": "https://github.com/zauberzeug/nicegui",
-        "type": [
-            "CWE-23"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-32005"
-        ],
-        "id": "GHSA-mwc7-64wg-pgvj",
-        "modified": "2024-04-12T21:23:16Z",
-        "fixed_tag": "v1.4.21",
-        "vulnerable_tag": "v1.4.6"
-    },
-    {
         "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "0.11.1",
@@ -1038,23 +2556,6 @@
         "modified": "2024-04-11T20:13:40Z",
         "fixed_tag": "v0.11.1",
         "vulnerable_tag": "v0.11.0"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "5.28.4",
-        "repo": "https://github.com/nodejs/undici",
-        "type": [
-            "CWE-284"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2024-30261"
-        ],
-        "id": "GHSA-9qxr-qj54-h672",
-        "modified": "2024-04-12T03:30:42Z",
-        "fixed_tag": "v5.28.4",
-        "vulnerable_tag": "v5.28.3"
     },
     {
         "language": "python",
@@ -1378,23 +2879,6 @@
         "modified": "2024-04-11T16:14:14Z",
         "fixed_tag": "11.0.0-M17",
         "vulnerable_tag": "11.0.0-M19"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "3.2",
-        "fixed_version": "3.2.25",
-        "repo": "https://github.com/django/django",
-        "type": [
-            "CWE-1333"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2024-27351"
-        ],
-        "id": "GHSA-vm8q-m57g-pff3",
-        "modified": "2024-04-13T06:30:48Z",
-        "fixed_tag": "3.2.25",
-        "vulnerable_tag": "3.2rc1"
     },
     {
         "language": "javascript",
@@ -1950,21 +3434,6 @@
         "modified": "2024-04-03T14:13:02Z",
         "fixed_tag": "v0.2.17",
         "vulnerable_tag": "0.0.2"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "2.0.0",
-        "fixed_version": "2.1.1",
-        "repo": "https://github.com/amphp/http",
-        "type": [],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-2653"
-        ],
-        "id": "GHSA-qjfw-cvjf-f4fm",
-        "modified": "2024-04-03T18:06:45Z",
-        "fixed_tag": "v2.1.1",
-        "vulnerable_tag": "v2.0.0"
     },
     {
         "language": "go",
@@ -3160,23 +4629,6 @@
         "vulnerable_tag": "v0.11.0"
     },
     {
-        "language": "go",
-        "vulnerable_version": "1.4.0",
-        "fixed_version": "1.13.14",
-        "repo": "https://github.com/cilium/cilium",
-        "type": [
-            "CWE-326"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-28860"
-        ],
-        "id": "GHSA-pwqm-x5x6-5586",
-        "modified": "2024-03-28T17:27:40Z",
-        "fixed_tag": "v1.13.14",
-        "vulnerable_tag": "v1.4.0"
-    },
-    {
         "language": "javascript",
         "vulnerable_version": "3.0.0",
         "fixed_version": "4.15.5",
@@ -3514,23 +4966,6 @@
         "vulnerable_tag": "v7.0.0"
     },
     {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "4.18.0",
-        "repo": "https://github.com/gradio-app/gradio",
-        "type": [
-            "CWE-918"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-2206"
-        ],
-        "id": "GHSA-r364-m2j9-mf4h",
-        "modified": "2024-03-27T21:58:06Z",
-        "fixed_tag": "gradio@4.18.0",
-        "vulnerable_tag": "gradio@4.17.0"
-    },
-    {
         "language": "php",
         "vulnerable_version": "3.2.5",
         "fixed_version": "3.2.6",
@@ -3581,23 +5016,6 @@
         "modified": "2024-03-24T03:30:44Z",
         "fixed_tag": "v1.33.0",
         "vulnerable_tag": "v1.32.0"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "4.18.0",
-        "repo": "https://github.com/gradio-app/gradio",
-        "type": [
-            "CWE-77"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-1540"
-        ],
-        "id": "GHSA-xcgp-r7r8-2hc9",
-        "modified": "2024-03-27T21:56:42Z",
-        "fixed_tag": "gradio@4.18.0",
-        "vulnerable_tag": "gradio@4.17.0"
     },
     {
         "language": "php",
@@ -4206,23 +5624,6 @@
         "modified": "2024-03-20T15:24:01Z",
         "fixed_tag": "24.3.0",
         "vulnerable_tag": "24.2.0"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "5.7.12",
-        "repo": "https://github.com/spring-projects/spring-security",
-        "type": [
-            "CWE-287"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-22257"
-        ],
-        "id": "GHSA-f3jh-qvm4-mg39",
-        "modified": "2024-03-18T20:10:28Z",
-        "fixed_tag": "5.7.12",
-        "vulnerable_tag": "5.7.11"
     },
     {
         "language": "java",
@@ -5536,23 +6937,6 @@
         "modified": "2024-03-14T21:47:26Z",
         "fixed_tag": "0.5.0",
         "vulnerable_tag": "0.4.22"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "1.5",
-        "repo": "https://github.com/apache/commons-fileupload",
-        "type": [
-            "CWE-770"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-24998"
-        ],
-        "id": "GHSA-hfrx-6qgj-fp6c",
-        "modified": "2024-03-11T17:42:22Z",
-        "fixed_tag": "commons-fileupload-1.5",
-        "vulnerable_tag": "commons-fileupload-1.4"
     },
     {
         "language": "java",
@@ -11544,23 +12928,6 @@
         "vulnerable_tag": "0.5.1"
     },
     {
-        "language": "python",
-        "vulnerable_version": "5.5.1",
-        "fixed_version": "5.6.2",
-        "repo": "https://github.com/agronholm/cbor2",
-        "type": [
-            "CWE-120"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2024-26134"
-        ],
-        "id": "GHSA-375g-39jq-vq7m",
-        "modified": "2024-02-21T00:09:03Z",
-        "fixed_tag": "5.6.2",
-        "vulnerable_tag": "5.5.1"
-    },
-    {
         "language": "java",
         "vulnerable_version": "3.0.0",
         "fixed_version": "3.2.1",
@@ -11782,23 +13149,6 @@
     {
         "language": "javascript",
         "vulnerable_version": "0",
-        "fixed_version": "5.28.3",
-        "repo": "https://github.com/nodejs/undici",
-        "type": [
-            "CWE-200"
-        ],
-        "severity": "LOW",
-        "CVE_ID": [
-            "CVE-2024-24758"
-        ],
-        "id": "GHSA-3787-6prv-h9w3",
-        "modified": "2024-02-20T18:12:01Z",
-        "fixed_tag": "v5.28.3",
-        "vulnerable_tag": "v5.28.2"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
         "fixed_version": "2024.1.2",
         "repo": "https://github.com/stimulsoft/Dashboards.JS",
         "type": [
@@ -11927,23 +13277,6 @@
         "modified": "2024-02-21T00:00:54Z",
         "fixed_tag": "v1.2.1",
         "vulnerable_tag": "v1.2.0"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "6.0.0",
-        "fixed_version": "6.6.1",
-        "repo": "https://github.com/nodejs/undici",
-        "type": [
-            "CWE-400"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-24750"
-        ],
-        "id": "GHSA-9f24-jqhm-jfcw",
-        "modified": "2024-02-20T18:11:58Z",
-        "fixed_tag": "v6.6.1",
-        "vulnerable_tag": "v6.0.0"
     },
     {
         "language": "javascript",
@@ -12279,21 +13612,6 @@
         "modified": "2024-02-20T16:40:10Z",
         "fixed_tag": "v8.0.7",
         "vulnerable_tag": "v8.0.0"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "42.7.0",
-        "fixed_version": "42.7.2",
-        "repo": "https://github.com/pgjdbc/pgjdbc",
-        "type": [
-            "CWE-89"
-        ],
-        "severity": "CRITICAL",
-        "CVE_ID": [],
-        "id": "GHSA-xfg6-62px-cxc2",
-        "modified": "2024-02-21T23:18:25Z",
-        "fixed_tag": "REL42.7.2",
-        "vulnerable_tag": "REL42.7.0"
     },
     {
         "language": "python",
@@ -13042,21 +14360,6 @@
     {
         "language": "python",
         "vulnerable_version": "0",
-        "fixed_version": "1.5.1",
-        "repo": "https://github.com/latchset/jwcrypto",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-6681"
-        ],
-        "id": "GHSA-cw2r-4p82-qv79",
-        "modified": "2024-02-12T16:50:51Z",
-        "fixed_tag": "v1.5.1",
-        "vulnerable_tag": "v1.5.0"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
         "fixed_version": "4.11.0",
         "repo": "https://github.com/gradio-app/gradio",
         "type": [
@@ -13207,21 +14510,6 @@
         "vulnerable_tag": "0.36.1"
     },
     {
-        "language": "python",
-        "vulnerable_version": "2",
-        "fixed_version": "2.11.1",
-        "repo": "https://github.com/scrapy/scrapy",
-        "type": [
-            "CWE-200"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-cw9j-q3vf-hrrv",
-        "modified": "2024-02-15T15:32:15Z",
-        "fixed_tag": "2.11.1",
-        "vulnerable_tag": "scrapy-0.25.1-sc"
-    },
-    {
         "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "8.12.1",
@@ -13286,21 +14574,6 @@
         "vulnerable_tag": "v2024.1.1"
     },
     {
-        "language": "csharp",
-        "vulnerable_version": "4.6.0",
-        "fixed_version": "5.11.6",
-        "repo": "https://github.com/NuGet/NuGet.Client",
-        "type": [],
-        "severity": "CRITICAL",
-        "CVE_ID": [
-            "CVE-2024-0057"
-        ],
-        "id": "GHSA-68w7-72jg-6qpp",
-        "modified": "2024-02-13T21:18:10Z",
-        "fixed_tag": "5.11.6.4",
-        "vulnerable_tag": "4.6.0.4954"
-    },
-    {
         "language": "php",
         "vulnerable_version": "3.0.0",
         "fixed_version": "3.0.4",
@@ -13316,21 +14589,6 @@
         "modified": "2024-02-13T00:06:36Z",
         "fixed_tag": "v3.0.4",
         "vulnerable_tag": "v3.0.0"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "2",
-        "fixed_version": "2.11.1",
-        "repo": "https://github.com/scrapy/scrapy",
-        "type": [
-            "CWE-1333"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-cc65-xxvf-f7r9",
-        "modified": "2024-02-15T15:29:59Z",
-        "fixed_tag": "2.11.1",
-        "vulnerable_tag": "scrapy-0.25.1-sc"
     },
     {
         "language": "java",
@@ -13594,21 +14852,6 @@
         "vulnerable_tag": "v1.7.4"
     },
     {
-        "language": "python",
-        "vulnerable_version": "2.0.0",
-        "fixed_version": "2.11.1",
-        "repo": "https://github.com/scrapy/scrapy",
-        "type": [
-            "CWE-409"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [],
-        "id": "GHSA-7j7m-v7m3-jqm7",
-        "modified": "2024-02-16T16:07:13Z",
-        "fixed_tag": "2.11.1",
-        "vulnerable_tag": "2.0.0"
-    },
-    {
         "language": "java",
         "vulnerable_version": "6.1.1",
         "fixed_version": "6.1.4",
@@ -13735,24 +14978,6 @@
         "modified": "2024-02-13T19:28:56Z",
         "fixed_tag": "node-v1.2.1",
         "vulnerable_tag": "pymongocrypt-1.2.0"
-    },
-    {
-        "language": "javascript",
-        "vulnerable_version": "0",
-        "fixed_version": "4.17.21",
-        "repo": "https://github.com/lodash/lodash",
-        "type": [
-            "CWE-77",
-            "CWE-94"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2021-23337"
-        ],
-        "id": "GHSA-35jh-r3h4-6jhm",
-        "modified": "2024-02-14T18:59:10Z",
-        "fixed_tag": "4.17.21",
-        "vulnerable_tag": "4.17.20"
     },
     {
         "language": "javascript",
@@ -14787,21 +16012,6 @@
         "modified": "2024-02-09T18:14:44Z",
         "fixed_tag": "v4.0.0-rc2",
         "vulnerable_tag": "v4.0.0-rc1"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "3.2.24",
-        "repo": "https://github.com/django/django",
-        "type": [],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2024-24680"
-        ],
-        "id": "GHSA-xxj9-f6rv-m3x4",
-        "modified": "2024-02-07T17:32:14Z",
-        "fixed_tag": "3.2.24",
-        "vulnerable_tag": "3.2.23"
     },
     {
         "language": "java",
@@ -27009,23 +28219,6 @@
         "modified": "2023-12-13T13:35:48Z",
         "fixed_tag": "v1.6.7",
         "vulnerable_tag": "v1.1.0b2"
-    },
-    {
-        "language": "python",
-        "vulnerable_version": "0",
-        "fixed_version": "2.9.0",
-        "repo": "https://github.com/mlflow/mlflow",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-6568"
-        ],
-        "id": "GHSA-vwhf-3v6x-wff8",
-        "modified": "2023-12-12T00:57:44Z",
-        "fixed_tag": "v2.9.0",
-        "vulnerable_tag": "v2.8.1"
     },
     {
         "language": "python",
@@ -60215,23 +61408,6 @@
     },
     {
         "language": "java",
-        "vulnerable_version": "2.50",
-        "fixed_version": "2.57",
-        "repo": "https://github.com/jenkinsci/jenkins",
-        "type": [
-            "CWE-287"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2017-1000354"
-        ],
-        "id": "GHSA-r57f-7xw3-q2r9",
-        "modified": "2022-07-01T22:12:30Z",
-        "fixed_tag": "jenkins-2.57",
-        "vulnerable_tag": "jenkins-2.50"
-    },
-    {
-        "language": "java",
         "vulnerable_version": "0",
         "fixed_version": "2.73.2",
         "repo": "https://github.com/jenkinsci/jenkins",
@@ -67779,23 +68955,6 @@
         "modified": "2022-06-07T21:17:06Z",
         "fixed_tag": "v3.6.9",
         "vulnerable_tag": "v3.0.0"
-    },
-    {
-        "language": "java",
-        "vulnerable_version": "0",
-        "fixed_version": "8.1.0.RC4",
-        "repo": "https://github.com/eclipse/jetty.project",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2011-4461"
-        ],
-        "id": "GHSA-qxp4-27vx-xmm3",
-        "modified": "2022-07-13T18:25:43Z",
-        "fixed_tag": "jetty-8.1.0.RC4",
-        "vulnerable_tag": "jetty-8.1.0.RC2"
     },
     {
         "language": "php",
@@ -108443,24 +109602,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "0",
-        "fixed_version": "4.2.0-rc2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-610",
-            "CWE-73"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-30943"
-        ],
-        "id": "GHSA-22gj-8qj2-fj46",
-        "modified": "2023-05-11T14:01:43Z",
-        "fixed_tag": "v4.2.0-rc2",
-        "vulnerable_tag": "v4.2.0-rc1"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "0.8.0",
         "fixed_version": "1.9.0",
         "repo": "https://github.com/reactphp/http",
@@ -110146,23 +111287,6 @@
     {
         "language": "php",
         "vulnerable_version": "0",
-        "fixed_version": "4.2.0-rc2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-89"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-30944"
-        ],
-        "id": "GHSA-7mmc-22g7-3xq2",
-        "modified": "2023-05-11T14:02:45Z",
-        "fixed_tag": "v4.2.0-rc2",
-        "vulnerable_tag": "v4.2.0-rc1"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "0",
         "fixed_version": "10.5.21",
         "repo": "https://github.com/pimcore/pimcore",
         "type": [],
@@ -111366,23 +112490,6 @@
         "vulnerable_tag": "v1.0.0-rc.5"
     },
     {
-        "language": "php",
-        "vulnerable_version": "4.2.0",
-        "fixed_version": "4.2.1",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-89"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-35132"
-        ],
-        "id": "GHSA-49mv-vfcp-8gg9",
-        "modified": "2023-06-30T20:23:28Z",
-        "fixed_tag": "v4.2.1",
-        "vulnerable_tag": "v4.2.0"
-    },
-    {
         "language": "python",
         "vulnerable_version": "0",
         "fixed_version": "3.0.2",
@@ -112222,23 +113329,6 @@
         "vulnerable_tag": "0.69.0"
     },
     {
-        "language": "php",
-        "vulnerable_version": "4.2.0",
-        "fixed_version": "4.2.1",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-918"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-35133"
-        ],
-        "id": "GHSA-xxp4-mf4h-6cwm",
-        "modified": "2023-06-30T20:21:55Z",
-        "fixed_tag": "v4.2.1",
-        "vulnerable_tag": "v4.2.0"
-    },
-    {
         "language": "javascript",
         "vulnerable_version": "0",
         "fixed_version": "2.0.2",
@@ -112935,23 +114025,6 @@
         "modified": "2023-06-30T20:18:57Z",
         "fixed_tag": "v3.7.36",
         "vulnerable_tag": "v3.7.35"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.2.0",
-        "fixed_version": "4.2.1",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-35131"
-        ],
-        "id": "GHSA-fwfj-8p36-rc64",
-        "modified": "2023-06-30T20:21:14Z",
-        "fixed_tag": "v4.2.1",
-        "vulnerable_tag": "v4.2.0"
     },
     {
         "language": "ruby",
@@ -114055,24 +115128,6 @@
         "vulnerable_tag": "v10.5.17"
     },
     {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-200",
-            "CWE-668"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-1402"
-        ],
-        "id": "GHSA-vj5p-fp42-774p",
-        "modified": "2023-03-28T17:55:38Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
-    },
-    {
         "language": "go",
         "vulnerable_version": "0",
         "fixed_version": "1.0.6",
@@ -114208,23 +115263,6 @@
         "modified": "2023-03-13T20:51:32Z",
         "fixed_tag": "8.0.1",
         "vulnerable_tag": "8.0.0"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-28331"
-        ],
-        "id": "GHSA-77jm-f3vj-xvx2",
-        "modified": "2023-03-28T02:40:54Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
     },
     {
         "language": "rust",
@@ -114864,23 +115902,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-94"
-        ],
-        "severity": "CRITICAL",
-        "CVE_ID": [
-            "CVE-2023-28333"
-        ],
-        "id": "GHSA-q2x3-2f9g-h559",
-        "modified": "2023-03-31T16:09:20Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "6.13.0",
         "fixed_version": "6.13.8.2",
         "repo": "https://github.com/ezsystems/ezpublish-kernel",
@@ -115130,23 +116151,6 @@
         "modified": "2023-03-01T19:17:17Z",
         "fixed_tag": "juju-2.9.38",
         "vulnerable_tag": "juju-2.9.22"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-352"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-28335"
-        ],
-        "id": "GHSA-wxmq-v9gx-75pg",
-        "modified": "2023-03-28T22:54:23Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
     },
     {
         "language": "java",
@@ -115666,23 +116670,6 @@
         "modified": "2023-03-23T19:11:03Z",
         "fixed_tag": "v1.0.7",
         "vulnerable_tag": "v1.0.6"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-89"
-        ],
-        "severity": "HIGH",
-        "CVE_ID": [
-            "CVE-2023-28329"
-        ],
-        "id": "GHSA-72w2-j52c-7682",
-        "modified": "2023-03-28T02:41:11Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
     },
     {
         "language": "php",
@@ -116438,23 +117425,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-79"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-28332"
-        ],
-        "id": "GHSA-9f45-9qrw-pp4v",
-        "modified": "2023-03-29T19:10:48Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "4.1.1",
         "fixed_version": "4.1.2",
         "repo": "https://github.com/silverstripe/silverstripe-graphql",
@@ -116486,24 +117456,6 @@
         "modified": "2023-03-03T22:53:51Z",
         "fixed_tag": "xwiki-platform-13.10.10",
         "vulnerable_tag": "xwiki-platform-12.10"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-200",
-            "CWE-639"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-28334"
-        ],
-        "id": "GHSA-hh52-g5c4-wprh",
-        "modified": "2023-03-28T22:57:20Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
     },
     {
         "language": "php",
@@ -117051,24 +118003,6 @@
     },
     {
         "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-200",
-            "CWE-668"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-28336"
-        ],
-        "id": "GHSA-prjm-2fj2-787f",
-        "modified": "2023-04-03T20:55:33Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
-    },
-    {
-        "language": "php",
         "vulnerable_version": "0",
         "fixed_version": "10.5.19",
         "repo": "https://github.com/pimcore/pimcore",
@@ -117538,23 +118472,6 @@
         "modified": "2023-03-14T18:03:22Z",
         "fixed_tag": "v0.6.3",
         "vulnerable_tag": "v0.2.0"
-    },
-    {
-        "language": "php",
-        "vulnerable_version": "4.1.0",
-        "fixed_version": "4.1.2",
-        "repo": "https://github.com/moodle/moodle",
-        "type": [
-            "CWE-20"
-        ],
-        "severity": "MODERATE",
-        "CVE_ID": [
-            "CVE-2023-28330"
-        ],
-        "id": "GHSA-56r9-72vx-q989",
-        "modified": "2023-03-28T02:24:32Z",
-        "fixed_tag": "v4.1.2",
-        "vulnerable_tag": "v4.1.0"
     },
     {
         "language": "php",
